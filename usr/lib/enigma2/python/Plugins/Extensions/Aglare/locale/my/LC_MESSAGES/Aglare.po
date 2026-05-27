@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s သော့ကို တင်သွင်းလိုက်ပါပြီ။"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA ကို စသုံးပါ/ပိတ်ပါ။"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE ကို စသုံး/ပိတ်ပါ။"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB ကို စဖွင့်/ပိတ်ပါ။"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV ကို စဖွင့်/ပိတ်ပါ။"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "ပရိုဂရမ်METV ကို စသုံးပါ/ပိတ်ပါ။"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "အသက်သွင်း/ပိတ်ပါ {}"
 
 msgid "Add"
-msgstr ""
+msgstr "ထည့်ပါ။"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "png အားလုံးကို ဖိုဒါမှ ဖယ်ရှားထားသည်။"
 
 msgid "Automatic"
-msgstr ""
+msgstr "အလိုအလျောက်"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "နောက်ခံကားကို အလိုအလျောက်ဒေါင်းလုဒ်လုပ်ခြင်း။"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "ပိုစတာကို အလိုအလျောက် ဒေါင်းလုဒ်လုပ်ပါ။"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG ကိုအခြေခံ၍ အကြိုက်ဆုံးဖြစ်ရပ်များအတွက် နောက်ခံကားကို အလိုအလျောက်ရယူပါ။"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG ကိုအခြေခံ၍ အကြိုက်ဆုံးဖြစ်ရပ်များအတွက် ပိုစတာများကို အလိုအလျောက်ရယူပါ။"
 
 msgid "Back"
-msgstr ""
+msgstr "ကျော"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "နောက်ခံကား"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "နောက်ခံဒေါင်းလုဒ် အမှား- {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "အနက်ရောင်"
 
 msgid "Blue"
-msgstr ""
+msgstr "အပြာ"
 
 msgid "Brown"
-msgstr ""
+msgstr "အညို"
 
 msgid "CD"
-msgstr ""
+msgstr "စီဒီ"
 
 msgid "Cancel"
-msgstr ""
+msgstr "မလုပ်တော့"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "ချန်နယ်ရွေးချယ်မှုပုံစံ-"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -94,7 +94,7 @@ msgid "ChannelSelection_4_Posters_X"
 msgstr ""
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ချန်နယ်ရွေးချယ်မှု_၆_ပိုစတာများ_EX"
 
 msgid "ChannelSelection_6_Posters_X"
 msgstr ""
@@ -112,7 +112,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ချန်နယ်ရွေးချယ်မှု_NO_ပိုစတာများ"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -121,103 +121,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "မြို"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "အရောင်ပုံစံ-"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "အလိုအလျောက်ပိုစတာဒေါင်းလုဒ်မစတင်မီ နှောင့်နှေးချိန် (မိနစ်အတွင်း) ကို သတ်မှတ်ပါ။"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "%s Skin အတွက် စိတ်ကြိုက်ပြင်ဆင်ရေးကိရိယာ"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "အစိမ်းရင့်ရောင်"
 
 msgid "Default"
-msgstr ""
+msgstr "ပုံသေ"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ဒယ်လ်လိုင်း"
 
 msgid "Delete"
-msgstr ""
+msgstr "ဖျက်ပါ။"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "ဒေါင်းလုဒ်အမှားအယွင်း- {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "ဒေါင်းလုဒ်လုပ်နေပါသည်။"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "နောက်ခံကားကို ယခုဒေါင်းလုဒ်လုပ်ပါ။"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "ယခုပိုစတာကိုဒေါင်းလုဒ်လုပ်ပါ။"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare ကို ဒေါင်းလုဒ်လုပ်နေသည်..."
 
 msgid "Edit"
-msgstr ""
+msgstr "တည်းဖြတ်ပါ။"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Display အမျိုးအစား အိုင်ကွန်များကို ဖွင့်ပါ-"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Display InfoEvents ကိုဖွင့်ပါ-"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Display XMC ပိုစတာကို ဖွင့်ပါ-"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "မိဘ အိုင်ကွန်များကို ဖွင့်ပါ-"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "အဆင့်သတ်မှတ်ရေးကြယ်ပွင့်ကို ဖွင့်ပါ-"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "ထပ်ခါတလဲလဲ ရှာဖွေမှုများကို အရှိန်မြှင့်ရန် အစီအစဉ်ဒေါင်းလုဒ်လုပ်နေစဉ်အတွင်း ကက်ရှ်ကို ဖွင့်ပါ သို့မဟုတ် ပိတ်ပါ။"
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "အချက်အလက်ဝစ်ဂျက်တွင် ကာစ်၊ အဖွဲ့သား၊ ဇာတ်ကွက်အသေးစိတ်နှင့် အခြားမက်တာဒေတာများ အပါအဝင် တိုးချဲ့ဖြစ်ရပ်အချက်အလက်ပြသမှုကို ဖွင့်ပါ။"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "အရေပြားဖိုင်ကို လုပ်ဆောင်ခြင်းဖြင့် အမှားအယွင်းရှိပါသည်- {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "ဖိုင်များကိုဒေါင်းလုဒ်လုပ်ရာတွင် အမှားအယွင်းရှိနေသည်။"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "တင်ရာတွင် အမှားအယွင်းရှိသည်- {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "အမှား {0}- {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "အမှား- {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView ပုံစံ-"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_ပိုစတာများ"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_ပိုစတာများ"
 
 msgid "Exit"
-msgstr ""
+msgstr "ထွက်ပေါက်"
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "ဖိုင် {} မတွေ့ပါ သို့မဟုတ် ဗလာဖြစ်နေသည်။"
 
 msgid "Green"
-msgstr ""
+msgstr "အစိမ်းရောင်"
 
 msgid "Greta"
 msgstr ""
@@ -226,229 +226,229 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "သော့ {0} ကို {1} မှ တင်သွင်းမလား။"
 
 msgid "Info..."
-msgstr ""
+msgstr "အချက်အလက်..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "InfoBar ရက်စွဲ-"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "InfoBar ပိုစတာX-"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "InfoBar ပုံစံ-"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar မိုးလေဝသ"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "InfoBar Xtraevent-"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_ရက်စွဲ"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_ရက်စွဲ"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_မိုးလေဝသ"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_မိုးလေဝသ"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins လိုင်း"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "အပ်ဒိတ်များကို ထည့်သွင်းနေသည်..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "သော့ဗလာ"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "သော့ {} ကို အောင်မြင်စွာ တင်ပြီးပါပြီ။"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/tmp/{}key.txt မှ ရယူပါ။"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Local build ({}) သည် server build ({}) ထက် အသစ်ဖြစ်သည်။"
 
 msgid "Location code"
-msgstr ""
+msgstr "တည်နေရာကုဒ်"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN တည်နေရာရှာဖွေမှုရလဒ်"
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr ""
+msgstr "ပန်းခရမ်းရောင်"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "လက်ရှိဝန်ဆောင်မှုပေးသူများကို ဖွင့်ထားခြင်းမရှိပါ။"
 
 msgid "OFF"
-msgstr ""
+msgstr "ပိတ်ပါ။"
 
 msgid "OK"
-msgstr ""
+msgstr "အိုကေ"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB သာလျှင်"
 
 msgid "ON"
-msgstr ""
+msgstr "ဖွင့်ထားသည်။"
 
 msgid "Off"
-msgstr ""
+msgstr "ပိတ်သည်။"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} အတွက် ကိုယ်ပိုင် API သော့"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "ကျေးဇူးပြု၍ တရားဝင်မြို့အမည်ကို ထည့်ပါ။"
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "ကျေးဇူးပြု၍ မြို့အတွက် မှန်ကန်သော တည်နေရာကုဒ်ကို ထည့်ပါ။"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "ပိုစတာဒေါင်းလုဒ် အမှားအယွင်း- {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "ခရမ်းရောင်"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "ဤ WeatherPlugin ထည့်သွင်းမှုကို အမှန်တကယ် ဖျက်လိုပါသလား။"
 
 msgid "Red"
-msgstr ""
+msgstr "အနီရောင်"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "png အားလုံးကို ဖယ်ရှားပါ (ပိုစတာ - နောက်ခံကား) (အိုကေ)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI ကို ယခု ပြန်စမလား။"
 
 msgid "Save"
-msgstr ""
+msgstr "သိမ်းဆည်းပါ။"
 
 msgid "Search Code"
-msgstr ""
+msgstr "ကုဒ်ကိုရှာပါ။"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "SecondInfobar ပိုစတာ-"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar ပုံစံ-"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "SecondInfobar Xtraevent-"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI အလင်း"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "သင့်ဖောင့်ကို ရွေးပါ"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Backdrop ဒေါင်းလုဒ်အတွက် ကျွန်ုပ်တို့၏ - မိနစ်အချိန်ကို သတ်မှတ်ပါ။"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "ပိုစတာဒေါင်းလုဒ်အတွက် ကျွန်ုပ်တို့၏-မိနစ်အချိန်ကို သတ်မှတ်ပါ။"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "ဆက်တင်များ Apikey ဆာဗာ"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Aglare Skin အချက်အလက်ကို စနစ်ထည့်သွင်းပါ။"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "ပွဲတစ်ခုစီ၏ အမျိုးအစားကို ကိုယ်စားပြုသော သင်္ကေတများကို ပြပါ (ဥပမာ၊ အက်ရှင်၊ ဟာသ၊ ဒရာမာ)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "အကြောင်းအရာ အဆင့်သတ်မှတ်ချက်နှင့် အသက်အရွယ်အလိုက် သင့်လျော်မှုကို ညွှန်ပြရန် ပွဲများတွင် မိဘလမ်းညွှန်ချက်အိုင်ကွန်များကို ပြပါ။"
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "စက်တွင်းဖိုင်တွဲတွင် ရုပ်ရှင်မှ ပိုစတာကို ပြပါ။"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "အရေပြားပုံစံ-"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "နောက်ခံကားကို ချက်ချင်းဒေါင်းလုဒ်လုပ်ပါ။"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "ပိုစတာကို ချက်ချင်းဒေါင်းလုဒ်လုပ်ပါ။"
 
 msgid "Style2"
-msgstr ""
+msgstr "ပုံစံ၂"
 
 msgid "Style3"
-msgstr ""
+msgstr "ပုံစံ၃"
 
 msgid "Style4"
-msgstr ""
+msgstr "ပုံစံ၄"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer Skins ကို ပံ့ပိုးသည်-"
 
 msgid "System"
-msgstr ""
+msgstr "စနစ်"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB သာလျှင်"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "ဖိုင် %s သည် ဗလာဖြစ်နေသည်။"
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "ဖိုင် %s ကို ရှာမတွေ့ပါ။"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "ဤလုပ်ဆောင်ချက်သည် ရွေးချယ်ထားသော အဆင့်သတ်မှတ်ချက်ရင်းမြစ်အပေါ် အခြေခံ၍ ဖြစ်ရပ်များအတွက် အဆင့်သတ်မှတ်ကြယ်များပြသမှုကို ဖွင့်ပေးသည်။"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "ဤလုပ်ဆောင်ချက်သည် png အားလုံးကို ဖိုင်တွဲစက်ပစ္စည်း (Poster-Backdrop) မှ ဖယ်ရှားပါ"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "အပ်ဒိတ် URL ကို အစပျိုးမထားပါ။ ပလပ်အင်မီနူးမှ ပလပ်အင်ကို တစ်ကြိမ်ဖွင့်ပါ။"
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "အပ်ဒိတ်စစ်ဆေးမှု မအောင်မြင်ပါ- {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "အပ်ဒိတ်အထုပ်ကို ရှာမတွေ့ပါ။"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar ပုံစံ-"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin- ထည့်သွင်းမှုကို တည်းဖြတ်ပါ။"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin- ထည့်သွင်းမှုများစာရင်း"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "သင့်တွင် နောက်ဆုံးဗားရှင်း ({}) ရှိနှင့်ပြီးဖြစ်သည်။"
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "တည်နေရာကုဒ်ကို မရှာဖွေမီ မှန်ကန်သောမြို့အမည်ကို ထည့်သွင်းရန် လိုအပ်သည်။"
 
 msgid "imperial system"
-msgstr ""
+msgstr "နယ်ချဲ့စနစ်"
 
 msgid "metric system"
-msgstr ""
+msgstr "မက်ထရစ်စနစ်"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "ဖိုင်များကိုဖွင့်/ပြသပါ။"
 
 msgid "volume2"
-msgstr ""
+msgstr "အတွဲ ၂"

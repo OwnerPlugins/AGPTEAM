@@ -10,94 +10,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s калид ворид карда шуд!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA-ро фаъол / ғайрифаъол кунед"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE-ро фаъол / ғайрифаъол кунед"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB-ро фаъол / ғайрифаъол кунед"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "МОЛОТОВ-ро фаъол/фаъол кунед"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV-ро фаъол / ғайрифаъол кунед"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Фаъол/хомӯш кардани {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Илова"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Ҳама png аз ҷузвдон хориҷ карда шудаанд!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Автоматӣ"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Зеркашии худкори замина"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Зеркашии автоматии плакат"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Ба таври худкор замина барои рӯйдодҳои дӯстдоштаро дар асоси EPG гиред"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Ба таври худкор плакатҳоро барои рӯйдодҳои дӯстдошта дар асоси EPG гиред"
 
 msgid "Back"
-msgstr ""
+msgstr "Бозгашт"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Замина"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Хатогии зеркашии замина: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Сиёҳ"
 
 msgid "Blue"
-msgstr ""
+msgstr "Кабуд"
 
 msgid "Brown"
-msgstr ""
+msgstr "Браун"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Бекор кардан"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Услуби интихоби канал:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "Интихоби канал_1_Постер_EX"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "Интихоби канал_1_Постер_X"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "Интихоби канал_4_Постерҳо_X"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "Интихоби канал_6_Постерҳо_EX"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "Интихоби канал_6_Постерҳо_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -112,145 +112,145 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "Интихоби Channel_NO_Плакатҳо"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "Интихоби Channel_NO_Picon_NO_Picon"
 
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Шаҳр"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Услуби ранг:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Пеш аз оғози зеркашии автоматии плакат вақти таъхирро (бо дақиқаҳо) танзим кунед"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Асбоби мутобиқсозӣ барои %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Сабзи сиёҳ"
 
 msgid "Default"
-msgstr ""
+msgstr "Пешфарз"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Нобуд кунед"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Хатои боргирӣ: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Зеркашӣ идома дорад"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Ҳоло замина зеркашӣ кунед"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Ҳоло плакатро зеркашӣ кунед"
 
 msgid "Downloading Aglare..."
 msgstr ""
 
 msgid "Edit"
-msgstr ""
+msgstr "Таҳрир"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Нишонаҳои жанри намоишро фаъол созед:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Намоиши InfoEvents-ро фаъол созед:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Намоиши плакати XMC-ро фаъол созед:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Нишонаҳои волидайнро фаъол созед:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Ситораи рейтингро фаъол созед:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Барои суръат бахшидан ба ҷустуҷӯҳои такрорӣ кэшро ҳангоми зеркашии ҳодиса фаъол ё ғайрифаъол кунед."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Дар виҷети иттилоот намоиши маълумоти васеъи рӯйдод, аз ҷумла ҳайати пурра, экипаж, тафсилоти сюжет ва дигар метадотаҳоро фаъол созед."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Хатогӣ ҳангоми коркарди файли пӯст: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Хатогӣ ҳангоми зеркашии файлҳо!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Хатогии боркунӣ: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Хатои {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Хатогӣ: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Услуби EventView:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Плакатҳо"
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Баромадгоҳ"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Фармондеҳи файл - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Файли {} ёфт нашуд ё холӣ"
 
 msgid "Green"
-msgstr ""
+msgstr "Сабз"
 
 msgid "Greta"
-msgstr ""
+msgstr "Грета"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Калиди {0} аз {1} ворид карда шавад?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Маълумот..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Санаи лавҳаи маълумот:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Услуби InfoBar:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Обу ҳавои InfoBar:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Маълумот_Сана"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Сана"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
@@ -262,193 +262,193 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Насб кардани навсозиҳо..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Калид холӣ"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Калиди {} бомуваффақият бор карда шуд!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "ХолидАртболд Мунтазам"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Аз /tmp/{}key.txt бор кунед"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Сохтани маҳаллӣ ({}) аз сохтани сервер ({}) навтар аст."
 
 msgid "Location code"
-msgstr ""
+msgstr "Рамзи ҷойгиршавӣ"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Натиҷаи ҷустуҷӯи макони MSN"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "М.В.Боли"
 
 msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Ягон провайдери фаъол фаъол нашудааст"
 
 msgid "OFF"
-msgstr ""
+msgstr "ХОМӮШ"
 
 msgid "OK"
-msgstr ""
+msgstr "ДУРУСТ"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Танҳо OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "ДАР БОРАИ"
 
 msgid "Off"
-msgstr ""
+msgstr "Хомӯш"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Калиди API шахсӣ барои {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Лутфан номи дурусти шаҳрро ворид кунед."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Лутфан рамзи ҷойгиршавии дурусти шаҳрро ворид кунед."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Хатои зеркашии плакат: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Арғувон"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Дар ҳақиқат ин Вуруди WeatherPlugin нест кунед?"
 
 msgid "Red"
-msgstr ""
+msgstr "Сурх"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Ҳама png-ро нест кунед (плакат - замина) (Хуб)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI-ро ҳоло аз нав оғоз кунед?"
 
 msgid "Save"
-msgstr ""
+msgstr "Захира кунед"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Рамзи ҷустуҷӯ"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "Posterx SecondInfobar:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Услуби дуюмдараҷа:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Нури Segoe UI"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Шрифти худро интихоб кунед:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Вақти мо - дақиқаро барои зеркашии замина таъин кунед"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Вақти мо - дақиқаро барои зеркашии плакат муқаррар кунед"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Танзимоти Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Танзимоти Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Нишонаҳоеро нишон диҳед, ки жанри ҳар як ҳодисаро намояндагӣ мекунанд (масалан, амал, комедия, драма)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Нишонаҳои роҳнамоии волидайнро дар рӯйдодҳо нишон диҳед, то рейтинги мундариҷа ва мувофиқати синну солро нишон диҳанд."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Намоиши плакат аз филм дар папкаи маҳаллӣ"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Услуби пӯст:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Зеркашии замина фавран оғоз кунед"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Зеркашии плакатро фавран оғоз кунед"
 
 msgid "Style2"
-msgstr ""
+msgstr "Услуб 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Услуб 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Услуб 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Дастгирии пӯстҳои E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Танҳо TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Файли %s холӣ аст."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Файли %s ёфт нашуд."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ин амалиёт имкон медиҳад, ки ситораҳои рейтинги рӯйдодҳо дар асоси манбаи рейтинги интихобшуда намоиш дода шаванд."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ин амалиёт ҳамаи png-ро аз дастгоҳи ҷузвдон нест мекунад (Плакат-Замин)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "URL-и навсозӣ оғоз карда нашудааст, аввал плагинро аз менюи плагинҳо як бор кушоед."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Санҷиши навсозӣ ноком шуд: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Бастаи навсозӣ ёфт нашуд!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Услуби VolumeBar:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Таҳрири вуруд"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Рӯйхати вурудот"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Шумо аллакай версияи охирини ({}) доред."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Пеш аз ҷустуҷӯи рамзи ҷойгиршавӣ, шумо бояд номи дурусти шаҳрро ворид кунед."
 
 msgid "imperial system"
-msgstr ""
+msgstr "системаи империалистй"
 
 msgid "metric system"
-msgstr ""
+msgstr "системаи метрӣ"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "Файлҳоро бозӣ/намоиш диҳед"
 
 msgid "volume2"
-msgstr ""
+msgstr "ҷилди 2"

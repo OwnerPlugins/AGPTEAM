@@ -11,214 +11,214 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Đã nhập khóa %s!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Kích hoạt/Tắt ELCINema"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Kích hoạt/Vô hiệu hóa GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Kích hoạt/Tắt IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Kích hoạt/Hủy kích hoạt MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Kích hoạt/Tắt CHƯƠNG TRÌNH"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Kích hoạt/Tắt kích hoạt {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Thêm vào"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Tất cả png đều bị xóa khỏi thư mục!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Tự động"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Tự động tải xuống phông nền"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Tự động tải xuống áp phích"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Tự động tìm nạp phông nền cho các sự kiện yêu thích dựa trên EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Tự động tìm nạp áp phích cho các sự kiện yêu thích dựa trên EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Mặt sau"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Phông nền"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Lỗi tải xuống phông nền: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Đen"
 
 msgid "Blue"
-msgstr ""
+msgstr "Màu xanh da trời"
 
 msgid "Brown"
-msgstr ""
+msgstr "Màu nâu"
 
 msgid "CD"
-msgstr ""
+msgstr "đĩa CD"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Kiểu lựa chọn kênh:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "Lựa chọn kênh_1_Poster_EX"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "Lựa chọn kênh_1_Poster_X"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "Lựa chọn kênh_4_Posters_EX"
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "Lựa chọn kênh_4_Posters_X"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "Lựa chọn kênh_6_Posters_EX"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "Lựa chọn kênh_6_Posters_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "KênhSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "KênhSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "KênhSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "KênhSelection_BackDrop_V_PX"
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "Lựa chọn kênh_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "Lựa chọn kênh_NO_Posters_NO_Picon"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "Lựa chọn kênh_big_mini_tv"
 
 msgid "City"
-msgstr ""
+msgstr "Thành phố"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Phong cách màu sắc:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Định cấu hình thời gian trễ (tính bằng phút) trước khi bắt đầu tải xuống áp phích tự động"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Công cụ tùy chỉnh cho Skin %s"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Xanh đậm"
 
 msgid "Default"
-msgstr ""
+msgstr "Mặc định"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Xóa bỏ"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Lỗi tải xuống: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Đang tải xuống"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Tải xuống ngay phông nền"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Tải xuống ngay áp phích"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Đang tải xuống Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Biên tập"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Bật biểu tượng Thể loại hiển thị:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Bật Thông tin hiển thị:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Bật hiển thị Poster XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Kích hoạt biểu tượng của phụ huynh:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Bật xếp hạng sao:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Bật hoặc tắt bộ nhớ đệm trong quá trình tải xuống sự kiện để tăng tốc độ tìm kiếm lặp lại."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Cho phép hiển thị thông tin sự kiện mở rộng, bao gồm toàn bộ dàn diễn viên, đoàn làm phim, chi tiết cốt truyện và siêu dữ liệu khác trong tiện ích thông tin."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Lỗi khi xử lý tệp giao diện: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Lỗi tải file xuống!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Lỗi tải: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Lỗi {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Lỗi: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Kiểu xem sự kiện:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "Sự kiệnView_7_Posters"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "Chế độ xem sự kiện_NO_Posters"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ra"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Chỉ huy tập tin - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Tệp {} không tìm thấy hoặc trống"
 
 msgid "Green"
-msgstr ""
+msgstr "Màu xanh lá"
 
 msgid "Greta"
 msgstr ""
@@ -227,229 +227,229 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Nhập khóa {0} từ {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Thông tin..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Ngày của thanh thông tin:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "Áp phích thanh thông tinX:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Kiểu thanh thông tin:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Thông tin thời tiết trên thanh thông tin:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "Sự kiện InfoBar Xtra:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Thanh thông tin_Ngày"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Thanh thông tin_NO_Ngày"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Thanh thông tin_NO_Thời tiết"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Thanh thông tin_Thời tiết"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Dòng Ins"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Đang cài đặt bản cập nhật..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Chìa khóa trống"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Khóa {} đã được tải thành công!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldThường xuyên"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Tải từ /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Bản dựng cục bộ ({}) mới hơn bản dựng máy chủ ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Mã vị trí"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Kết quả tìm kiếm vị trí MSN"
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr ""
+msgstr "Màu đỏ tươi"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Không có nhà cung cấp hoạt động nào được kích hoạt"
 
 msgid "OFF"
-msgstr ""
+msgstr "TẮT"
 
 msgid "OK"
-msgstr ""
+msgstr "ĐƯỢC RỒI"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Chỉ OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "TRÊN"
 
 msgid "Off"
-msgstr ""
+msgstr "Tắt"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Khóa API cá nhân cho {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Vui lòng nhập tên thành phố hợp lệ."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Vui lòng nhập mã vị trí hợp lệ cho thành phố."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Lỗi tải xuống áp phích: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Màu tím"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Thực sự xóa mục nhập WeatherPlugin này?"
 
 msgid "Red"
-msgstr ""
+msgstr "Màu đỏ"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Xóa tất cả png (áp phích - phông nền) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Khởi động lại GUI ngay bây giờ?"
 
 msgid "Save"
-msgstr ""
+msgstr "Cứu"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Mã tìm kiếm"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "Áp phích thanh thông tin thứ haix:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Kiểu thanh thông tin thứ hai:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "Sự kiện thứ haiInfobar Xtraevent:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Đèn giao diện người dùng Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Chọn phông chữ của bạn:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Đặt thời gian của chúng tôi - phút để tải xuống Phông nền"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Đặt thời gian của chúng tôi - phút cho Poster tải xuống"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Cài đặt máy chủ Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Thiết lập thông tin da Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Hiển thị các biểu tượng đại diện cho thể loại của từng sự kiện (ví dụ: hành động, hài, kịch)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Hiển thị biểu tượng hướng dẫn của phụ huynh về các sự kiện để cho biết mức xếp hạng nội dung và mức độ phù hợp với lứa tuổi."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Hiển thị áp phích từ phim trong thư mục cục bộ"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Phong cách da:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Bắt đầu tải xuống phông nền ngay lập tức"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Bắt đầu tải xuống poster ngay lập tức"
 
 msgid "Style2"
-msgstr ""
+msgstr "Kiểu2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Phong cách3"
 
 msgid "Style4"
-msgstr ""
+msgstr "phong cách4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Hỗ trợ giao diện E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Hệ thống"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Chỉ TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Tệp %s trống."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Không tìm thấy tập tin %s."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Thao tác này cho phép hiển thị số sao xếp hạng cho các sự kiện, dựa trên nguồn xếp hạng đã chọn."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Thao tác này sẽ xóa tất cả png khỏi thiết bị thư mục (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "URL cập nhật chưa được khởi tạo, trước tiên hãy mở plugin một lần từ menu Plugin."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Kiểm tra cập nhật không thành công: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Không tìm thấy gói cập nhật!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Kiểu thanh âm lượng:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Chỉnh sửa mục nhập"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Danh sách các mục"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Bạn đã có phiên bản mới nhất ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Bạn cần nhập tên thành phố hợp lệ trước khi có thể tìm kiếm mã vị trí."
 
 msgid "imperial system"
-msgstr ""
+msgstr "hệ thống đế quốc"
 
 msgid "metric system"
-msgstr ""
+msgstr "hệ mét"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "phát/hiển thị tập tin"
 
 msgid "volume2"
-msgstr ""
+msgstr "tập2"

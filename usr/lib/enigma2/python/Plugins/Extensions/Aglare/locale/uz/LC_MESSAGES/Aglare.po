@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s kalit import qilindi!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA-ni yoqish/o‘chirish"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE-ni yoqish/o'chirish"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB-ni yoqish/o'chirish"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOVni yoqish/o‘chirish"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETVni yoqish/o‘chirish"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Yoqish/o‘chirish {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Qo'shish"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Barcha png papkadan olib tashlandi!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Avtomatik"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Fon rasmi avtomatik yuklab olish"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Avtomatik plakat yuklab olish"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG asosida sevimli tadbirlar uchun fonni avtomatik ravishda olib keling"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG asosida sevimli voqealar uchun plakatlarni avtomatik ravishda olib keling"
 
 msgid "Back"
-msgstr ""
+msgstr "Orqaga"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Fon"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Orqa fon lavhasini yuklab olish xatosi: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Qora"
 
 msgid "Blue"
-msgstr ""
+msgstr "Moviy"
 
 msgid "Brown"
-msgstr ""
+msgstr "Jigarrang"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Bekor qilish"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Kanalni tanlash uslubi:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -121,103 +121,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Shahar"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Rang uslubi:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Avtomatik posterni yuklab olishni boshlashdan oldin kechikish vaqtini (daqiqalarda) sozlang"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "%s terisi uchun moslashtirish vositasi"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Toʻq yashil"
 
 msgid "Default"
-msgstr ""
+msgstr "Standart"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del liniyasi"
 
 msgid "Delete"
-msgstr ""
+msgstr "Oʻchirish"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Yuklab olish xatosi: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Yuklab olish davom etmoqda"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Hozir fon lavhasini yuklab oling"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Hozir afishani yuklab oling"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare yuklab olinmoqda..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Tahrirlash"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Displey janri belgilarini yoqish:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Ma'lumot voqealarini ko'rsatishni yoqish:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "XMC posterini ko‘rsatishni yoqish:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Ota-ona piktogrammalarini yoqish:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Baho yulduzini yoqish:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Takroriy qidiruvlarni tezlashtirish uchun hodisani yuklab olish paytida keshlashni yoqing yoki o'chiring."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Axborot vidjetida kengaytirilgan tadbir ma’lumotlarini, jumladan, to‘liq aktyorlar, ekipaj, syujet tafsilotlari va boshqa metama’lumotlarni ko‘rsatishni yoqing."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Teri faylini qayta ishlashda xatolik yuz berdi: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Fayllarni yuklab olishda xatolik yuz berdi!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Yuklashda xatolik: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Xato {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Xato: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView uslubi:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Afishalar"
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Chiqish"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Fayl qo'mondon - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "{} fayli topilmadi yoki boʻsh"
 
 msgid "Green"
-msgstr ""
+msgstr "Yashil"
 
 msgid "Greta"
 msgstr ""
@@ -226,64 +226,64 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "{0} kaliti {1} dan import qilinsinmi?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Ma'lumot..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Infobar sanasi:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Infobar uslubi:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar ob-havo:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Sana"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Sana"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_ob-havo"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Yangilanishlar oʻrnatilmoqda..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Kalit boʻsh"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "{} kaliti muvaffaqiyatli yuklandi!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "XolidArtbold Muntazam"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/tmp/{}key.txt dan yuklang"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Mahalliy tuzilma ({}) server tuzilmasidan ({}) yangiroq."
 
 msgid "Location code"
-msgstr ""
+msgstr "Joylashuv kodi"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN joylashuv qidiruvi natijasi"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,163 +292,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Hech qanday faol provayder yoqilmagan"
 
 msgid "OFF"
-msgstr ""
+msgstr "O‘CHIRISH"
 
 msgid "OK"
-msgstr ""
+msgstr "KELISHDIKMI"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Faqat OMDB"
 
 msgid "ON"
 msgstr ""
 
 msgid "Off"
-msgstr ""
+msgstr "Oʻchirilgan"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} uchun shaxsiy API kaliti"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Yaroqli shahar nomini kiriting."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Shahar uchun yaroqli joylashuv kodini kiriting."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Posterni yuklab olish xatosi: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Binafsha"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Haqiqatan ham ushbu WeatherPlugin yozuvi o'chirilsinmi?"
 
 msgid "Red"
-msgstr ""
+msgstr "Qizil"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Barcha png ni olib tashlang (plakat - fon) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI hozir qayta ishga tushirilsinmi?"
 
 msgid "Save"
-msgstr ""
+msgstr "Saqlash"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Qidiruv kodi"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "Ikkinchi ma'lumot paneli posteri:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Ikkinchi ma'lumot paneli uslubi:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI yorug'ligi"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Shriftingizni tanlang:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Fon lavhasini yuklab olish uchun vaqtni bizning daqiqaga belgilang"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Posterni yuklab olish uchun vaqtni bizning daqiqaga belgilang"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Apikey server sozlamalari"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Aglare Skin Info-ni sozlash"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Har bir voqea janrini ifodalovchi piktogrammalarni ko'rsatish (masalan, jang, komediya, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Kontent reytingi va yoshga mosligini ko'rsatish uchun tadbirlarda ota-ona ko'rsatmalari piktogrammalarini ko'rsating."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Mahalliy papkada filmdan afishani ko'rsatish"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Teri uslubi:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Darhol fon lavhasini yuklab olishni boshlang"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Posterni darhol yuklab olishni boshlang"
 
 msgid "Style2"
-msgstr ""
+msgstr "Uslub 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Uslub 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Uslub 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer terilarini qo'llab-quvvatlash:"
 
 msgid "System"
-msgstr ""
+msgstr "Tizim"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Faqat TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "%s fayli boʻsh."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "%s fayli topilmadi."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ushbu operatsiya tanlangan reyting manbasiga asoslangan voqealar uchun reyting yulduzlarini ko'rsatish imkonini beradi."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ushbu operatsiyani bajarish papka qurilmasidan barcha pngni olib tashlaydi (Poster-fon)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Yangilash URL manzili ishga tushirilmagan plaginni avval plaginlar menyusidan bir marta oching."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Yangilanish tekshirilmadi: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Yangilash paketi topilmadi!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar uslubi:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: yozuvni tahrirlash"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: yozuvlar ro'yxati"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Sizda allaqachon oxirgi versiya ({}) mavjud."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Joylashuv kodini qidirishdan oldin siz haqiqiy shahar nomini kiritishingiz kerak."
 
 msgid "imperial system"
-msgstr ""
+msgstr "imperiya tizimi"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrik tizim"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "Fayllarni o'ynatish/ko'rsatish"
 
 msgid "volume2"
-msgstr ""
+msgstr "hajmi 2"

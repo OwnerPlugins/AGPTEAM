@@ -10,73 +10,73 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s բանալի ներմուծվել է:"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Ակտիվացնել/անջատել ELCINEMA-ն"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Ակտիվացնել/անջատել GOOGLE-ը"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Ակտիվացնել/անջատել IMDB-ն"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Ակտիվացնել/անջատել MOLOTOV-ը"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Ակտիվացնել/անջատել PROGRAMMETV-ն"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Ակտիվացնել/անջատել {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Ավելացնել"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Բոլոր png-ները հեռացվել են պանակից:"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Ավտոմատ"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Հետին պլանի ավտոմատ ներբեռնում"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Պաստառի ավտոմատ ներբեռնում"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Ավտոմատ կերպով վերցնել հետնաշերտը EPG-ի հիման վրա սիրված իրադարձությունների համար"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Ավտոմատ կերպով վերցրեք EPG-ի հիման վրա սիրված իրադարձությունների պաստառները"
 
 msgid "Back"
-msgstr ""
+msgstr "Ետ"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Հետին պլան"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Հետնաշերտի ներբեռնման սխալ՝ {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Սեւ"
 
 msgid "Blue"
-msgstr ""
+msgstr "Կապույտ"
 
 msgid "Brown"
-msgstr ""
+msgstr "Շագանակագույն"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 msgid "ChannelSelection Style:"
 msgstr ""
@@ -112,7 +112,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ChannelSelection_NO_պաստառներ"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -121,118 +121,118 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Քաղաք"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Գույնի ոճ."
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Կարգավորեք հետաձգման ժամանակը (րոպեներով) նախքան պաստառի ավտոմատ ներբեռնումը սկսելը"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Անհատականացման գործիք %s մաշկի համար"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Մուգ կանաչ"
 
 msgid "Default"
-msgstr ""
+msgstr "Կանխադրված"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Դել Լայն"
 
 msgid "Delete"
-msgstr ""
+msgstr "Ջնջել"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Ներբեռնման սխալ՝ {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Ներբեռնումն ընթացքի մեջ է"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Ներբեռնեք հիմա հետնապատկերը"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Ներբեռնեք հիմա պաստառը"
 
 msgid "Downloading Aglare..."
 msgstr ""
 
 msgid "Edit"
-msgstr ""
+msgstr "Խմբագրել"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Միացնել Ցուցադրման ժանրի պատկերակները."
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Միացնել Display InfoEvents-ը."
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Միացնել Display XMC պաստառը՝"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Միացնել ծնողական պատկերակները."
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Միացնել վարկանիշային աստղը."
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Միջոցառումների ներբեռնման ժամանակ միացրեք կամ անջատեք քեշավորումը՝ կրկնվող որոնումները արագացնելու համար:"
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Միացրեք իրադարձությունների ընդլայնված տեղեկատվության ցուցադրումը, ներառյալ ամբողջական դերասանական կազմը, անձնակազմը, սյուժեի մանրամասները և այլ մետատվյալներ, տեղեկատվական վիջեթում:"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Սխալ՝ մաշկի ֆայլը մշակելիս՝ {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Չհաջողվեց ներբեռնել ֆայլերը:"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Սխալ բեռնելիս՝ {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Սխալ {0}՝ {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Սխալ՝ {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView ոճը."
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_պաստառներ"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_պաստառներ"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ելք"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Ֆայլի հրամանատար - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Ֆայլը {} չի գտնվել կամ դատարկ է"
 
 msgid "Green"
-msgstr ""
+msgstr "Կանաչ"
 
 msgid "Greta"
-msgstr ""
+msgstr "Գրետա"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Ներմուծե՞լ {0} բանալին {1}-ից:"
 
 msgid "Info..."
-msgstr ""
+msgstr "Տեղեկություն..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "InfoBar Ամսաթիվ:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
@@ -241,7 +241,7 @@ msgid "InfoBar Style:"
 msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Եղանակը:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -262,193 +262,193 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Թարմացումների տեղադրում..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Բանալին դատարկ է"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Բանալին {} հաջողությամբ բեռնվեց:"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Բեռնել /tmp/{}key.txt-ից"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Տեղական կառուցվածքը ({}) ավելի նոր է, քան սերվերի կառուցվածքը ({}):"
 
 msgid "Location code"
-msgstr ""
+msgstr "Տեղադրության կոդը"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN-ի տեղադրության որոնման արդյունք"
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr ""
+msgstr "Մագենտա"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Ակտիվ պրովայդերներ միացված չեն"
 
 msgid "OFF"
-msgstr ""
+msgstr "ԱՆՋԱՏՎԱԾ"
 
 msgid "OK"
-msgstr ""
+msgstr "Լավ"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Միայն OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "ՄԻԱՑՎԱԾ"
 
 msgid "Off"
-msgstr ""
+msgstr "Անջատված"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Անձնական API բանալի {}-ի համար"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել վավեր քաղաքի անունը:"
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել քաղաքի վավեր գտնվելու կոդը:"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Պաստառի ներբեռնման սխալ՝ {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Մանուշակագույն"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Իսկապե՞ս ջնջել այս WeatherPlugin գրառումը:"
 
 msgid "Red"
-msgstr ""
+msgstr "Կարմիր"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Հեռացնել բոլոր png-ները (պաստառ - հետնապատկեր) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Վերագործարկե՞լ GUI-ն հիմա:"
 
 msgid "Save"
-msgstr ""
+msgstr "Պահպանել"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Որոնման կոդը"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar ոճը."
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI լույս"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Ընտրեք ձեր տառատեսակը."
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Սահմանեք մեր րոպեն՝ հետնաշերտի ներբեռնման համար"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Պաստառների ներբեռնման համար սահմանեք մեր ժամանակը"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Կարգավորումներ Apikey սերվեր"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Կարգավորեք Aglare Skin Info-ը"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Ցույց տալ յուրաքանչյուր իրադարձության ժանրը ներկայացնող սրբապատկերներ (օրինակ՝ գործողություն, կատակերգություն, դրամա)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Ցույց տալ ծնողների առաջնորդության պատկերակները իրադարձությունների վերաբերյալ՝ բովանդակության վարկանիշը և տարիքային համապատասխանությունը ցույց տալու համար:"
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Ցուցադրել պաստառը ֆիլմից տեղական պանակում"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Մաշկի ոճը."
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Անմիջապես սկսեք ներբեռնել հետնաշերտը"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Անմիջապես սկսեք ներբեռնել պաստառը"
 
 msgid "Style2"
-msgstr ""
+msgstr "Ոճ 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Ոճ 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Ոճ 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Աջակցեք E2iplayer Skins-ին."
 
 msgid "System"
-msgstr ""
+msgstr "Համակարգ"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Միայն TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "%s ֆայլը դատարկ է:"
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "%s ֆայլը չի ​​գտնվել:"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Այս գործողությունը հնարավորություն է տալիս ցուցադրել վարկանիշային աստղերը իրադարձությունների համար՝ հիմնվելով ընտրված գնահատման աղբյուրի վրա:"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Այս գործողությունը հեռացնում է բոլոր png-ները թղթապանակի սարքից (Պաստառ-Հետնապատկեր)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Թարմացնել URL-ը, որը նախաստորագրված չէ, բացեք plugin-ը մեկ անգամ Plugins ցանկից:"
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Թարմացման ստուգումը ձախողվեց՝ {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Թարմացման փաթեթը չի գտնվել:"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar ոճը."
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin. Խմբագրել մուտքը"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin. Գրառումների ցանկ"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Դուք արդեն ունեք վերջին տարբերակը ({}):"
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Տեղադրության կոդը որոնելու համար դուք պետք է մուտքագրեք վավեր քաղաքի անունը:"
 
 msgid "imperial system"
-msgstr ""
+msgstr "կայսերական համակարգ"
 
 msgid "metric system"
-msgstr ""
+msgstr "մետրային համակարգ"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "խաղալ/ցուցադրել Ֆայլեր"
 
 msgid "volume2"
-msgstr ""
+msgstr "հատոր 2"

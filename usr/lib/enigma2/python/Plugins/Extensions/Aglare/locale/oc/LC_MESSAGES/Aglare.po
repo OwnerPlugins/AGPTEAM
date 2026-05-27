@@ -10,196 +10,196 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s clau importada !"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Activar/Desactivar ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Activar/Desactivar GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Activar/Desactivar IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Activar/Desactivar MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Activar/Desactivar PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Activar/Desactivar {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Apondre"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Todos los png son eliminados del carpeta!"
 
 msgid "Automatic"
 msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Telecargament automatic de fons"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Telecargament automatic de l'aficha"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Recuperar automaticament lo fons pels eveniments favorits basat sus EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Recuperar automaticament d'afichas pels eveniments favorits basats sus EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Arrièr"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Telón de fons"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Error de telecargament de fons : {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Negre"
 
 msgid "Blue"
-msgstr ""
+msgstr "Blau"
 
 msgid "Brown"
-msgstr ""
+msgstr "Marron"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Anullar"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Estil de seleccion de canal:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "Seleccion de Canal_1_Aficha_EX"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "Seleccion de Canal_1_Aficha_X"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "Seleccion de Canal_4_Afichas_EX"
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "Seleccion_Canal_4_Afichas_X"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "Seleccion de Canal_6_Afichas_EX"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "Seleccion de Canal_6_Afichas_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "Seleccion_deCanal_Retrocedente_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "Seleccion de canal_retorn_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "Seleccion de canal_retrocèu_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "Seleccion de canal_retorn_V_PX"
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "Seleccion de Canal_PAS_Afichas"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "Seleccion de Canal_PAS_Afichas_PAS_Picòn"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "CanalSeleccion_big_mini_tv"
 
 msgid "City"
-msgstr ""
+msgstr "Vila"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Estil de color:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Configuratz lo temps de retard (en minutas) abans de començar lo telecargament automatic de l'aficha"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Aisina de personalizacion per %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Verd Escur"
 
 msgid "Default"
-msgstr ""
+msgstr "Defaut"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del Linha"
 
 msgid "Delete"
-msgstr ""
+msgstr "Escafar"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Error de telecargament : {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Telecargament en cors"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Telecargar ara fons"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Telecargatz ara l'aficha"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "En telecargament d'Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Modificar"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Activar l'afichatge de las icònas de genre :"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Activar l'afichatge dels eveniments d'informacion :"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Activar l'afichatge XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Activar las icònas parentalas :"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Activar l'estela de nòta:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Activar o desactivar lo cache pendent lo telecargament d'eveniments per accelerar las recèrcas repetidas."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Activar l'afichatge d'informacions d'eveniments estendudas, inclusent lo cast complet, l'equipa, los detalhs de l'intriga e d'autras metadonadas, dins lo widget d'informacions."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Error al moment del tractament del fichièr skin : {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Error al moment de telecargar de fichièrs !"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Error de cargament : {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Error {0} : {1}"
 
 msgid "Error: {}"
 msgstr ""
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Estil de vista d'eveniments:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -208,16 +208,16 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Sortida"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Comandant de fichièrs - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Fichièr {} pas trobat o void"
 
 msgid "Green"
-msgstr ""
+msgstr "Verd"
 
 msgid "Greta"
 msgstr ""
@@ -226,64 +226,64 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Importar la clau {0} dempuèi {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Informacions..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Data de l'InfoBar:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Estil d'InfoBar:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Temps de l'InfoBar:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Data_de_infobar"
 
 msgid "Infobar_NO_Date"
 msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Meteo"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_Meteo"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Linha Ins"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Installacion de mesas a jorn..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "clau voida"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "La clau {} cargada amb succès !"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Cargar dempuèi /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "La version locala ({}) es mai novèla que la version del servidor ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Còdi d'emplaçament"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Resultat de recèrca d'emplaçament MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,163 +292,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Cap de provesidor actiu pas activat"
 
 msgid "OFF"
-msgstr ""
+msgstr "DESACTIVAT"
 
 msgid "OK"
-msgstr ""
+msgstr "ÒC BEN"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB solament"
 
 msgid "ON"
-msgstr ""
+msgstr "SUS"
 
 msgid "Off"
-msgstr ""
+msgstr "Desactivat"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Clau API personala per {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Picatz un nom de vila valid."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Picatz un còdi d'emplaçament valid per la vila."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Error de telecargament de l'aficha : {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Violet"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Suprimir vertadièrament aquesta entrada WeatherPlugin?"
 
 msgid "Red"
-msgstr ""
+msgstr "Roge"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Suprimir tot png (aficha - fons) (D'acòrdi)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Tornatz aviar l'interfaci utilizaire ara?"
 
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Còde de recèrca"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Estil de la segonda barra d'informacions:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "Second Infobar Xtraevent:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Lutz de l'interfàcia utilizaire de Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Seleccionatz vòstra poliça:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Definir l'ora nòstre - minuta per lo telecargament de fons"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Fixar l'ora nòstre - minuta per la telecargament de l'aficha"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Paramètres del servidor Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Configuracion d'informacions sus la pèl d'Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Mostrar las icònas representant lo genre de cada eveniment (per exemple, accion, comèdia, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Afichar las icònas d'orientacion parentala suls eveniments per indicar la nòta del contengut e l'adaptacion a l'edat."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Afichar l'aficha del filme dins lo dorsièr local"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Estil de pèl:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Començatz de telecargar de fons immediatament"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Començatz de telecargar l'aficha immediatament"
 
 msgid "Style2"
-msgstr ""
+msgstr "Estil2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Estil3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Estil4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Supòrt de pèls E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistèma"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB solament"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Lo fichièr %s es void."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Lo fichièr %s es pas estat trobat."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Aquesta operacion permet l'afichatge de las estelas de nòta pels eveniments, en foncion de la font de nòta seleccionada."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Aquesta operacion suprimís totes los png del periferic de dorsièr (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "L'URL de mesa a jorn pas inicializat dobrissètz l'ensamblador un còp dempuèi lo menú Ensambladors d'en primièr."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "La verificacion de la mesa a jorn a fracassat : {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Lo paquet de mesa a jorn pas trobat !"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Estil de barra de volum:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Modificar l'entrada"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Lista de las dintradas"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Avètz ja la darrièra version ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Vos cal picar un nom de vila valid abans de poder recercar lo còde d'emplaçament."
 
 msgid "imperial system"
-msgstr ""
+msgstr "sistèma imperial"
 
 msgid "metric system"
-msgstr ""
+msgstr "sistèma metric"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "jogar/afichar los fichièrs"
 
 msgid "volume2"
-msgstr ""
+msgstr "volum2"

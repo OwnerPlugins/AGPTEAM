@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s 密钥已导入！"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "激活/停用 ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "激活/停用 GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "激活/停用 IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "激活/停用莫洛托夫"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "激活/停用 PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "激活/停用 {}"
 
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "所有 png 均已从文件夹中删除！"
 
 msgid "Automatic"
-msgstr ""
+msgstr "自动的"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "自动下载背景"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "自动下载海报"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "根据 EPG 自动获取喜爱的活动背景"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "根据EPG自动获取喜爱活动的海报"
 
 msgid "Back"
-msgstr ""
+msgstr "后退"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "背景"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "背景下载错误：{}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "自由新"
 
 msgid "Black"
-msgstr ""
+msgstr "黑色的"
 
 msgid "Blue"
-msgstr ""
+msgstr "蓝色的"
 
 msgid "Brown"
-msgstr ""
+msgstr "棕色的"
 
 msgid "CD"
-msgstr ""
+msgstr "光盘"
 
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "频道选择风格："
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -121,334 +121,334 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "颜色款式："
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "配置开始自动海报下载之前的延迟时间（以分钟为单位）"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "%s 皮肤的定制工具"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "深绿色"
 
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 msgid "Del Line"
-msgstr ""
+msgstr "德尔线"
 
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "下载错误：{}"
 
 msgid "Download in progress"
 msgstr ""
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "立即下载背景"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "立即下载海报"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "正在下载阿格拉..."
 
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "启用显示类型图标："
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "启用显示信息事件："
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "启用显示 XMC 海报："
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "启用家长图标："
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "启用评级星级："
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "在事件下载期间启用或禁用缓存以加快重复搜索的速度。"
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "在信息小部件中启用扩展事件信息的显示，包括完整演员表、工作人员、情节详细信息和其他元数据。"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "处理外观文件时出错：{}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "下载文件时出错！"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "加载错误：{}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "错误{0}：{1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "错误： {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "事件视图样式："
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_海报"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "事件视图_NO_海报"
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "文件指挥官 - 插件"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "文件 {} 未找到或为空"
 
 msgid "Green"
-msgstr ""
+msgstr "绿色的"
 
 msgid "Greta"
-msgstr ""
+msgstr "格蕾塔"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "亨德尔得D"
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "从 {1} 导入密钥 {0}？"
 
 msgid "Info..."
-msgstr ""
+msgstr "信息..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "信息栏日期："
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "信息栏海报X："
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "信息栏样式："
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "信息栏天气："
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "信息栏 Xtraevent："
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "信息栏_日期"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "信息栏_NO_日期"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "信息栏_NO_天气"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "信息栏_天气"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "INS线"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "正在安装更新..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "钥匙空"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "密钥 {} 已成功加载！"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtbold常规"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "从 /tmp/{}key.txt 加载"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "本地构建 ({}) 比服务器构建 ({}) 新。"
 
 msgid "Location code"
-msgstr ""
+msgstr "位置代码"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN位置搜索结果"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "MV波利"
 
 msgid "Magenta"
-msgstr ""
+msgstr "品红"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "没有启用任何活跃的提供商"
 
 msgid "OFF"
-msgstr ""
+msgstr "离开"
 
 msgid "OK"
-msgstr ""
+msgstr "好的"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "仅限 OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "在"
 
 msgid "Off"
-msgstr ""
+msgstr "离开"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} 的个人 API 密钥"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "请输入有效的城市名称。"
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "请输入该城市的有效位置代码。"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "海报下载错误：{}"
 
 msgid "Purple"
-msgstr ""
+msgstr "紫色的"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "真的删除这个WeatherPlugin条目吗？"
 
 msgid "Red"
-msgstr ""
+msgstr "红色的"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "删除所有png（海报-背景）（确定）"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "现在重新启动图形用户界面吗？"
 
 msgid "Save"
-msgstr ""
+msgstr "节省"
 
 msgid "Search Code"
-msgstr ""
+msgstr "搜寻码"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "第二信息栏海报："
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "第二信息栏样式："
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "SecondInfobar Xtraevent："
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI 灯"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "选择您的字体："
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "设置背景下载时间 - 分钟"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "设定时间 - 分钟下载海报"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "设置 APIkey 服务器"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "设置炫光皮肤信息"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "显示代表每个事件类型的图标（例如动作、喜剧、戏剧）"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "在活动中显示家长指导图标，以指示内容分级和年龄适合性。"
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "在本地文件夹中显示电影海报"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "皮肤风格："
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "立即开始下载背景"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "立即开始下载海报"
 
 msgid "Style2"
-msgstr ""
+msgstr "风格2"
 
 msgid "Style3"
-msgstr ""
+msgstr "款式3"
 
 msgid "Style4"
-msgstr ""
+msgstr "款式4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "支持 E2iplayer 皮肤："
 
 msgid "System"
-msgstr ""
+msgstr "系统"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "仅TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "文件 %s 为空。"
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "未找到文件 %s。"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "此操作可以根据所选的评级源显示事件的评级星级。"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "此操作从文件夹设备中删除所有 png（海报背景）"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "更新 URL 未初始化 首先从插件菜单打开插件一次。"
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "更新检查失败：{}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "未找到更新包！"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "音量条样式："
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin：编辑条目"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin：条目列表"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "您已经拥有最新版本 ({})。"
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "您需要输入有效的城市名称才能搜索位置代码。"
 
 msgid "imperial system"
-msgstr ""
+msgstr "帝国制度"
 
 msgid "metric system"
-msgstr ""
+msgstr "公制"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "播放/显示文件"
 
 msgid "volume2"
-msgstr ""
+msgstr "卷2"

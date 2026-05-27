@@ -11,82 +11,82 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s avain tuotu!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Aktivoi/deaktivoi ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Aktivoi/deaktivoi GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Aktivoi/deaktivoi IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Aktivoi/deaktivoi MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Aktivoi/deaktivoi PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Aktivoi/deaktivoi {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Lisätä"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Kaikki png:t on poistettu kansiosta!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automaattinen"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Taustan automaattinen lataus"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Automaattinen julisteen lataus"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Hae automaattisesti suosikkitapahtumien tausta EPG:n perusteella"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Hae automaattisesti EPG:hen perustuvien suosikkitapahtumien julisteet"
 
 msgid "Back"
-msgstr ""
+msgstr "Takaisin"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Tausta"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Taustan latausvirhe: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Musta"
 
 msgid "Blue"
-msgstr ""
+msgstr "Sininen"
 
 msgid "Brown"
-msgstr ""
+msgstr "Ruskea"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Peruuttaa"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Kanavanvalintatyyli:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Juliste_EX"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "ChannelSelection_1_Juliste_X"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr ""
@@ -122,103 +122,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Kaupunki"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Värityyli:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Määritä viive (minuutteina) ennen automaattisen julistelatauksen aloittamista"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Räätälöintityökalu %s Skinille"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Tummanvihreä"
 
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Poistaa"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Latausvirhe: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Lataus käynnissä"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Lataa nyt tausta"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Lataa nyt juliste"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Ladataan Aglarea..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Muokata"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Ota Display Genre -kuvakkeet käyttöön:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Ota Display InfoEvents käyttöön:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Ota Display XMC Poster käyttöön:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Ota vanhempien kuvakkeet käyttöön:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Ota Rating Star käyttöön:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Ota välimuisti käyttöön tai poista se käytöstä tapahtuman latauksen aikana nopeuttaaksesi toistuvia hakuja."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Ota käyttöön laajennetut tapahtumatiedot, mukaan lukien kaikki näyttelijät, miehistö, juonen tiedot ja muut metatiedot, tietowidgetissä."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Virhe ihotiedoston käsittelyssä: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Virhe tiedostojen lataamisessa!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Virhe latauksessa: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Virhe {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Virhe: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Tapahtumanäkymän tyyli:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Julisteet"
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Poistu"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Tiedoston komento - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Tiedostoa {} ei löydy tai se on tyhjä"
 
 msgid "Green"
-msgstr ""
+msgstr "Vihreä"
 
 msgid "Greta"
 msgstr ""
@@ -227,22 +227,22 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Tuodaanko avain {0} kohteesta {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Tiedot..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Tietopalkin päivämäärä:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Infopalkin tyyli:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Sää:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -263,28 +263,28 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Asennetaan päivityksiä..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Avain tyhjä"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Avain {} ladattu onnistuneesti!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Lataa tiedostosta /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Paikallinen koontiversio ({}) on uudempi kuin palvelinkoontiversio ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Sijaintikoodi"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN-sijainnin hakutulos"
 
 msgid "MV Boli"
 msgstr ""
@@ -293,163 +293,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Ei aktiivisia palveluntarjoajia käytössä"
 
 msgid "OFF"
-msgstr ""
+msgstr "POIS"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Vain OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "PÄÄLLÄ"
 
 msgid "Off"
-msgstr ""
+msgstr "Pois"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Henkilökohtainen API-avain kohteelle {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Anna kelvollinen kaupungin nimi."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Anna kaupungin kelvollinen sijaintikoodi."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Julisteen latausvirhe: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Violetti"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Haluatko todella poistaa tämän WeatherPlugin-merkinnän?"
 
 msgid "Red"
-msgstr ""
+msgstr "Punainen"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Poista kaikki png (juliste - tausta) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Käynnistetäänkö GUI uudelleen nyt?"
 
 msgid "Save"
-msgstr ""
+msgstr "Tallentaa"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Hakukoodi"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Toinen tietopalkin tyyli:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI valo"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Valitse fonttisi:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Aseta aika - minuutti taustan lataamiseen"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Aseta aika - minuutti julisteiden lataamiseen"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Asetukset Apikey-palvelin"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Määritä Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Näytä kuvakkeet, jotka edustavat kunkin tapahtuman lajityyppiä (esim. toiminta, komedia, draama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Näytä tapahtumissa vanhempien opastuskuvakkeet sisällön luokituksen ja iän sopivuuden osoittamiseksi."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Näytä elokuvan juliste paikallisessa kansiossa"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Ihon tyyli:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Aloita taustan lataaminen välittömästi"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Aloita julisteen lataaminen välittömästi"
 
 msgid "Style2"
-msgstr ""
+msgstr "Tyyli 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Tyyli 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Tyyli 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Tuki E2iplayer Skineille:"
 
 msgid "System"
-msgstr ""
+msgstr "Järjestelmä"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Vain TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Tiedosto %s on tyhjä."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Tiedostoa %s ei löytynyt."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Tämä toiminto mahdollistaa tapahtumien tähtiluokitusten näyttämisen valitun luokituslähteen perusteella."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Tämä toiminto poistaa kaikki png-tiedostot kansiolaitteesta (juliste-tausta)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Päivitä URL-osoite ei alustettu avaa laajennus ensin Plugins-valikosta."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Päivitystarkistus epäonnistui: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Päivityspakettia ei löydy!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBarin tyyli:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Muokkaa merkintää"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Merkintöjen luettelo"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Sinulla on jo uusin versio ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Sinun on syötettävä kelvollinen kaupungin nimi, ennen kuin voit etsiä sijaintikoodia."
 
 msgid "imperial system"
-msgstr ""
+msgstr "keisarillinen järjestelmä"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrijärjestelmä"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "toista/näytä tiedostoja"
 
 msgid "volume2"
-msgstr ""
+msgstr "volyymi 2"

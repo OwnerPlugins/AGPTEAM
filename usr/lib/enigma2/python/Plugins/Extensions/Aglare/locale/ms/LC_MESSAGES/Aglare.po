@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s kunci diimport!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Aktifkan / Nyahaktifkan ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Aktifkan/Nyahaktifkan GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Aktifkan/Nyahaktifkan IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Aktifkan/Nyahaktifkan MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Aktifkan/Nyahaktifkan PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Aktifkan/Nyahaktifkan {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Tambah"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Semua png dialih keluar daripada folder!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatik"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Muat turun automatik tirai latar"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Muat turun poster secara automatik"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Ambil tirai latar secara automatik untuk acara kegemaran berdasarkan EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Ambil poster secara automatik untuk acara kegemaran berdasarkan EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "belakang"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Tirai latar"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Ralat muat turun tirai latar: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Hitam"
 
 msgid "Blue"
-msgstr ""
+msgstr "Biru"
 
 msgid "Brown"
-msgstr ""
+msgstr "coklat"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Gaya Pemilihan Saluran:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -112,94 +112,94 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ChannelSelection_NO_Poster"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_NO_Poster_NO_Picon"
 
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Bandar"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Gaya Warna:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Konfigurasikan masa tunda (dalam minit) sebelum memulakan muat turun poster automatik"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Alat penyesuaian untuk %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Hijau Gelap"
 
 msgid "Default"
-msgstr ""
+msgstr "Lalai"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Talian Del"
 
 msgid "Delete"
-msgstr ""
+msgstr "Padam"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Ralat muat turun: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Muat turun sedang dijalankan"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Muat turun sekarang tirai latar"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Muat turun poster sekarang"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Memuat turun Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Sunting"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Dayakan ikon Genre Paparan:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Dayakan Paparan InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Dayakan Poster XMC Paparan:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Dayakan Ikon Ibu Bapa:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Dayakan Bintang Penilaian:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Dayakan atau lumpuhkan caching semasa muat turun acara untuk mempercepatkan carian berulang."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Dayakan paparan maklumat acara lanjutan, termasuk pelakon penuh, krew, butiran plot dan metadata lain, dalam widget maklumat."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Ralat dengan memproses fail kulit: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Ralat memuat turun fail!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Ralat memuatkan: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Ralat {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Ralat: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Gaya EventView:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -208,16 +208,16 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Keluar"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Komander Fail - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Fail {} tidak ditemui atau kosong"
 
 msgid "Green"
-msgstr ""
+msgstr "hijau"
 
 msgid "Greta"
 msgstr ""
@@ -226,22 +226,22 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Import kunci {0} daripada {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Maklumat..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Tarikh Bar Info:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Gaya InfoBar:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Cuaca InfoBar:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -253,37 +253,37 @@ msgid "Infobar_NO_Date"
 msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Cuaca"
 
 msgid "Infobar_Weather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Talian Ins"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Memasang kemas kini..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Kunci kosong"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Kunci {} berjaya dimuatkan!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Muatkan daripada /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Binaan setempat ({}) lebih baharu daripada binaan pelayan ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Kod lokasi"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Hasil carian lokasi MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,163 +292,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Tiada pembekal aktif didayakan"
 
 msgid "OFF"
-msgstr ""
+msgstr "DIMATIKAN"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB Sahaja"
 
 msgid "ON"
-msgstr ""
+msgstr "HIDUP"
 
 msgid "Off"
-msgstr ""
+msgstr "Mati"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Kunci API peribadi untuk {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Sila masukkan nama bandar yang sah."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Sila masukkan kod lokasi yang sah untuk bandar."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Ralat muat turun poster: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Ungu"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Betul-betul padamkan Entri WeatherPlugin ini?"
 
 msgid "Red"
-msgstr ""
+msgstr "merah"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Alih keluar semua png (poster - tirai latar) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Mulakan semula GUI sekarang?"
 
 msgid "Save"
-msgstr ""
+msgstr "Jimat"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Kod Carian"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Gaya SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI cahaya"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Pilih Fon Anda:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Tetapkan Masa kami - minit untuk muat turun Tirai Latar"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Tetapkan Masa kami - minit untuk muat turun Poster"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Tetapan Pelayan Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Sediakan Maklumat Kulit Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Tunjukkan ikon yang mewakili genre setiap acara (cth., aksi, komedi, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Tunjukkan ikon bimbingan ibu bapa pada acara untuk menunjukkan penilaian kandungan dan kesesuaian umur."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Tunjukkan poster daripada filem dalam folder tempatan"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Gaya Kulit:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Mula memuat turun tirai latar dengan segera"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Mula memuat turun poster dengan segera"
 
 msgid "Style2"
-msgstr ""
+msgstr "Gaya2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Gaya3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Gaya4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Sokong Kulit E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB Sahaja"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Fail %s kosong."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Fail %s tidak ditemui."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Operasi ini membolehkan paparan bintang penilaian untuk acara, berdasarkan sumber penilaian yang dipilih."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Operasi ini mengalih keluar semua png daripada peranti folder (Poster-Latar Belakang)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Kemas kini URL yang tidak dimulakan, buka pemalam sekali daripada menu Pemalam dahulu."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Semakan kemas kini gagal: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Kemas kini pakej tidak ditemui!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Gaya VolumeBar:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Edit Entri"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Senarai Entri"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Anda sudah mempunyai versi terkini ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Anda perlu memasukkan nama bandar yang sah sebelum anda boleh mencari kod lokasi."
 
 msgid "imperial system"
-msgstr ""
+msgstr "sistem empayar"
 
 msgid "metric system"
-msgstr ""
+msgstr "sistem metrik"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "main/tunjukkan Fail"
 
 msgid "volume2"
-msgstr ""
+msgstr "jilid2"

@@ -10,94 +10,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s түлхүүрийг импортолсон!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA-г идэвхжүүлэх/идэвхгүй болгох"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE-г идэвхжүүлэх/идэвхгүй болгох"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB-г идэвхжүүлэх/идэвхгүй болгох"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV-г идэвхжүүлэх/идэвхгүй болгох"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV-г идэвхжүүлэх/идэвхгүй болгох"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "{}-г идэвхжүүлэх/идэвхгүй болгох"
 
 msgid "Add"
-msgstr ""
+msgstr "Нэмэх"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Бүх png хавтаснаас устгагдсан!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Автомат"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Арын дэвсгэрийг автоматаар татаж авах"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Зурагт хуудсыг автоматаар татаж авах"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG дээр суурилсан дуртай үйл явдлын арын дэвсгэрийг автоматаар татаж авах"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG дээр суурилсан дуртай арга хэмжээний зурагт хуудсыг автоматаар татаж авах"
 
 msgid "Back"
-msgstr ""
+msgstr "Буцах"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Арын дэвсгэр"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Backdrop татаж авах алдаа: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Хар"
 
 msgid "Blue"
-msgstr ""
+msgstr "Цэнхэр"
 
 msgid "Brown"
-msgstr ""
+msgstr "Бор"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Цуцлах"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Суваг сонгох хэв маяг:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "Сувгийн Сонголт_1_Зурагт хуудас_EX"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "Сувгийн Сонголт_1_Зурагт хуудас_X"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "Сувгийн Сонголт_4_Зурагт хуудас_X"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "Сувгийн Сонголт_6_Зурагт хуудас_EX"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "Сувгийн Сонголт_6_Зурагт хуудас_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -112,91 +112,91 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "Сувгийн Сонголт_ҮГҮЙ_Зурагт хуудас"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "Сувгийн Сонголт_ҮГҮЙ_Зурагт хуудас_ҮГҮЙ_Пикон"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "Сувгийн Сонголт_том_мини_тв"
 
 msgid "City"
-msgstr ""
+msgstr "Хот"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Өнгөний хэв маяг:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Зурагт хуудсыг автоматаар татаж эхлэхээс өмнө саатлын хугацааг (минутаар) тохируулна уу"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "%s Skin-д зориулсан тохируулах хэрэгсэл"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Хар ногоон"
 
 msgid "Default"
-msgstr ""
+msgstr "Өгөгдмөл"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Дел шугам"
 
 msgid "Delete"
-msgstr ""
+msgstr "Устгах"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Татаж авах алдаа: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Татаж авч байна"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Одоо backdrop татаж аваарай"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Одоо постер татаж аваарай"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare татаж авч байна..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Засварлах"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Дэлгэцийн төрөл дүрсийг идэвхжүүлэх:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Дэлгэцийн мэдээллийн үйл явдлыг идэвхжүүлэх:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "XMC плакатыг харуулахыг идэвхжүүлэх:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Эцэг эхийн дүрсийг идэвхжүүлэх:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Үнэлгээний одыг идэвхжүүлэх:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Давтан хайлтыг хурдасгахын тулд үйл явдлыг татаж авах үед кэшийг идэвхжүүлэх эсвэл идэвхгүй болгох."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Мэдээллийн виджет дотор бүрэн бүрэлдэхүүн, багийнхан, өрнөлийн дэлгэрэнгүй мэдээлэл болон бусад мета өгөгдлийг багтаасан өргөтгөсөн арга хэмжээний мэдээллийг харуулахыг идэвхжүүлнэ үү."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Арьсны файлыг боловсруулахад алдаа гарлаа: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Файлуудыг татаж авахад алдаа гарлаа!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Ачаалахад алдаа: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Алдаа {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Алдаа: {}"
 
 msgid "EventView Style:"
 msgstr ""
@@ -208,139 +208,139 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Гарах"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Файлын командлагч - Нэмэлт"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "{} файл олдсонгүй эсвэл хоосон байна"
 
 msgid "Green"
-msgstr ""
+msgstr "Ногоон"
 
 msgid "Greta"
-msgstr ""
+msgstr "Грета"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "{0} түлхүүрийг {1}-ээс импортлох уу?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Мэдээлэл..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Мэдээллийн самбарын огноо:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Мэдээллийн самбарын хэв маяг:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Цаг агаар:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Мэдээллийн талбар_огноо"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Мэдээллийн_үгүй_Огноо"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Мэдээллийн_цаг агаар"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins шугам"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Шинэчлэлтүүдийг суулгаж байна..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Түлхүүр хоосон"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Түлхүүрийг {} амжилттай ачааллаа!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "ХалидАртболд Тогтмол"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/tmp/{}key.txt-с ачаална уу"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Орон нутгийн бүтэц ({}) нь серверийн бүтээцээс ({}) шинэ юм."
 
 msgid "Location code"
-msgstr ""
+msgstr "Байршлын код"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN байршлын хайлтын үр дүн"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "MV Боли"
 
 msgid "Magenta"
-msgstr ""
+msgstr "Магента"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Идэвхтэй үйлчилгээ үзүүлэгч байхгүй байна"
 
 msgid "OFF"
-msgstr ""
+msgstr "Унтраах"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Зөвхөн OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "АСААЛТТАЙ"
 
 msgid "Off"
-msgstr ""
+msgstr "Унтраах"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{}-н хувийн API түлхүүр"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Хүчинтэй хотын нэрийг оруулна уу."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Хотын зөв байршлын кодыг оруулна уу."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Зурагт хуудас татах алдаа: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Нил ягаан"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Энэ WeatherPlugin оруулгыг үнэхээр устгах уу?"
 
 msgid "Red"
-msgstr ""
+msgstr "Улаан"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Бүх png-г устга (зурагт хуудас - дэвсгэр) (ОК)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI-г одоо дахин эхлүүлэх үү?"
 
 msgid "Save"
-msgstr ""
+msgstr "Хадгалах"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Хайлтын код"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
@@ -352,103 +352,103 @@ msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI гэрэл"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Өөрийн фонтыг сонгоно уу:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Backdrop татаж авах цагийг манай минутаар тохируулна уу"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Зурагт хуудас татаж авах цагийг манай минутаар тохируулна уу"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Apikey серверийн тохиргоо"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Aglare Skin Info-г тохируулна уу"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Үйл явдал бүрийн төрлийг харуулсан дүрсүүдийг харуулах (жишээ нь: тулаант, инээдмийн, жүжиг)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Агуулгын үнэлгээ болон насанд тохирохыг харуулахын тулд үйл явдал дээр эцэг эхийн удирдамжийн дүрс тэмдгийг харуул."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Орон нутгийн хавтсанд киноны постер харуулах"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Арьсны хэв маяг:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Backdrop-г шууд татаж эхлээрэй"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Зурагт хуудсыг шууд татаж эхлээрэй"
 
 msgid "Style2"
-msgstr ""
+msgstr "Загвар 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Загвар 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Загвар 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer Skins-ийг дэмжих:"
 
 msgid "System"
-msgstr ""
+msgstr "Систем"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Зөвхөн TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "%s файл хоосон байна."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "%s файл олдсонгүй."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Энэ үйлдэл нь сонгосон үнэлгээний эх сурвалж дээр үндэслэн үйл явдлын үнэлгээний оддыг харуулах боломжийг олгодог."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Энэ үйлдэл нь фолдерын төхөөрөмжөөс бүх png-г устгана (Зурагт хуудас-арын дэвсгэр)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Шинэчлэх URL-г эхлүүлээгүй байна эхлээд залгаасыг Plugins цэснээс нэг удаа нээнэ үү."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Шинэчлэлтийг шалгаж чадсангүй: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Шинэчлэх багц олдсонгүй!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar хэв маяг:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Бичлэгийг засах"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Оруулсан жагсаалт"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Танд хамгийн сүүлийн хувилбар ({}) байна."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Та байршлын кодыг хайхаасаа өмнө хүчинтэй хотын нэрийг оруулах шаардлагатай."
 
 msgid "imperial system"
-msgstr ""
+msgstr "эзэн хааны систем"
 
 msgid "metric system"
-msgstr ""
+msgstr "хэмжүүрийн систем"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "Файлуудыг тоглуулах/үзүүлэх"
 
 msgid "volume2"
-msgstr ""
+msgstr "хэмжээ2"

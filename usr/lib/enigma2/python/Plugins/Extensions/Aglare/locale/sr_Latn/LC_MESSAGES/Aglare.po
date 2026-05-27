@@ -10,445 +10,445 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%с кључ је увезен!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Активирајте/деактивирајте ЕЛЦИНЕМА"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Активирајте/деактивирајте ГООГЛЕ"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Активирајте/деактивирајте ИМДБ"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Активирајте/деактивирајте МОЛОТОВ"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Активирајте/деактивирајте ПРОГРАММЕТВ"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Активирај/Деактивирај {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Додај"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Сви пнг су уклоњени из фасцикле!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Аутоматски"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Аутоматско преузимање позадине"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Аутоматско преузимање постера"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Аутоматски преузимајте позадину за омиљене догађаје на основу ЕПГ-а"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Аутоматски преузимајте постере за омиљене догађаје на основу ЕПГ-а"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Позадина"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Грешка при преузимању позадине: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "ФрееНеуе"
 
 msgid "Black"
-msgstr ""
+msgstr "Црно"
 
 msgid "Blue"
-msgstr ""
+msgstr "Плава"
 
 msgid "Brown"
-msgstr ""
+msgstr "Браон"
 
 msgid "CD"
-msgstr ""
+msgstr "ЦД"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Откажи"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Стил избора канала:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ЦханнелСелецтион_1_Постер_ЕКС"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "ЦханнелСелецтион_1_Постер_Кс"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ЦханнелСелецтион_4_Постерс_ЕКС"
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "ЦханнелСелецтион_4_Постерс_Кс"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ЦханнелСелецтион_6_Постерс_ЕКС"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "ЦханнелСелецтион_6_Постерс_Кс"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ЦханнелСелецтион_БацкДроп_Х_ЕКС"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ЦханнелСелецтион_БацкДроп_Х_ПКС"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ЦханнелСелецтион_БацкДроп_В_ЕКС"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "ЦханнелСелецтион_БацкДроп_В_ПКС"
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ЦханнелСелецтион_НО_Постерс"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ЦханнелСелецтион_НО_Постерс_НО_Пицон"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "ЦханнелСелецтион_биг_мини_тв"
 
 msgid "City"
-msgstr ""
+msgstr "Цити"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Стил боје:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Конфигуришите време кашњења (у минутама) пре него што започнете аутоматско преузимање постера"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Алат за прилагођавање %с коже"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Тамно зелена"
 
 msgid "Default"
-msgstr ""
+msgstr "Подразумевано"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Дел Лине"
 
 msgid "Delete"
-msgstr ""
+msgstr "Избриши"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Грешка при преузимању: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Преузимање је у току"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Преузмите сада позадину"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Преузмите сада постер"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Преузимање Агларе-а..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Уреди"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Омогућите иконе жанра приказа:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Омогући приказ инфодогађаја:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Омогући Дисплаи КСМЦ постер:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Омогући родитељске иконе:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Омогући звездицу за оцењивање:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Омогућите или онемогућите кеширање током преузимања догађаја да бисте убрзали поновљене претраге."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Омогућите приказ проширених информација о догађајима, укључујући комплетну глумачку екипу, екипу, детаље радње и друге метаподатке, у виџету са информацијама."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Грешка при обради датотеке коже: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Грешка при преузимању датотека!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Грешка при учитавању: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Грешка {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Грешка: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Стил приказа догађаја:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "ЕвентВиев_7_Постерс"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "ЕвентВиев_НО_Постерс"
 
 msgid "Exit"
-msgstr ""
+msgstr "Изађи"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Филе Цоммандер - Аддон"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Датотека {} није пронађена или је празна"
 
 msgid "Green"
-msgstr ""
+msgstr "Зелена"
 
 msgid "Greta"
-msgstr ""
+msgstr "Грета"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "ХанделГотД"
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Желите ли да увезете кључ {0} из {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Инфо..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Инфобар Датум:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "ИнфоБар ПостерКс:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Стил инфо траке:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "ИнфоБар Време:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "ИнфоБар Кстраевент:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Инфобар_Дате"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Инфобар_НО_Дате"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Инфобар_НО_Веатхер"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Инфобар_Веатхер"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Инс Лине"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Инсталирање ажурирања..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Кључ је празан"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Кључ {} је успешно учитан!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "КхалидАртболдРегулар"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Учитај из /тмп/{}кеи.ткт"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Локална верзија ({}) је новија од верзије сервера ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Шифра локације"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "МСН резултат претраге локације"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "МВ Боли"
 
 msgid "Magenta"
-msgstr ""
+msgstr "Магента"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Ниједан активни провајдер није омогућен"
 
 msgid "OFF"
-msgstr ""
+msgstr "ОФФ"
 
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Само ОМДБ"
 
 msgid "ON"
-msgstr ""
+msgstr "ОН"
 
 msgid "Off"
-msgstr ""
+msgstr "Офф"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Лични АПИ кључ за {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Унесите важећи назив града."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Унесите важећи код локације за град."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Грешка при преузимању постера: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Љубичаста"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Да ли стварно избришете овај ВеатхерПлугин унос?"
 
 msgid "Red"
-msgstr ""
+msgstr "Црвени"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Уклони све пнг (постер - позадина) (ОК)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Поново покренути ГУИ сада?"
 
 msgid "Save"
-msgstr ""
+msgstr "Сачувај"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Сеарцх Цоде"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "СецондИнфобар Постерк:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Стил друге инфо траке:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "СецондИнфобар Кстраевент:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Сегое УИ светло"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Изаберите свој фонт:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Подесите време наш - минут за преузимање позадине"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Подесите време наш - минут за преузимање постера"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Подешавања Апикеи сервера"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Подешавање информација о Агларе кожи"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Прикажи иконе које представљају жанр сваког догађаја (нпр. акција, комедија, драма)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Прикажите иконе родитељског надзора на догађајима да бисте означили оцену садржаја и узраст."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Прикажи постер из филма у локалној фасцикли"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Стил коже:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Одмах почните да преузимате позадину"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Одмах почните да преузимате постер"
 
 msgid "Style2"
-msgstr ""
+msgstr "Стиле2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Стиле3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Стиле4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Подршка за Е2иплаиер скинове:"
 
 msgid "System"
-msgstr ""
+msgstr "Систем"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Само ТМДБ"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Датотека %с је празна."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Датотека %с није пронађена."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ова операција омогућава приказ оцена звездица за догађаје, на основу изабраног извора оцењивања."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ова операција уклања сав пнг са уређаја фолдера (Постер-Бацкдроп)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "УРЛ за ажурирање није иницијализован, прво отворите додатак једном из менија Додаци."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Провера ажурирања није успела: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Пакет ажурирања није пронађен!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Стил траке јачине звука:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "ВеатхерПлугин: Уреди унос"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "ВеатхерПлугин: Листа уноса"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Већ имате најновију верзију ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Морате да унесете важећи назив града да бисте могли да тражите код локације."
 
 msgid "imperial system"
-msgstr ""
+msgstr "империјални систем"
 
 msgid "metric system"
-msgstr ""
+msgstr "метрички систем"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "пусти/прикажи датотеке"
 
 msgid "volume2"
-msgstr ""
+msgstr "волуме2"

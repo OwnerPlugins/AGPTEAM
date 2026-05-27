@@ -10,64 +10,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Allwedd %s wedi'i mewngludo!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Ysgogi/Dadactifadu ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Cychwyn/Dadactifadu GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Ysgogi/Dadactifadu IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Ysgogi/Dadactifadu MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Ysgogi/Dadactifadu PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Ysgogi/Analluogi {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Ychwanegu"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Mae pob png yn cael ei dynnu o'r ffolder!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Awtomatig"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Lawrlwytho cefndir yn awtomatig"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Lawrlwytho poster yn awtomatig"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Nôl cefndir yn awtomatig ar gyfer hoff ddigwyddiadau yn seiliedig ar EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Nôl yn awtomatig bosteri ar gyfer hoff ddigwyddiadau yn seiliedig ar EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Yn ol"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Cefndir"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Gwall lawrlwytho cefndir: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "RhyddNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Du"
 
 msgid "Blue"
-msgstr ""
+msgstr "Glas"
 
 msgid "Brown"
 msgstr ""
@@ -76,16 +76,16 @@ msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Canslo"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Arddull Dewis Sianel:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "Dewis Sianel_1_Poster_X"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr ""
@@ -112,7 +112,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ChannelSelection_NO_Posteri"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -121,103 +121,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Dinas"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Arddull Lliw:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Ffurfweddwch yr amser oedi (mewn munudau) cyn dechrau lawrlwytho'r poster yn awtomatig"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Offeryn addasu ar gyfer croen %s"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Gwyrdd Tywyll"
 
 msgid "Default"
-msgstr ""
+msgstr "Diofyn"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Dileu"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Gwall llwytho i lawr: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Lawrlwytho ar y gweill"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Lawrlwythwch nawr cefndir"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Lawrlwythwch nawr poster"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Wrthi'n lawrlwytho Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Golygu"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Galluogi eiconau Dangos Genre:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Galluogi Digwyddiadau Gwybodaeth Arddangos:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Galluogi Arddangos Poster XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Galluogi Eiconau Rhieni:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Galluogi Rating Star:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Galluogi neu analluogi caching yn ystod lawrlwytho digwyddiadau i gyflymu chwiliadau mynych."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Galluogi arddangos gwybodaeth digwyddiad estynedig, gan gynnwys cast llawn, criw, manylion plot, a metadata eraill, yn y teclyn gwybodaeth."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Gwall wrth brosesu'r ffeil croen: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Gwall wrth lawrlwytho ffeiliau!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Gwall wrth lwytho: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Gwall {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Gwall: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Arddull EventView:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Posteri"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posteri"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ymadael"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "File Comander - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Ffeil {} heb ei chanfod neu'n wag"
 
 msgid "Green"
-msgstr ""
+msgstr "Gwyrdd"
 
 msgid "Greta"
 msgstr ""
@@ -226,64 +226,64 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Mewnforio allwedd {0} o {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Gwybodaeth..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Dyddiad Bar Gwybodaeth:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Arddull Bar Gwybodaeth:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Tywydd Bar Gwybodaeth:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "Digwyddiad Bar Gwybodaeth:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Dyddiad"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Dyddiad"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Tywydd"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_Tywydd"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Llinell Ins"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Wrthi'n gosod diweddariadau..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Allwedd yn wag"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Allwedd {} wedi'i llwytho'n llwyddiannus!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRheolaidd"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Llwytho o /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Mae adeiladwaith lleol ({}) yn fwy newydd nag adeiladu gweinydd ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Cod lleoliad"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Canlyniad chwiliad lleoliad MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,163 +292,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Dim darparwyr gweithredol wedi'u galluogi"
 
 msgid "OFF"
-msgstr ""
+msgstr "ODDI AR"
 
 msgid "OK"
-msgstr ""
+msgstr "iawn"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB yn unig"
 
 msgid "ON"
-msgstr ""
+msgstr "YMLAEN"
 
 msgid "Off"
-msgstr ""
+msgstr "I ffwrdd"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Allwedd API personol ar gyfer {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Rhowch enw dinas dilys."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Rhowch god lleoliad dilys ar gyfer y ddinas."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Gwall lawrlwytho poster: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Porffor"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Wir dileu'r Cofnod WeatherPlugin hwn?"
 
 msgid "Red"
-msgstr ""
+msgstr "Coch"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Tynnwch yr holl png (poster - cefndir) (Iawn)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Ailgychwyn GUI nawr?"
 
 msgid "Save"
-msgstr ""
+msgstr "Arbed"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Cod Chwilio"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Arddull SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI golau"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Dewiswch Eich Ffont:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Gosod Amser ein - munud ar gyfer lawrlwytho Backdrop"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Gosod Amser ein - munud i lawrlwytho Poster"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Gosodiadau Gweinydd Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Gosod Gwybodaeth Croen Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Dangos eiconau sy’n cynrychioli genre pob digwyddiad (e.e., act, comedi, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Dangos eiconau arweiniad rhieni ar ddigwyddiadau i ddangos gradd cynnwys ac addasrwydd oedran."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Dangos poster o'r ffilm yn y ffolder leol"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Arddull Croen:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Dechreuwch lawrlwytho cefndir ar unwaith"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Dechreuwch lawrlwytho poster ar unwaith"
 
 msgid "Style2"
-msgstr ""
+msgstr "Arddull2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Arddull3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Arddull4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Cefnogi E2iplayer Skins:"
 
 msgid "System"
 msgstr ""
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB yn unig"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Mae'r ffeil %s yn wag."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Ni chanfuwyd y ffeil %s."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Mae'r gweithrediad hwn yn galluogi arddangos sêr graddio ar gyfer digwyddiadau, yn seiliedig ar y ffynhonnell graddio a ddewiswyd."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Mae'r gweithrediad hwn yn tynnu'r holl png o ddyfais ffolder (Cefndir Poster)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Diweddaru URL heb ei gychwyn agorwch yr ategyn unwaith o'r ddewislen Ategion yn gyntaf."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Methodd y gwiriad diweddaru: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Heb ganfod y pecyn diweddaru!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Arddull Bar Cyfrol:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Golygu Cofnod"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Rhestr o Gofrestriadau"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Mae gennych y fersiwn diweddaraf ({}) eisoes."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Mae angen i chi nodi enw dinas dilys cyn y gallwch chwilio am y cod lleoliad."
 
 msgid "imperial system"
-msgstr ""
+msgstr "system imperialaidd"
 
 msgid "metric system"
-msgstr ""
+msgstr "system fetrig"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "chwarae/dangos Ffeiliau"
 
 msgid "volume2"
-msgstr ""
+msgstr "cyfrol2"

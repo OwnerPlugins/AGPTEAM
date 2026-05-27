@@ -16,76 +16,76 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Chiave %s importata!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Attiva/Disattiva ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Attiva/Disattiva GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Attiva/Disattiva IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Attiva/Disattiva MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Attiva/Disattiva PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Attiva/Disattiva {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Aggiungere"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Tutti i PNG vengono rimossi dalla cartella!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatico"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Download automatico dello sfondo"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Download automatico del poster"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Recupera automaticamente lo sfondo per gli eventi preferiti in base all'EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Recupera automaticamente i poster degli eventi preferiti in base all'EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Indietro"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Sfondo"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Errore di download dello sfondo: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Nero"
 
 msgid "Blue"
-msgstr ""
+msgstr "Blu"
 
 msgid "Brown"
-msgstr ""
+msgstr "Marrone"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Cancellare"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Stile di selezione del canale:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -127,103 +127,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Città"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Stile colore:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Configura il tempo di ritardo (in minuti) prima di avviare il download automatico del poster"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Strumento di personalizzazione per %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Verde scuro"
 
 msgid "Default"
-msgstr ""
+msgstr "Predefinito"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Della Linea"
 
 msgid "Delete"
-msgstr ""
+msgstr "Eliminare"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Errore di download: {}"
 
 msgid "Download in progress…"
-msgstr ""
+msgstr "Download in corso…"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Scarica ora lo sfondo"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Scarica ora il manifesto"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Download di Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Modificare"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Abilita le icone del genere di visualizzazione:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Abilita Visualizza InfoEventi:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Abilita visualizzazione poster XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Abilita le icone dei genitori:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Abilita stella di valutazione:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Abilita o disabilita la memorizzazione nella cache durante il download degli eventi per velocizzare le ricerche ripetute."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Abilita la visualizzazione di informazioni estese sull'evento, inclusi cast completo, troupe, dettagli sulla trama e altri metadati, nel widget informazioni."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Errore durante l'elaborazione del file skin: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Errore durante il download dei file!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Errore durante il caricamento: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Errore {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Errore: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Stile vista eventi:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Poster"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Poster"
 
 msgid "Exit"
-msgstr ""
+msgstr "Uscita"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "File Commander - Componente aggiuntivo"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "File {} non trovato o vuoto"
 
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 msgid "Greta"
 msgstr ""
@@ -232,65 +232,65 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Importare la chiave {0} da {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Informazioni..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Data della barra informazioni:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "PosterX della barra informazioni:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Stile barra informazioni:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Meteo sulla barra informazioni:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "Evento InfoBar Xtra:"
 
 #, fuzzy
 msgid "Infobar_Date"
 msgstr "Informazioni"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Data"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Barra informazioni_NO_Meteo"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Barra informazioni_Meteo"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Linea Ins"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Installazione aggiornamenti..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Chiave vuota"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Chiave {} caricata con successo!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Carica da /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "La build locale ({}) è più recente della build del server ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Codice di posizione"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Risultato della ricerca della posizione MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -299,165 +299,165 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Nessun provider attivo abilitato"
 
 msgid "OFF"
-msgstr ""
+msgstr "SPENTO"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Solo OMDB"
 
 #, fuzzy
 msgid "ON"
 msgstr "LEONE"
 
 msgid "Off"
-msgstr ""
+msgstr "Spento"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Chiave API personale per {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Inserisci un nome di città valido."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Inserisci un codice di località valido per la città."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Errore durante il download del poster: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Viola"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Eliminare davvero questa voce WeatherPlugin?"
 
 #, fuzzy
 msgid "Red"
 msgstr "Leggi"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Rimuovi tutti i png (poster - sfondo) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Riavviare la GUI adesso?"
 
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Cerca codice"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "Seconda barra delle informazioni Posterx:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Secondo stile della barra informazioni:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "Secondo evento Infobar Xtra:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Luce dell'interfaccia utente di Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Seleziona il tuo carattere:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Imposta l'ora - minuto per il download dello sfondo"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Imposta l'ora - minuto per il download del poster"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Impostazioni Server APIkey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Imposta le informazioni sulla pelle abbagliante"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Mostra icone che rappresentano il genere di ciascun evento (ad esempio azione, commedia, dramma)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Mostra le icone della guida dei genitori sugli eventi per indicare la classificazione dei contenuti e l'idoneità per età."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Mostra il poster del film nella cartella locale"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Stile della pelle:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Inizia subito a scaricare lo sfondo"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Inizia subito a scaricare il poster"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stile2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stile3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stile4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Supporta le skin E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Solo TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Il file %s è vuoto."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Il file %s non è stato trovato."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Questa operazione abilita la visualizzazione delle stelle di valutazione per gli eventi, in base alla fonte di valutazione selezionata."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Questa operazione rimuove tutti i png dalla cartella dispositivo (Poster-Sfondo)"
 
 msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "URL di aggiornamento non inizializzato: apri prima il plug-in una volta dal menu Plug-in."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Controllo aggiornamento non riuscito: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Pacchetto di aggiornamento non trovato!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Stile barra del volume:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Modifica voce"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: elenco delle voci"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Hai già la versione più recente ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "È necessario inserire un nome di città valido prima di poter cercare il codice di posizione."
 
 msgid "imperial system"
-msgstr ""
+msgstr "sistema imperiale"
 
 msgid "metric system"
-msgstr ""
+msgstr "sistema metrico"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "riprodurre/mostrare file"
 
 msgid "volume2"
 msgstr ""

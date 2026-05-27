@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s കീ ഇറക്കുമതി ചെയ്തു!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA സജീവമാക്കുക/നിർജ്ജീവമാക്കുക"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE സജീവമാക്കുക/നിർജ്ജീവമാക്കുക"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB സജീവമാക്കുക/നിർജ്ജീവമാക്കുക"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV സജീവമാക്കുക/നിർജ്ജീവമാക്കുക"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV സജീവമാക്കുക/നിർജ്ജീവമാക്കുക"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "{} സജീവമാക്കുക/നിർജ്ജീവമാക്കുക"
 
 msgid "Add"
-msgstr ""
+msgstr "ചേർക്കുക"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "എല്ലാ png ഫോൾഡറിൽ നിന്നും നീക്കം ചെയ്തു!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "ഓട്ടോമാറ്റിക്"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "ബാക്ക്‌ഡ്രോപ്പിൻ്റെ യാന്ത്രിക ഡൗൺലോഡ്"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "പോസ്റ്ററിൻ്റെ യാന്ത്രിക ഡൗൺലോഡ്"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "ഇപിജി അടിസ്ഥാനമാക്കി പ്രിയപ്പെട്ട ഇവൻ്റുകൾക്കായി സ്വയമേവ ബാക്ക്‌ഡ്രോപ്പ് ലഭ്യമാക്കുക"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "ഇപിജി അടിസ്ഥാനമാക്കി പ്രിയപ്പെട്ട ഇവൻ്റുകൾക്കായി സ്വയമേവ പോസ്റ്ററുകൾ ലഭ്യമാക്കുക"
 
 msgid "Back"
-msgstr ""
+msgstr "തിരികെ"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "പശ്ചാത്തലം"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "ബാക്ക്‌ഡ്രോപ്പ് ഡൗൺലോഡ് പിശക്: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "ഫ്രീന്യൂ"
 
 msgid "Black"
-msgstr ""
+msgstr "കറുപ്പ്"
 
 msgid "Blue"
-msgstr ""
+msgstr "നീല"
 
 msgid "Brown"
-msgstr ""
+msgstr "ബ്രൗൺ"
 
 msgid "CD"
-msgstr ""
+msgstr "സി.ഡി"
 
 msgid "Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കുക"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "ചാനൽ തിരഞ്ഞെടുക്കൽ ശൈലി:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -121,85 +121,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "നഗരം"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "വർണ്ണ ശൈലി:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "ഓട്ടോമാറ്റിക് പോസ്റ്റർ ഡൗൺലോഡ് ആരംഭിക്കുന്നതിന് മുമ്പ് കാലതാമസം സമയം (മിനിറ്റുകളിൽ) കോൺഫിഗർ ചെയ്യുക"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "%s ചർമ്മത്തിനായുള്ള ഇഷ്‌ടാനുസൃതമാക്കൽ ഉപകരണം"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "ഇരുണ്ട പച്ച"
 
 msgid "Default"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതി"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ഡെൽ ലൈൻ"
 
 msgid "Delete"
-msgstr ""
+msgstr "ഇല്ലാതാക്കുക"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "ഡൗൺലോഡ് പിശക്: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "ഡൗൺലോഡ് പുരോഗമിക്കുന്നു"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "ബാക്ക്‌ഡ്രോപ്പ് ഇപ്പോൾ ഡൗൺലോഡ് ചെയ്യുക"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "പോസ്റ്റർ ഇപ്പോൾ ഡൗൺലോഡ് ചെയ്യുക"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare ഡൗൺലോഡ് ചെയ്യുന്നു..."
 
 msgid "Edit"
-msgstr ""
+msgstr "എഡിറ്റ് ചെയ്യുക"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "ഡിസ്പ്ലേ ജെനർ ഐക്കണുകൾ പ്രവർത്തനക്ഷമമാക്കുക:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "ഡിസ്പ്ലേ ഇൻഫോ ഇവൻ്റുകൾ പ്രവർത്തനക്ഷമമാക്കുക:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "ഡിസ്പ്ലേ എക്സ്എംസി പോസ്റ്റർ പ്രവർത്തനക്ഷമമാക്കുക:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "രക്ഷാകർതൃ ഐക്കണുകൾ പ്രവർത്തനക്ഷമമാക്കുക:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "റേറ്റിംഗ് സ്റ്റാർ പ്രവർത്തനക്ഷമമാക്കുക:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "ആവർത്തിച്ചുള്ള തിരയലുകൾ വേഗത്തിലാക്കാൻ ഇവൻ്റ് ഡൗൺലോഡ് സമയത്ത് കാഷെ ചെയ്യൽ പ്രവർത്തനക്ഷമമാക്കുക അല്ലെങ്കിൽ പ്രവർത്തനരഹിതമാക്കുക."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "വിവര വിജറ്റിൽ പൂർണ്ണ അഭിനേതാക്കൾ, ജോലിക്കാർ, പ്ലോട്ട് വിശദാംശങ്ങൾ, മറ്റ് മെറ്റാഡാറ്റ എന്നിവയുൾപ്പെടെ വിപുലമായ ഇവൻ്റ് വിവരങ്ങളുടെ പ്രദർശനം പ്രവർത്തനക്ഷമമാക്കുക."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "സ്കിൻ ഫയൽ പ്രോസസ്സ് ചെയ്യുന്നതിൽ പിശക്: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "ഫയലുകൾ ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പിശക്!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "ലോഡുചെയ്യുന്നതിൽ പിശക്: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "പിശക് {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "പിശക്: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "ഇവൻ്റ് വ്യൂ ശൈലി:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -208,247 +208,247 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "പുറത്ത്"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "ഫയൽ കമാൻഡർ - ആഡോൺ"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "ഫയൽ {} കണ്ടെത്തിയില്ല അല്ലെങ്കിൽ ശൂന്യമാണ്"
 
 msgid "Green"
-msgstr ""
+msgstr "പച്ച"
 
 msgid "Greta"
-msgstr ""
+msgstr "ഗ്രെറ്റ"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "{1}-ൽ നിന്ന് കീ {0} ഇറക്കുമതി ചെയ്യണോ?"
 
 msgid "Info..."
-msgstr ""
+msgstr "വിവരം..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "ഇൻഫോബാർ തീയതി:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "ഇൻഫോബാർ പോസ്റ്റർ എക്സ്:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "ഇൻഫോബാർ ശൈലി:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "ഇൻഫോബാർ കാലാവസ്ഥ:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "ഇൻഫോബാർ_തീയതി"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "ഇൻഫോബാർ_NO_തീയതി"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "ഇൻഫോബാർ_NO_Weather"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "ഇൻഫോബാർ_വെതർ"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "ഇൻസ് ലൈൻ"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "അപ്ഡേറ്റുകൾ ഇൻസ്റ്റാൾ ചെയ്യുന്നു..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "താക്കോൽ ശൂന്യം"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "കീ {} വിജയകരമായി ലോഡുചെയ്‌തു!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "ഖാലിദ് ആർട്ട്ബോൾഡ് റെഗുലർ"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/tmp/{}key.txt-ൽ നിന്ന് ലോഡ് ചെയ്യുക"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "ലോക്കൽ ബിൽഡ് ({}) സെർവർ ബിൽഡിനേക്കാൾ ({}) പുതിയതാണ്."
 
 msgid "Location code"
-msgstr ""
+msgstr "ലൊക്കേഷൻ കോഡ്"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN ലൊക്കേഷൻ തിരയൽ ഫലം"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "എം വി ബോളി"
 
 msgid "Magenta"
-msgstr ""
+msgstr "മജന്ത"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "സജീവ ദാതാക്കളൊന്നും പ്രവർത്തനക്ഷമമാക്കിയിട്ടില്ല"
 
 msgid "OFF"
-msgstr ""
+msgstr "ഓഫ്"
 
 msgid "OK"
-msgstr ""
+msgstr "ശരി"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB മാത്രം"
 
 msgid "ON"
-msgstr ""
+msgstr "ഓൺ"
 
 msgid "Off"
-msgstr ""
+msgstr "ഓഫ്"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} എന്നതിനായുള്ള വ്യക്തിഗത API കീ"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "സാധുവായ ഒരു നഗരത്തിൻ്റെ പേര് നൽകുക."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "നഗരത്തിനായുള്ള സാധുവായ ഒരു ലൊക്കേഷൻ കോഡ് നൽകുക."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "പോസ്റ്റർ ഡൗൺലോഡ് പിശക്: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "പർപ്പിൾ"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "ഈ WeatherPlugin എൻട്രി ശരിക്കും ഇല്ലാതാക്കണോ?"
 
 msgid "Red"
-msgstr ""
+msgstr "ചുവപ്പ്"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "എല്ലാ png (പോസ്റ്റർ - ബാക്ക്‌ഡ്രോപ്പ്) നീക്കം ചെയ്യുക (ശരി)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI ഇപ്പോൾ പുനരാരംഭിക്കണോ?"
 
 msgid "Save"
-msgstr ""
+msgstr "സംരക്ഷിക്കുക"
 
 msgid "Search Code"
-msgstr ""
+msgstr "തിരയൽ കോഡ്"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "സെക്കൻഡ് ഇൻഫോബാർ ശൈലി:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "സെഗോ യുഐ ലൈറ്റ്"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഫോണ്ട് തിരഞ്ഞെടുക്കുക:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "ബാക്ക്‌ഡ്രോപ്പ് ഡൗൺലോഡിനായി ഞങ്ങളുടെ - മിനിറ്റ് സമയം സജ്ജമാക്കുക"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "പോസ്റ്റർ ഡൗൺലോഡ് ചെയ്യുന്നതിനായി നമ്മുടെ - മിനിറ്റ് സമയം സജ്ജമാക്കുക"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "ക്രമീകരണങ്ങൾ Apikey സെർവർ"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "അഗ്ലയർ സ്കിൻ വിവരം സജ്ജീകരിക്കുക"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "ഓരോ ഇവൻ്റിൻ്റെയും വിഭാഗത്തെ പ്രതിനിധീകരിക്കുന്ന ഐക്കണുകൾ കാണിക്കുക (ഉദാ. ആക്ഷൻ, കോമഡി, നാടകം)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "ഉള്ളടക്ക റേറ്റിംഗും പ്രായ അനുയോജ്യതയും സൂചിപ്പിക്കാൻ ഇവൻ്റുകളിൽ രക്ഷാകർതൃ മാർഗ്ഗനിർദ്ദേശ ഐക്കണുകൾ കാണിക്കുക."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "ലോക്കൽ ഫോൾഡറിൽ സിനിമയിൽ നിന്നുള്ള പോസ്റ്റർ കാണിക്കുക"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "ചർമ്മ ശൈലി:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "ബാക്ക്‌ഡ്രോപ്പ് ഡൗൺലോഡ് ചെയ്യാൻ ഉടൻ ആരംഭിക്കുക"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "പോസ്റ്റർ ഉടൻ ഡൗൺലോഡ് ചെയ്യാൻ ആരംഭിക്കുക"
 
 msgid "Style2"
-msgstr ""
+msgstr "ശൈലി2"
 
 msgid "Style3"
-msgstr ""
+msgstr "ശൈലി3"
 
 msgid "Style4"
-msgstr ""
+msgstr "ശൈലി4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer Skins പിന്തുണയ്ക്കുക:"
 
 msgid "System"
-msgstr ""
+msgstr "സിസ്റ്റം"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB മാത്രം"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "%s ഫയൽ ശൂന്യമാണ്."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "%s ഫയൽ കണ്ടെത്തിയില്ല."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്ത റേറ്റിംഗ് ഉറവിടത്തെ അടിസ്ഥാനമാക്കി ഇവൻ്റുകൾക്കായി റേറ്റിംഗ് നക്ഷത്രങ്ങൾ പ്രദർശിപ്പിക്കുന്നത് ഈ പ്രവർത്തനം പ്രാപ്തമാക്കുന്നു."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "ഈ പ്രവർത്തനം ഫോൾഡർ ഉപകരണത്തിൽ നിന്ന് എല്ലാ png നീക്കം ചെയ്യുന്നു (പോസ്റ്റർ-ബാക്ക്‌ഡ്രോപ്പ്)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "അപ്‌ഡേറ്റ് URL ആരംഭിച്ചിട്ടില്ല, ആദ്യം പ്ലഗിൻ മെനുവിൽ നിന്ന് പ്ലഗിൻ തുറക്കുക."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "അപ്‌ഡേറ്റ് പരിശോധന പരാജയപ്പെട്ടു: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "അപ്‌ഡേറ്റ് പാക്കേജ് കണ്ടെത്തിയില്ല!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "വോളിയംബാർ ശൈലി:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: എൻട്രി എഡിറ്റ് ചെയ്യുക"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: എൻട്രികളുടെ പട്ടിക"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "നിങ്ങൾക്ക് ഇതിനകം ഏറ്റവും പുതിയ പതിപ്പ് ({}) ഉണ്ട്."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "ലൊക്കേഷൻ കോഡിനായി തിരയുന്നതിന് മുമ്പ് നിങ്ങൾ സാധുവായ ഒരു നഗരത്തിൻ്റെ പേര് നൽകേണ്ടതുണ്ട്."
 
 msgid "imperial system"
-msgstr ""
+msgstr "സാമ്രാജ്യത്വ വ്യവസ്ഥ"
 
 msgid "metric system"
-msgstr ""
+msgstr "മെട്രിക് സിസ്റ്റം"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "ഫയലുകൾ പ്ലേ ചെയ്യുക/കാണിക്കുക"
 
 msgid "volume2"
-msgstr ""
+msgstr "വോളിയം2"

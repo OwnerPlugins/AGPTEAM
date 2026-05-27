@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Mifteya %s hat importkirin!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA çalak bike/çalak bike"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE çalak/çalak bike"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB aktîf bike/çalak bike"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV çalak/çalak bike"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Bername TV çalak/çalak bike"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Çalak bike/çalak bike {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Lêzêdekirin"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Hemû png ji peldankê têne rakirin!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Otomatîkî"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Daxistina otomatîkî ya paşnavê"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Daxistina otomatîk a posterê"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Ji bo bûyerên bijare yên li ser bingeha EPG-ê bixweber paşnavê bistînin"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Ji bo bûyerên bijare yên li ser bingeha EPG-ê bixweber posteran bistînin"
 
 msgid "Back"
-msgstr ""
+msgstr "Paş"
 
 msgid "Backdrop"
 msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Çewtiya dakêşana paşxanê: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Reş"
 
 msgid "Blue"
-msgstr ""
+msgstr "Şîn"
 
 msgid "Brown"
-msgstr ""
+msgstr "Qehweyî"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Bişûndekirin"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Şêweya Hilbijartina Kanalê:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -121,85 +121,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Bajar"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Şêweya Rengê:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Berî destpêkirina dakêşana posterê otomatîkî dema derengmayînê (bi hûrdeman) mîheng bikin"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Amûra kesanekirinê ji bo %s Çermê"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Keskê tarî"
 
 msgid "Default"
-msgstr ""
+msgstr "Destçûnî"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Jêbirin"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Çewtiya dakêşanê: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Daxistin di pêşveçûnê de ye"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Daxistin niha paşperdeya"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Niha posterê dakêşin"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Daxistina Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Weşandin"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Îkonên Genre Display Çalak bike:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Vebijêrkên Agahdariya Nîşandanê çalak bikin:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Display XMC Poster çalak bike:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Îkonên dêûbav çalak bikin:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Stêrka Nirxandinê çalak bike:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Di dema dakêşana bûyerê de cachkirinê çalak bikin an neçalak bikin da ku lêgerînên dubare bilezînin."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Nîşandana agahdariya bûyera dirêjkirî, tevî kastê tevahî, ekîb, hûrguliyên komployê, û metadaneyên din, di widgeta agahdariyê de çalak bikin."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Xeletî di hilberandina pelê çerm de: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Di daxistina pelan de çewtî!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Çewtiya barkirinê: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Çewtiya {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Çewtî: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Şêweya EventView:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -208,16 +208,16 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Derî"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Fermandarê Pelê - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Pela {} nehat dîtin an vala"
 
 msgid "Green"
-msgstr ""
+msgstr "Kesk"
 
 msgid "Greta"
 msgstr ""
@@ -226,22 +226,22 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Mifteya {0} ji {1} tê îmhakirin?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Agahî..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Dîroka InfoBar:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Şêweya Bara Agahdariyê:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Rewşa InfoBar:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -262,28 +262,28 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Sazkirina nûvekirinan..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Key vala"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Mifteya {} bi serkeftî hat barkirin!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Ji /tmp/{}key.txt bar bike"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Avakirina herêmî ({}) ji avakirina serverê ({}) nûtir e."
 
 msgid "Location code"
-msgstr ""
+msgstr "Koda cihan"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Encama lêgerîna cîhê MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,163 +292,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "No pêşkêşkerên çalak aktîfkirin"
 
 msgid "OFF"
-msgstr ""
+msgstr "JI"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Tenê OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "LI"
 
 msgid "Off"
-msgstr ""
+msgstr "Ji"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Mifteya API-ya kesane ji bo {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Ji kerema xwe navekî bajarekî derbasdar binivîse."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Ji kerema xwe kodek cîhê derbasdar ji bo bajêr binivîse."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Çewtiya dakêşana posterê: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Mor"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Bi rastî vê Têketina WeatherPlugin jêbirin?"
 
 msgid "Red"
-msgstr ""
+msgstr "Sor"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Hemî png (poster - paşperdeya) rake (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Niha GUI ji nû ve dest pê bike?"
 
 msgid "Save"
-msgstr ""
+msgstr "Rizgarkirin"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Code Search"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Stîla SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Ronahiya UI ya Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Fonta xwe Hilbijêre:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Ji bo dakêşana Backdrop-ê Demjimêra me - hûrdem destnîşan bikin"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Ji bo dakêşana Posterê Demjimêra me - Deqê Bikin"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Mîhengên Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Sazkirina Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Îkonên ku celebê her bûyerê temsîl dikin nîşan bidin (mînak, çalakî, komedî, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Li ser bûyeran îkonên rêberiya dêûbav nîşan bidin da ku rêjeya naverokê û guncanbûna temen destnîşan bikin."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Posterê ji fîlimê di peldanka herêmî de nîşan bide"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Şêweya Çermê:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Tavilê dest bi daxistina paşxanê bikin"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Tavilê dest bi daxistina posterê bikin"
 
 msgid "Style2"
-msgstr ""
+msgstr "Şêwe2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Şêwe3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Şêwe4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Piştgiriya çermên E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Sîstem"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Tenê TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Pela %s vala ye."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Pela %s nehat dîtin."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ev operasyon li ser bingeha çavkaniya nirxandinê ya hilbijartî, ji bo bûyeran nîşana stêrên nirxandinê çalak dike."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Vê operasyonê hemî png ji cîhaza peldankê jê dike (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Nûvekirina URL-ya ku nehatiye destpêkirin yekem car pêvekê ji menuya Pêvekan veke."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Kontrolkirina nûvekirinê têk çû: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Pakêta nûvekirinê nehat dîtin!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Stîla VolumeBar:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Têketinê biguherîne"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Lîsteya navnîşan"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Jixwe guhertoya herî dawî ya te heye ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Berî ku hûn li koda cîhê bigerin divê hûn navek bajarekî derbasdar binivîsin."
 
 msgid "imperial system"
-msgstr ""
+msgstr "sîstema emperyal"
 
 msgid "metric system"
-msgstr ""
+msgstr "sîstema metrîk"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "lîstin / Pelan nîşan bide"
 
 msgid "volume2"
-msgstr ""
+msgstr "cild2"

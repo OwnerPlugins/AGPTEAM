@@ -11,196 +11,196 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s sleutel geïmporteerd!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA activeren/deactiveren"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE activeren/deactiveren"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB activeren/deactiveren"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV activeren/deactiveren"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV activeren/deactiveren"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Activeer/deactiveer {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Toevoegen"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Alle png zijn uit de map verwijderd!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisch"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Automatische download van achtergrond"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Automatisch downloaden van poster"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Haal automatisch de achtergrond op voor favoriete evenementen op basis van EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Haal automatisch posters op voor favoriete evenementen op basis van EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Rug"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Achtergrond"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Achtergronddownloadfout: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "Gratis Neue"
 
 msgid "Black"
-msgstr ""
+msgstr "Zwart"
 
 msgid "Blue"
-msgstr ""
+msgstr "Blauw"
 
 msgid "Brown"
-msgstr ""
+msgstr "Bruin"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Kanaalselectiestijl:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "KanaalSelectie_1_Poster_EX"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "KanaalSelectie_1_Poster_X"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "KanaalSelectie_4_Posters_EX"
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "KanaalSelectie_4_Posters_X"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "KanaalSelectie_6_Posters_EX"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "KanaalSelectie_6_Posters_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "KanaalSelectie_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "KanaalSelectie_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "KanaalSelectie_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "KanaalSelectie_BackDrop_V_PX"
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "KanaalSelectie_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "KanaalSelectie_NO_Posters_NO_Picon"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "Kanaalselectie_big_mini_tv"
 
 msgid "City"
-msgstr ""
+msgstr "Stad"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Kleurstijl:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Configureer de vertragingstijd (in minuten) voordat u de automatische posterdownload start"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Aanpassingstool voor %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Donkergroen"
 
 msgid "Default"
-msgstr ""
+msgstr "Standaard"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del Lijn"
 
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Downloadfout: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Bezig met downloaden"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Achtergrond nu downloaden"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Nu affiche downloaden"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare downloaden..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Bewerking"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Pictogrammen voor weergavegenre inschakelen:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Schakel InfoEvents weergeven in:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "XMC-poster weergeven inschakelen:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Schakel pictogrammen voor ouderlijk toezicht in:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Beoordelingsster inschakelen:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Schakel caching in of uit tijdens het downloaden van gebeurtenissen om herhaalde zoekopdrachten te versnellen."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Schakel de weergave van uitgebreide evenementinformatie in, inclusief de volledige cast, crew, plotdetails en andere metadata, in de infowidget."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Fout bij het verwerken van het skinbestand: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Fout bij het downloaden van bestanden!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Fout bij laden: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Fout {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Fout: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView-stijl:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -209,16 +209,16 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Uitgang"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Bestandscommandant - Add-on"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Bestand {} niet gevonden of leeg"
 
 msgid "Green"
-msgstr ""
+msgstr "Groente"
 
 msgid "Greta"
 msgstr ""
@@ -227,64 +227,64 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Sleutel {0} importeren uit {1}?"
 
 msgid "Info..."
 msgstr ""
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Infobalk Datum:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "InfobalkposterX:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Infobalkstijl:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Weer:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "InfoBar Xtra-evenement:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobalk_Datum"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobalk_NO_Datum"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Weer"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_Weer"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins-lijn"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Updates installeren..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Sleutel leeg"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Sleutel {} succesvol geladen!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRegulier"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Laden vanuit /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Lokale build ({}) is nieuwer dan serverbuild ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Locatiecode"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Zoekresultaat MSN-locatie"
 
 msgid "MV Boli"
 msgstr ""
@@ -293,163 +293,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Geen actieve providers ingeschakeld"
 
 msgid "OFF"
-msgstr ""
+msgstr "UIT"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Alleen OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "OP"
 
 msgid "Off"
-msgstr ""
+msgstr "Uit"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Persoonlijke API-sleutel voor {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Voer een geldige plaatsnaam in."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Voer een geldige locatiecode voor de stad in."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Fout bij het downloaden van posters: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Paars"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Deze WeatherPlugin-invoer echt verwijderen?"
 
 msgid "Red"
-msgstr ""
+msgstr "Rood"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Verwijder alle png (poster - achtergrond) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI nu opnieuw opstarten?"
 
 msgid "Save"
-msgstr ""
+msgstr "Redden"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Zoekcode"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "TweedeInfobar Posterx:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Tweede Infobar-stijl:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "TweedeInfobar Xtraevent:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI-licht"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Selecteer uw lettertype:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Stel de tijd in - minuut voor het downloaden van de achtergrond"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Stel de tijd in - minuut voor het downloaden van posters"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Instellingen Apikey-server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Aglare Huidinfo instellen"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Pictogrammen weergeven die het genre van elk evenement vertegenwoordigen (bijvoorbeeld actie, komedie, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Toon pictogrammen voor ouderlijk toezicht op evenementen om de inhoudsclassificatie en geschiktheid voor de leeftijd aan te geven."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Toon poster uit de film in de lokale map"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Huidstijl:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Begin onmiddellijk met het downloaden van Background"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Begin onmiddellijk met het downloaden van de poster"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stijl2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stijl3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stijl4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Ondersteuning van E2iplayer-skins:"
 
 msgid "System"
-msgstr ""
+msgstr "Systeem"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Alleen TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Het bestand %s is leeg."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Het bestand %s is niet gevonden."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Deze bewerking maakt de weergave van beoordelingssterren voor evenementen mogelijk, gebaseerd op de geselecteerde beoordelingsbron."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Met deze bewerking worden alle png-bestanden uit het mapapparaat verwijderd (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Update-URL niet geïnitialiseerd Open eerst de plug-in één keer vanuit het menu Plug-ins."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Updatecontrole mislukt: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Updatepakket niet gevonden!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar-stijl:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeerPlugin: invoer bewerken"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Lijst met vermeldingen"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Je hebt al de nieuwste versie ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "U moet een geldige plaatsnaam invoeren voordat u naar de locatiecode kunt zoeken."
 
 msgid "imperial system"
-msgstr ""
+msgstr "imperiale systeem"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrisch systeem"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "bestanden afspelen/tonen"
 
 msgid "volume2"
 msgstr ""

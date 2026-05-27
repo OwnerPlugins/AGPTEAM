@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s key ang na-import!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "I-activate/I-deactivate ang ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "I-activate/I-deactivate ang GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "I-activate/I-deactivate ang IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "I-activate/I-deactivate ang MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "I-activate/I-deactivate ang PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "I-activate/I-deactivate ang {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Idagdag"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Lahat ng png ay tinanggal mula sa folder!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Awtomatiko"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Awtomatikong pag-download ng backdrop"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Awtomatikong pag-download ng poster"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Awtomatikong kumuha ng backdrop para sa mga paboritong kaganapan batay sa EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Awtomatikong kumuha ng mga poster para sa mga paboritong kaganapan batay sa EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Bumalik"
 
 msgid "Backdrop"
 msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Error sa pag-download ng backdrop: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Itim"
 
 msgid "Blue"
-msgstr ""
+msgstr "Asul"
 
 msgid "Brown"
-msgstr ""
+msgstr "kayumanggi"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselahin"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Estilo ng Pinili ng Channel:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -112,7 +112,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ChannelSelection_NO_Poster"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -121,19 +121,19 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "lungsod"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Estilo ng Kulay:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "I-configure ang oras ng pagkaantala (sa ilang minuto) bago simulan ang awtomatikong pag-download ng poster"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Tool sa pag-customize para sa %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Madilim na Berde"
 
 msgid "Default"
 msgstr ""
@@ -142,55 +142,55 @@ msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Tanggalin"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Error sa pag-download: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Kasalukuyang i-download"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "I-download ngayon ang backdrop"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "I-download ngayon ang poster"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Dina-download ang Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "I-edit"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Paganahin ang mga icon ng Display Genre:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Paganahin ang Display InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Paganahin ang Display XMC Poster:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Paganahin ang Mga Icon ng Magulang:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Paganahin ang Rating Star:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Paganahin o huwag paganahin ang pag-cache sa panahon ng pag-download ng kaganapan upang mapabilis ang mga paulit-ulit na paghahanap."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Paganahin ang pagpapakita ng pinalawak na impormasyon ng kaganapan, kabilang ang buong cast, crew, mga detalye ng plot, at iba pang metadata, sa widget ng impormasyon."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Error sa pamamagitan ng pagproseso ng skin file: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Error sa pag-download ng mga file!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Error sa paglo-load: {}"
 
 msgid "Error {0}: {1}"
 msgstr ""
@@ -199,7 +199,7 @@ msgid "Error: {}"
 msgstr ""
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Estilo ng EventView:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -208,16 +208,16 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Lumabas"
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Hindi nakita o walang laman ang file {}"
 
 msgid "Green"
-msgstr ""
+msgstr "Berde"
 
 msgid "Greta"
 msgstr ""
@@ -226,19 +226,19 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "I-import ang key {0} mula sa {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Impormasyon..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Petsa ng InfoBar:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Estilo ng InfoBar:"
 
 msgid "InfoBar Weather:"
 msgstr ""
@@ -262,28 +262,28 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Nag-i-install ng mga update..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Walang laman ang susi"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Matagumpay na na-load ang key {}!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Mag-load mula sa /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Ang lokal na build ({}) ay mas bago kaysa sa server build ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Code ng lokasyon"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Resulta ng paghahanap sa lokasyon ng MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,52 +292,52 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Walang pinaganang aktibong provider"
 
 msgid "OFF"
-msgstr ""
+msgstr "NAKA-OFF"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB Lang"
 
 msgid "ON"
-msgstr ""
+msgstr "NAKA-ON"
 
 msgid "Off"
-msgstr ""
+msgstr "Naka-off"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Personal na API key para sa {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Mangyaring magpasok ng wastong pangalan ng lungsod."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Mangyaring magpasok ng wastong code ng lokasyon para sa lungsod."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Error sa pag-download ng poster: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Lila"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Talagang tanggalin itong WeatherPlugin Entry?"
 
 msgid "Red"
-msgstr ""
+msgstr "Pula"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Alisin ang lahat ng png (poster - backdrop) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "I-restart ang GUI ngayon?"
 
 msgid "Save"
-msgstr ""
+msgstr "I-save"
 
 msgid "Search Code"
 msgstr ""
@@ -355,100 +355,100 @@ msgid "Segoe UI light"
 msgstr ""
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Piliin ang Iyong Font:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Itakda ang Oras sa aming - minuto para sa pag-download ng Backdrop"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Itakda ang Oras sa aming - minuto para sa pag-download ng Poster"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Mga Setting ng Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "I-setup ang Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Ipakita ang mga icon na kumakatawan sa genre ng bawat kaganapan (hal., aksyon, komedya, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Ipakita ang mga icon ng patnubay ng magulang sa mga kaganapan upang isaad ang rating ng nilalaman at pagiging angkop sa edad."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Ipakita ang poster mula sa pelikula sa lokal na folder"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Estilo ng Balat:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Simulan kaagad ang pag-download ng backdrop"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Simulan agad ang pag-download ng poster"
 
 msgid "Style2"
-msgstr ""
+msgstr "Estilo2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Estilo3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Estilo4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Suportahan ang E2iplayer Skins:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB Lang"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Walang laman ang file na %s."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Hindi nahanap ang file na %s."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Pinapagana ng operasyong ito ang pagpapakita ng mga bituin ng rating para sa mga kaganapan, batay sa napiling pinagmulan ng rating."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ang operasyong ito ay nag-aalis ng lahat ng png mula sa folder na device (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "I-update ang URL na hindi nasimulan buksan muna ang plugin mula sa menu ng Mga Plugin."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Nabigo ang pagsusuri sa pag-update: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Hindi nahanap ang pag-update ng package!"
 
 msgid "VolumeBar Style:"
 msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: I-edit ang Entry"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Listahan ng mga Entry"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Mayroon ka nang pinakabagong bersyon ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Kailangan mong magpasok ng wastong pangalan ng lungsod bago mo mahanap ang code ng lokasyon."
 
 msgid "imperial system"
-msgstr ""
+msgstr "sistemang imperyal"
 
 msgid "metric system"
-msgstr ""
+msgstr "sistema ng panukat"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "i-play/ipakita ang mga File"
 
 msgid "volume2"
-msgstr ""
+msgstr "dami2"

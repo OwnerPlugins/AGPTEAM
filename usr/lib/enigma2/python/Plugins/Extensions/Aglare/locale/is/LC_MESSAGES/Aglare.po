@@ -10,94 +10,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s lykill fluttur inn!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Virkja/afvirkja ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Virkja/slökkva á GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Virkja/slökkva á IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Virkja/afvirkja MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Virkja/slökkva á PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Virkja/afvirkja {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Bæta við"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Öll png eru fjarlægð úr möppunni!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Sjálfvirk"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Sjálfvirk niðurhal á bakgrunni"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Sjálfvirk niðurhal af veggspjaldi"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Sæktu bakgrunn sjálfkrafa fyrir uppáhaldsviðburði byggða á EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Sæktu sjálfkrafa veggspjöld fyrir uppáhaldsviðburði byggð á EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Til baka"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Baksvið"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Villa við niðurhal í bakgrunni: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "ÓkeypisNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Svartur"
 
 msgid "Blue"
-msgstr ""
+msgstr "Blár"
 
 msgid "Brown"
-msgstr ""
+msgstr "Brúnn"
 
 msgid "CD"
-msgstr ""
+msgstr "geisladiskur"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hætta við"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Channel Selection Style:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "Channel Selection_1_Poster_X"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "Channel Selection_4_Posters_X"
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "Channel Selection_6_Posters_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -121,52 +121,52 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Borg"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Litur stíll:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Stilltu seinkunartímann (í mínútum) áður en sjálfvirkt niðurhal veggspjalds hefst"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Sérstillingarverkfæri fyrir %s húð"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Dökkgrænn"
 
 msgid "Default"
-msgstr ""
+msgstr "Sjálfgefið"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Eyða"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Niðurhalsvilla: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Niðurhal í gangi"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Sækja bakgrunn núna"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Sækja plakat núna"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Sækir Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Breyta"
 
 msgid "Enable Display Genre icons:"
 msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Virkja birtingarupplýsingar:"
 
 msgid "Enable Display XMC Poster:"
 msgstr ""
@@ -175,31 +175,31 @@ msgid "Enable Parental Icons:"
 msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Virkja einkunnastjörnu:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Virkjaðu eða slökktu á skyndiminni meðan á niðurhali viðburða stendur til að flýta fyrir endurtekinni leit."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Virkjaðu birtingu á víðtækum viðburðaupplýsingum, þar á meðal fullt leikaralið, mannskap, upplýsingar um söguþráð og önnur lýsigögn, í upplýsingagræjunni."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Villa við að vinna skinnskrána: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Villa við að hlaða niður skrám!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Villa við að hlaða: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Villa {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Villa: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView stíll:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -208,40 +208,40 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Hætta"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Skráarforingi - viðbót"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Skrá {} fannst ekki eða tóm"
 
 msgid "Green"
-msgstr ""
+msgstr "Grænn"
 
 msgid "Greta"
-msgstr ""
+msgstr "Gréta"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Flytja inn lykil {0} frá {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Upplýsingar..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Dagsetning upplýsingastiku:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Stíll upplýsingastiku:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar veður:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -250,40 +250,40 @@ msgid "Infobar_Date"
 msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Upplýsingaslá_NO_Dagsetning"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_Veður"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Setur upp uppfærslur..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Lykill tómur"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Lykill {} tókst að hlaða!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Hlaða frá /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Staðbundin smíði ({}) er nýrri en smíði netþjóns ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Staðsetningarkóði"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN staðsetningarleitarniðurstaða"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,163 +292,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Engar virkar veitendur virkjaðar"
 
 msgid "OFF"
-msgstr ""
+msgstr "SLÖKKT"
 
 msgid "OK"
-msgstr ""
+msgstr "Allt í lagi"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Aðeins OMDB"
 
 msgid "ON"
 msgstr ""
 
 msgid "Off"
-msgstr ""
+msgstr "Slökkt"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Persónulegur API lykill fyrir {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Vinsamlegast sláðu inn gilt borgarnafn."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Vinsamlegast sláðu inn gildan staðsetningarkóða fyrir borgina."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Villa við niðurhal á veggspjaldi: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Fjólublátt"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Viltu virkilega eyða þessari WeatherPlugin færslu?"
 
 msgid "Red"
-msgstr ""
+msgstr "Rauður"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Fjarlægðu allt png (plakat - bakgrunn) (Í lagi)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Endurræsa GUI núna?"
 
 msgid "Save"
-msgstr ""
+msgstr "Vista"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Leitarkóði"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar stíll:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI ljós"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Veldu leturgerðina þína:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Stilltu tíma okkar - mínútu fyrir niðurhal á bakgrunni"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Stilltu tíma okkar - mínútu fyrir niðurhal veggspjalda"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Stillingar Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Uppsetning Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Sýna tákn sem tákna tegund hvers atburðar (t.d. hasar, gamanmynd, leiklist)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Sýndu leiðbeiningartákn fyrir foreldra á atburðum til að gefa til kynna efnisflokkun og aldurshæfi."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Sýna plakat úr kvikmynd í staðbundinni möppu"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Húðstíll:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Byrjaðu að hlaða niður bakgrunni strax"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Byrjaðu að hlaða niður plakatinu strax"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stíll 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stíll 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stíll 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Stuðningur við E2iplayer skinn:"
 
 msgid "System"
-msgstr ""
+msgstr "Kerfi"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Aðeins TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Skráin %s er tóm."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Skráin %s fannst ekki."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Þessi aðgerð gerir kleift að birta einkunnastjörnur fyrir atburði, byggt á völdum einkunnagjafa."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Þessi aðgerð fjarlægir allt png úr möpputæki (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Uppfæra vefslóð ekki frumstillt opnaðu viðbótina einu sinni úr valmyndinni viðbætur fyrst."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Uppfærsluathugun mistókst: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Uppfærslupakki fannst ekki!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar stíll:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Breyta færslu"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Listi yfir færslur"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Þú ert nú þegar með nýjustu útgáfuna ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Þú þarft að slá inn gilt borgarnafn áður en þú getur leitað að staðsetningarkóðanum."
 
 msgid "imperial system"
-msgstr ""
+msgstr "keisarakerfi"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrakerfi"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "spila/sýna skrár"
 
 msgid "volume2"
-msgstr ""
+msgstr "bindi 2"

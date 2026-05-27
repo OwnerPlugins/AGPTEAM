@@ -10,73 +10,73 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "% s açary import edildi!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA-ny işjeňleşdirmek / öçürmek"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE-i işjeňleşdirmek / öçürmek"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB-i işjeňleşdirmek / öçürmek"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOW-y işjeňleşdir / öçür"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV-i işjeňleşdirmek / öçürmek"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Işletmek / öçürmek {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Goş"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Pnghli png bukjadan aýryldy!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Awtomat"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Fonda awtomatiki göçürip almak"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Afişany awtomatiki göçürip almak"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG esasly halaýan wakalar üçin fonuny awtomatiki usulda alyň"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG esasly halaýan wakalar üçin afişalary awtomatiki alyň"
 
 msgid "Back"
-msgstr ""
+msgstr "Yzyna"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Yzky görnüş"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Fonda göçürip almak säwligi: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "Mugt"
 
 msgid "Black"
-msgstr ""
+msgstr "Gara"
 
 msgid "Blue"
-msgstr ""
+msgstr "Gök"
 
 msgid "Brown"
-msgstr ""
+msgstr "Goňur"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Elatyr"
 
 msgid "ChannelSelection Style:"
 msgstr ""
@@ -121,103 +121,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Şäher"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Reňk stili:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Awtomatiki afişany göçürip almazdan ozal gijikdirme wagtyny (birnäçe minutda) düzüň"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "% S deri üçin özleşdirme guraly"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Gök ýaşyl"
 
 msgid "Default"
-msgstr ""
+msgstr "Bellenen"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Öçür"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Erroralňyşlygy ýüklemek: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Dowam et"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Indi fonda göçürip alyň"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Indi afişany göçürip al"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare ýüklemek ..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Redaktirläň"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Ekranyň reanr nyşanlaryny işjeňleşdiriň:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Ekranyň maglumatlaryny açyň:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Ekrany XMC afişasyny açyň:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Ene-atanyň nyşanlaryny işletmek:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Reýting ýyldyzyny işletmek:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Gaýtadan gözlegleri çaltlaşdyrmak üçin hadysany göçürip alanyňyzda keş keşini açyň ýa-da öçüriň."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Maglumat widjetinde doly rol oýnaýanlar, ekipa .lar, sýu plotet jikme-jiklikleri we beýleki metadatalary goşmak bilen giňeldilen waka maglumatlaryny görkezmäge mümkinçilik beriň."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Deriniň faýlyny gaýtadan işlemekde ýalňyşlyk: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Faýllary göçürip almakda ýalňyşlyk!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Adingüklemekde säwlik: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Roralňyşlyk {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Roralňyşlyk: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Wakanyň görnüşi:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "WakaView_7_Posterler"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "WakaView_NO_Posters"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çyk"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Faýl serkerdesi - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Faýl found found tapylmady ýa-da boş"
 
 msgid "Green"
-msgstr ""
+msgstr "Greenaşyl"
 
 msgid "Greta"
 msgstr ""
@@ -226,31 +226,31 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Key 0 key açary {1} -den import ediň?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Maglumat ..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "“InfoBar” senesi:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "“InfoBar PosterX”:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "“InfoBar” stili:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "“InfoBar” howa:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "“InfoBar Xtraevent”:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Sene"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Sene"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
@@ -262,28 +262,28 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Täzelenmeler gurmak ..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Açar boş"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Düwme {} üstünlikli ýüklendi!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "HalidArtboldRegular"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/Tmp/atial} key.txt-den ýükläň"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Builderli gurluş ({}) serwer gurluşyndan ({}) has täze."
 
 msgid "Location code"
-msgstr ""
+msgstr "Locationerleşiş kody"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN ýerleşiş gözleg netijesi"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,100 +292,100 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Işjeň üpjün edijiler açyk däl"
 
 msgid "OFF"
-msgstr ""
+msgstr "Öçürmek"
 
 msgid "OK"
-msgstr ""
+msgstr "Bolýar"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Diňe OMDB"
 
 msgid "ON"
 msgstr ""
 
 msgid "Off"
-msgstr ""
+msgstr "Öçürilen"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} Üçin şahsy açar"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Dogry şäher adyny giriziň."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Şäher üçin dogry ýer koduny giriziň."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Afişany göçürip almak säwligi: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Gyrmyzy"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Bu WeatherPlugin ýazgysyny hakykatdanam pozuň?"
 
 msgid "Red"
-msgstr ""
+msgstr "Gyzyl"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Png-iň hemmesini aýyryň (afişa - fon) (Bolýar)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI-i täzeden açyň?"
 
 msgid "Save"
-msgstr ""
+msgstr "Saklaň"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Gözleg kody"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "SecondInfobar afişasy:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar stili:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI çyrasy"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Şriftiňizi saýlaň:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Yzky görnüşi göçürip almak üçin wagtymyzy belläň"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Afişany göçürip almak üçin wagtymyzy belläň"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Sazlamalar Apikey Serweri"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Aglare deri maglumatlary gurmak"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Her wakanyň reanryny görkezýän nyşanlary görkeziň (meselem, hereket, komediýa, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Mazmunyň derejesini we ýaşa laýyklygyny görkezmek üçin wakalarda ene-atanyň görkezme nyşanlaryny görkeziň."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Filmden afişany ýerli bukjada görkeziň"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Deriniň stili:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Fonda derrew göçürip alyp başlaň"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Afişany derrew göçürip alyp başlaň"
 
 msgid "Style2"
 msgstr ""
@@ -397,58 +397,58 @@ msgid "Style4"
 msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2ipleýer derilerine goldaw:"
 
 msgid "System"
-msgstr ""
+msgstr "Ulgam"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Diňe TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "% S faýly boş."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "% S faýly tapylmady"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Bu amal, saýlanan reýting çeşmesine esaslanyp, wakalar üçin reýting ýyldyzlaryny görkezmäge mümkinçilik berýär."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Bu amal, ähli png-i bukja enjamyndan aýyrýar (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Täzelenmedik URL-ni täzeläň, ilki bilen Plugins menýusyndan bir gezek açyň."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Täzelenme barlagy şowsuz: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Täzelenme bukjasy tapylmady!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar stili:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Girişi redaktirläň"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Girişleriň sanawy"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Sizde iň soňky wersiýa ({}) bar."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Locationerleşiş koduny gözlemezden ozal dogry şäher adyny girizmeli."
 
 msgid "imperial system"
-msgstr ""
+msgstr "imperiýa ulgamy"
 
 msgid "metric system"
-msgstr ""
+msgstr "ölçeg ulgamy"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "Faýllary oýnamak / görkezmek"
 
 msgid "volume2"
-msgstr ""
+msgstr "göwrüm2"

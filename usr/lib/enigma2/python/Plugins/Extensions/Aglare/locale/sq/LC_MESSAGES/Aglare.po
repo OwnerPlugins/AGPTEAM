@@ -17,76 +17,76 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Çelësi %s u importua!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Aktivizo/Çaktivizo ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Aktivizo/çaktivizo GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Aktivizo/çaktivizo IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Aktivizo/çaktivizo MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Aktivizo/Çaktivizo PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Aktivizo/çaktivizo {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Shtoni"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Të gjitha png janë hequr nga dosja!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatik"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Shkarkim automatik i sfondit"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Shkarkimi automatik i posterit"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Merr automatikisht sfondin për ngjarjet e preferuara bazuar në EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Merr automatikisht postera për ngjarjet e preferuara bazuar në EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Mbrapa"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Sfondi"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Gabim i shkarkimit të sfondit: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "E zezë"
 
 msgid "Blue"
-msgstr ""
+msgstr "Blu"
 
 msgid "Brown"
-msgstr ""
+msgstr "Kafe"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Anulo"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Stili i zgjedhjes së kanalit:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -128,103 +128,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Qyteti"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Stili i ngjyrave:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Konfiguroni kohën e vonesës (në minuta) përpara se të filloni shkarkimin automatik të posterit"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Mjet personalizimi për %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Jeshile e errët"
 
 msgid "Default"
-msgstr ""
+msgstr "E paracaktuar"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Fshije"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Gabim shkarkimi: {}"
 
 msgid "Download in progress…"
-msgstr ""
+msgstr "Shkarkimi në vazhdim…"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Shkarko tani sfondin"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Shkarkoni tani posterin"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare po shkarkohet..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Redakto"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Aktivizo ikonat e Zhanrit të Ekranit:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Aktivizo Display InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Aktivizo afishimin e posterit XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Aktivizo ikonat prindërore:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Aktivizo yllin e vlerësimit:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Aktivizo ose çaktivizo memorien gjatë shkarkimit të ngjarjeve për të shpejtuar kërkimet e përsëritura."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Aktivizo shfaqjen e informacionit të zgjeruar të ngjarjeve, duke përfshirë kastin e plotë, ekipin, detajet e komplotit dhe të dhëna të tjera meta, në miniaplikacionin e informacionit."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Gabim gjatë përpunimit të skedarit të lëkurës: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Gabim gjatë shkarkimit të skedarëve!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Gabim në ngarkim: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Gabim {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Gabim: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Stili i shikimit të ngjarjes:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Postera"
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Dilni"
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Skedari {} nuk u gjet ose bosh"
 
 msgid "Green"
-msgstr ""
+msgstr "E gjelbër"
 
 msgid "Greta"
 msgstr ""
@@ -233,22 +233,22 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Të importohet çelësi {0} nga {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Informacion..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Data e shiritit të informacionit:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Stili i shiritit të informacionit:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Moti i InfoBar:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -261,37 +261,37 @@ msgid "Infobar_NO_Date"
 msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Moti"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_Moti"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Po instalon përditësimet..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Çelësi bosh"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Çelësi {} u ngarkua me sukses!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Ngarko nga /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Ndërtimi lokal ({}) është më i ri se ndërtimi i serverit ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Kodi i vendndodhjes"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Rezultati i kërkimit të vendndodhjes MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -300,164 +300,164 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Nuk ka ofrues aktivë të aktivizuar"
 
 msgid "OFF"
-msgstr ""
+msgstr "FAKT"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Vetëm OMDB"
 
 #, fuzzy
 msgid "ON"
 msgstr "LUANI"
 
 msgid "Off"
-msgstr ""
+msgstr "Joaktiv"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Çelësi personal API për {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Ju lutemi shkruani një emër të vlefshëm të qytetit."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Fut një kod të vlefshëm vendndodhjeje për qytetin."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Gabim i shkarkimit të posterit: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Vjollcë"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Të fshihet vërtet kjo hyrje e shtojcave të motit?"
 
 msgid "Red"
-msgstr ""
+msgstr "E kuqe"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Hiq të gjitha png (poster - sfond) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Të riniset GUI tani?"
 
 msgid "Save"
-msgstr ""
+msgstr "Ruaj"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Kodi i kërkimit"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Stili SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Drita e ndërfaqes së përdoruesit të Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Zgjidhni fontin tuaj:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Cakto kohën tonë - minutë për shkarkimin e "Sfondit"."
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Cakto kohën tonë - minutë për shkarkimin e posterit"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Cilësimet Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Konfiguro informacionin e lëkurës Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Shfaq ikonat që përfaqësojnë zhanrin e çdo ngjarjeje (p.sh., aksion, komedi, dramë)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Shfaq ikonat e udhëzimeve prindërore për ngjarjet për të treguar vlerësimin e përmbajtjes dhe përshtatshmërinë e moshës."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Shfaq posterin nga filmi në dosjen lokale"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Stili i lëkurës:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Filloni të shkarkoni menjëherë sfondin"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Filloni të shkarkoni menjëherë posterin"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stili 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stili 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stili 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Mbështetni E2iplayer Skins:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistemi"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Vetëm TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Skedari %s është bosh."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Skedari %s nuk u gjet."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ky operacion mundëson shfaqjen e yjeve të vlerësimit për ngjarjet, bazuar në burimin e përzgjedhur të vlerësimit."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ky operacion heq të gjitha png nga pajisja e dosjeve (Poster-Backdrop)"
 
 msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Përditësimi i URL-së nuk është inicializuar – fillimisht hapni shtesën një herë nga menyja Plugins."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Kontrolli i përditësimit dështoi: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Paketa e përditësimit nuk u gjet!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Stili i shiritit të volumit:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Redakto hyrjen"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Lista e hyrjeve"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Ju tashmë keni versionin më të fundit ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Duhet të futni një emër të vlefshëm qyteti përpara se të mund të kërkoni për kodin e vendndodhjes."
 
 msgid "imperial system"
-msgstr ""
+msgstr "sistemi perandorak"
 
 msgid "metric system"
-msgstr ""
+msgstr "sistemi metrik"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "luaj/shfaq skedarë"
 
 msgid "volume2"
-msgstr ""
+msgstr "vëllimi 2"

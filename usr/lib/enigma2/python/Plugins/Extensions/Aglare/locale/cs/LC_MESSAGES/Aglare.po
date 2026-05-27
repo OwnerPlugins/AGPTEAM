@@ -19,76 +19,76 @@ msgstr ""
 "X-Poedit-SearchPath-2: plugin.py\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Klíč %s importován!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Aktivujte/deaktivujte ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Aktivujte/deaktivujte GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Aktivovat/deaktivovat IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Aktivujte/deaktivujte MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Aktivovat/deaktivovat PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Aktivovat/deaktivovat {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Všechny png jsou odstraněny ze složky!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatický"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Automatické stahování pozadí"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Automatické stahování plakátu"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Automaticky načíst pozadí pro oblíbené události na základě EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Automaticky stahujte plakáty k oblíbeným událostem na základě EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Zadní"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Pozadí"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Chyba stahování kulisy: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Černý"
 
 msgid "Blue"
-msgstr ""
+msgstr "Modrý"
 
 msgid "Brown"
-msgstr ""
+msgstr "Hnědý"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Styl výběru kanálu:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -130,85 +130,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Město"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Barevný styl:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Před zahájením automatického stahování plakátu nakonfigurujte dobu zpoždění (v minutách)."
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Nástroj pro přizpůsobení pro vzhled %s"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Tmavě zelená"
 
 msgid "Default"
-msgstr ""
+msgstr "Výchozí"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Vymazat"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Chyba stahování: {}"
 
 msgid "Download in progress…"
-msgstr ""
+msgstr "Probíhá stahování…"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Stáhnout nyní pozadí"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Stáhněte si nyní plakát"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Stahování Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Povolit ikony žánru zobrazení:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Povolit Display InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Povolit zobrazení XMC plakátu:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Povolit rodičovské ikony:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Povolit hvězdičku hodnocení:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Povolte nebo zakažte ukládání do mezipaměti během stahování události, abyste urychlili opakované vyhledávání."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Povolte zobrazení rozšířených informací o události, včetně celého obsazení, štábu, podrobností o zápletce a dalších metadat v informačním widgetu."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Chyba při zpracování souboru vzhledu: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Chyba při stahování souborů!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Chyba při načítání: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Chyba {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Chyba: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Styl zobrazení události:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -217,16 +217,16 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Výstup"
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Soubor {} nebyl nalezen nebo prázdný"
 
 msgid "Green"
-msgstr ""
+msgstr "Zelený"
 
 msgid "Greta"
 msgstr ""
@@ -235,22 +235,22 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Importovat klíč {0} z {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "informace..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Datum informační lišty:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Styl informační lišty:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Počasí:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -266,200 +266,200 @@ msgid "Infobar_NO_Weather"
 msgstr ""
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Informační panel_Počasí"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Instalace aktualizací..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Klíč prázdný"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Klíč {} byl úspěšně načten!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Načíst z /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Místní sestavení ({}) je novější než sestavení serveru ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Kód umístění"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Výsledek vyhledávání polohy MSN"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "MV Byly"
 
 msgid "Magenta"
-msgstr ""
+msgstr "purpurová"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Nejsou povoleni žádní aktivní poskytovatelé"
 
 msgid "OFF"
-msgstr ""
+msgstr "VYPNUTO"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Pouze OMDB"
 
 #, fuzzy
 msgid "ON"
 msgstr "LEV"
 
 msgid "Off"
-msgstr ""
+msgstr "Vypnuto"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Osobní klíč API pro {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Zadejte prosím platný název města."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Zadejte prosím platný kód lokality pro město."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Chyba stahování plakátu: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Fialová"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Opravdu smazat tuto položku WeatherPlugin?"
 
 msgid "Red"
-msgstr ""
+msgstr "Červený"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Odebrat všechny png (plakát - pozadí) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Restartovat GUI nyní?"
 
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Vyhledávací kód"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Styl druhého informačního panelu:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI světlo"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Vyberte své písmo:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Nastavte čas naší minuty pro stažení kulisy"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Nastavte čas naší minuty pro stažení plakátu"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Nastavení Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Nastavení Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Zobrazit ikony představující žánr každé události (např. akce, komedie, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Zobrazovat u událostí ikony rodičovského dozoru, které označují hodnocení obsahu a věkovou vhodnost."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Zobrazit plakát z filmu v místní složce"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Styl pleti:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Okamžitě začněte stahovat kulisu"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Okamžitě začněte stahovat plakát"
 
 msgid "Style2"
-msgstr ""
+msgstr "Styl2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Styl3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Styl4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Podpora vzhledů E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Systém"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Pouze TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Soubor %s je prázdný."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Soubor %s nebyl nalezen."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Tato operace umožňuje zobrazení hodnotících hvězdiček pro události na základě zvoleného zdroje hodnocení."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Tato operace odstraní všechna png ze zařízení se složkami (Poster-Backdrop)"
 
 msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Aktualizovat URL není inicializováno – nejprve otevřete plugin jednou z nabídky Pluginy."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Kontrola aktualizace selhala: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Aktualizační balíček nebyl nalezen!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Styl lišty hlasitosti:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Upravit záznam"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Seznam položek"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Již máte nejnovější verzi ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Než budete moci hledat kód umístění, musíte zadat platný název města."
 
 msgid "imperial system"
-msgstr ""
+msgstr "imperiální systém"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrický systém"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "přehrát/zobrazit soubory"
 
 msgid "volume2"
-msgstr ""
+msgstr "svazek2"

@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s שליסל ימפּאָרטיד!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "אַקטאַווייט / דיאַקטיווייט ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "אַקטאַווייט / דיאַקטיווייט GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "אַקטאַווייט / דיאַקטיווייט IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "אַקטאַווייט / דיאַקטיווייט MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "אַקטאַווייט / דיאַקטיווייט PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "אַקטאַווייט / דיאַקטיווייט {}"
 
 msgid "Add"
-msgstr ""
+msgstr "לייג"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "אַלע פּנג זענען אַוועקגענומען פון טעקע!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "אָטאַמאַטיק"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "אָטאַמאַטיק אראפקאפיע פון ​​באַקדראַפּ"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "אָטאַמאַטיק אראפקאפיע פון ​​אַפיש"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "אויטאָמאַטיש ברענגען באַקדראַפּ פֿאַר באַליבסטע events באזירט אויף EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "אויטאָמאַטיש ברענגען פּאָסטערס פֿאַר באַליבסטע events באזירט אויף EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "צוריק"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "באַקדראַפּ"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "באַקדראַפּ אראפקאפיע טעות: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "שוואַרץ"
 
 msgid "Blue"
-msgstr ""
+msgstr "בלוי"
 
 msgid "Brown"
-msgstr ""
+msgstr "ברוין"
 
 msgid "CD"
-msgstr ""
+msgstr "קאָמפּאַקטדיסק"
 
 msgid "Cancel"
-msgstr ""
+msgstr "באָטל מאַכן"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "טשאַננעל סעלעקציע סטייל:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -121,85 +121,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "שטאָט"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "קאָליר סטייל:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "קאַנפיגיער די פאַרהאַלטן צייט (אין מינוט) איידער איר אָנהייבן די אָטאַמאַטיק אַפיש אראפקאפיע"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "קוסטאָמיזאַטיאָן געצייַג פֿאַר %s הויט"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "טונקל גרין"
 
 msgid "Default"
-msgstr ""
+msgstr "פעליקייַט"
 
 msgid "Del Line"
-msgstr ""
+msgstr "דעל ליניע"
 
 msgid "Delete"
-msgstr ""
+msgstr "ויסמעקן"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "אראפקאפיע טעות: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "אראפקאפיע אין פּראָגרעס"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "אראפקאפיע איצט באַקדראַפּ"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "אראפקאפיע איצט אַפיש"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "דאַונלאָודינג Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "רעדאַגירן"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "געבן ווייַז זשאַנראַ ייקאַנז:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "געבן Display InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "געבן ווייַז XMC פּאָסטער:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "געבן פּאַרענטאַל ייקאַנז:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "געבן שאַץ שטערן:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "געבן אָדער דיסייבאַל קאַטשינג בעשאַס געשעעניש אראפקאפיע צו פאַרגיכערן ריפּיטיד אָנפֿרעגן."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "געבן די אַרויסווייַזן פון עקסטענדעד געשעעניש אינפֿאָרמאַציע, אַרייַנגערעכנט פול וואַרפן, קאָמאַנדע, פּלאַנעווען דעטאַילס און אנדערע מעטאַדאַטאַ, אין די אינפֿאָרמאַציע ווידזשיט."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "טעות דורך פּראַסעסינג די הויט טעקע: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "טעות דאַונלאָודינג טעקעס!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "טעות לאָודינג: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "טעות {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "טעות: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView סטייל:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -208,31 +208,31 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "אַרויסגאַנג"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "טעקע קאַמאַנדער - אַדדאָן"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "טעקע {} ניט געפונען אָדער ליידיק"
 
 msgid "Green"
-msgstr ""
+msgstr "גרין"
 
 msgid "Greta"
-msgstr ""
+msgstr "גרעטא"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "אַרייַנפיר שליסל {0} פֿון {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "אינפֿאָרמאַציע ..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "אינפֿאָרמאַציע באַר טאָג:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
@@ -241,7 +241,7 @@ msgid "InfoBar Style:"
 msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar וועטער:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -259,88 +259,88 @@ msgid "Infobar_Weather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr ""
+msgstr "אינס ליניע"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "ינסטאָלינג דערהייַנטיקונגען ..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "שליסל ליידיק"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "שליסל {} הצלחה לאָודיד!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRegional"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "לאָדן פֿון /טמפּ/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "לאקאלע בויען ({}) איז נייַער ווי סערווער בויען ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "אָרט קאָד"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN אָרט זוכן רעזולטאַט"
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr ""
+msgstr "מאַגענטאַ"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "קיין אַקטיוו פּראַוויידערז ענייבאַלד"
 
 msgid "OFF"
 msgstr ""
 
 msgid "OK"
-msgstr ""
+msgstr "גוט"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB בלויז"
 
 msgid "ON"
-msgstr ""
+msgstr "אויף"
 
 msgid "Off"
-msgstr ""
+msgstr "אַוועק"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "פערזענלעכע אַפּי שליסל פֿאַר {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "ביטע אַרייַן אַ גילטיק שטאָט נאָמען."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "ביטע אַרייַן אַ גילטיק אָרט קאָד פֿאַר די שטאָט."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "פּאָסטער אראפקאפיע טעות: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "לילאַ"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "טאַקע ויסמעקן דעם WeatherPlugin פּאָזיציע?"
 
 msgid "Red"
-msgstr ""
+msgstr "רויט"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "אַראָפּנעמען אַלע פּנג (אַפיש - באַקדראַפּ) (גוט)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "ריסטאַרט GUI איצט?"
 
 msgid "Save"
-msgstr ""
+msgstr "היט"
 
 msgid "Search Code"
-msgstr ""
+msgstr "זוכן קאָד"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
@@ -352,103 +352,103 @@ msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI ליכט"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "אויסקלייַבן דיין פאָנט:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "באַשטעטיק צייט אונדזער - מינוט פֿאַר באַקדראַפּ אראפקאפיע"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "באַשטעטיק צייט אונדזער - מינוט פֿאַר פּאָסטער אראפקאפיע"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "סעטטינגס אַפּיקיי סערווירער"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "סעטאַפּ Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "ווייַזן ייקאַנז וואָס רעפּריזענטינג די זשאַנראַ פון יעדער געשעעניש (למשל קאַמף, קאָמעדיע, דראַמע)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "ווייַזן פּערענטאַל גיידאַנס ייקאַנז אויף געשעענישן צו אָנווייַזן אינהאַלט שאַץ און עלטער פּאַסיק."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "ווייַזן אַפיש פון פֿילם אין היגע טעקע"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "הויט סטייל:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "אָנהייב דאַונלאָודינג באַקדראַפּ מיד"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "אָנהייב דאַונלאָודינג אַפיש מיד"
 
 msgid "Style2"
-msgstr ""
+msgstr "סטיל 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "סטיל3"
 
 msgid "Style4"
-msgstr ""
+msgstr "סטיל 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "שטיצן E2iplayer סקינס:"
 
 msgid "System"
-msgstr ""
+msgstr "סיסטעם"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "בלויז TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "דער טעקע %s איז ליידיק."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "דער טעקע %s איז נישט געפונען."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "דעם אָפּעראַציע געבן די אַרויסווייַזן פון שאַץ שטערן פֿאַר געשעענישן, באזירט אויף די אויסגעקליבן ראַנג מקור."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "דעם אָפּעראַציע באַזייַטיקן אַלע פּנג פון טעקע מיטל (פּאָסטער-באַקקדראַפּ)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "דערהייַנטיקט URL ניט ינישאַלייזד, עפֿענען די פּלוגין אַמאָל פֿון די פּלוגינס מעניו ערשטער."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "דערהייַנטיקן טשעק ניט אַנדערש: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "דערהייַנטיקן פּעקל ניט געפֿונען!"
 
 msgid "VolumeBar Style:"
 msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: רעדאַגירן פּאָזיציע"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: רשימה פון איינסן"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "איר האָט שוין די לעצטע ווערסיע ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "איר דאַרפֿן צו אַרייַן אַ גילטיק שטאָט נאָמען איידער איר קענען זוכן פֿאַר די אָרט קאָד."
 
 msgid "imperial system"
-msgstr ""
+msgstr "קייסעריש סיסטעם"
 
 msgid "metric system"
-msgstr ""
+msgstr "מעטריק סיסטעם"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "שפּיל / ווייַזן טעקעס"
 
 msgid "volume2"
-msgstr ""
+msgstr "באַנד2"

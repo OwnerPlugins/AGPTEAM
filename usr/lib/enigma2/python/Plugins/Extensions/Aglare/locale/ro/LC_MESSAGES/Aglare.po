@@ -11,76 +11,76 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Cheia %s importată!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Activați/dezactivați ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Activați/dezactivați GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Activați/dezactivați IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Activați/dezactivați MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Activați/Dezactivați PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Activați/Dezactivați {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Adăuga"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Toate png sunt eliminate din folder!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automat"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Descărcare automată a fundalului"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Descărcare automată a posterului"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Preluați automat fundalul pentru evenimentele preferate pe baza EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Preluați automat postere pentru evenimentele preferate pe baza EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Spate"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Pe fundal"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Eroare de descărcare a fundalului: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Negru"
 
 msgid "Blue"
-msgstr ""
+msgstr "Albastru"
 
 msgid "Brown"
-msgstr ""
+msgstr "Maro"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Anula"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Stil de selecție a canalului:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -122,85 +122,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Oraş"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Stil de culoare:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Configurați timpul de întârziere (în minute) înainte de a începe descărcarea automată a posterului"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Instrument de personalizare pentru %s Skin"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Verde închis"
 
 msgid "Default"
-msgstr ""
+msgstr "Implicit"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Şterge"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Eroare de descărcare: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Descărcare în curs"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Descărcați acum fundalul"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Descărcați acum poster"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Se descarcă Glare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Edita"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Activați pictogramele pentru genul de afișare:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Activați afișarea InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Activați afișarea posterului XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Activați pictogramele parentale:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Activați Rating Star:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Activați sau dezactivați memorarea în cache în timpul descărcării evenimentului pentru a accelera căutările repetate."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Activați afișarea informațiilor extinse despre eveniment, inclusiv distribuția completă, echipajul, detaliile complotului și alte metadate, în widgetul de informații."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Eroare la procesarea fișierului skin: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Eroare la descărcarea fișierelor!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Eroare la încărcare: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Eroare {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Eroare: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Stilul EventView:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -209,16 +209,16 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Ieșire"
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Fișierul {} nu a fost găsit sau este gol"
 
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 msgid "Greta"
 msgstr ""
@@ -227,22 +227,22 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Importați cheia {0} din {1}?"
 
 msgid "Info..."
 msgstr ""
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Data barului de informații:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Stilul InfoBar:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Vremea:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -254,37 +254,37 @@ msgid "Infobar_NO_Date"
 msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Vremea"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_Vremea"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Linia Ins"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Se instalează actualizări..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Cheie goală"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Cheia {} a fost încărcată cu succes!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Încărcați din /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Versiunea locală ({}) este mai nouă decât versiunea serverului ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Codul locației"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Rezultatul căutării locației MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -293,163 +293,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Nu sunt activați furnizori activi"
 
 msgid "OFF"
 msgstr ""
 
 msgid "OK"
-msgstr ""
+msgstr "Bine"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Numai OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "PE"
 
 msgid "Off"
-msgstr ""
+msgstr "Oprit"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Cheie API personală pentru {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Vă rugăm să introduceți un nume de oraș valid."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Vă rugăm să introduceți un cod de locație valid pentru oraș."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Eroare de descărcare a posterului: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Violet"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Ștergeți cu adevărat această intrare WeatherPlugin?"
 
 msgid "Red"
-msgstr ""
+msgstr "Roşu"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Eliminați toate png (poster - fundal) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Reporniți GUI acum?"
 
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Cod de căutare"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Stilul SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Lumină Segoe UI"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Selectați fontul dvs.:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Setați ora noastră - minut pentru descărcarea fundalului"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Setați ora noastră - minut pentru descărcarea posterului"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Setări Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Configurați informațiile pentru piele Glare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Afișați pictograme care reprezintă genul fiecărui eveniment (de exemplu, acțiune, comedie, dramă)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Afișați pictograme de îndrumare parentală la evenimente pentru a indica evaluarea conținutului și adecvarea vârstei."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Afișați posterul filmului în folderul local"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Stilul pielii:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Începeți să descărcați imediat fundalul"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Începeți să descărcați imediat posterul"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stilul 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stilul 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stil4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Suport skinuri E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Numai TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Fișierul %s este gol."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Fișierul %s nu a fost găsit."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Această operațiune permite afișarea stelelor de rating pentru evenimente, pe baza sursei de rating selectate."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Această operațiune elimină toate png din dispozitivul folderului (Poster-Backdrop)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Adresa URL de actualizare neinițializată, deschideți mai întâi pluginul o dată din meniul Plugins."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Verificarea actualizării a eșuat: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Pachetul de actualizare nu a fost găsit!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Stil bară de volum:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Editați intrarea"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Lista de intrări"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Aveți deja cea mai recentă versiune ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Trebuie să introduceți un nume valid de oraș înainte de a putea căuta codul de locație."
 
 msgid "imperial system"
-msgstr ""
+msgstr "sistem imperial"
 
 msgid "metric system"
-msgstr ""
+msgstr "sistem metric"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "redați/afișați fișiere"
 
 msgid "volume2"
-msgstr ""
+msgstr "volumul 2"

@@ -11,94 +11,94 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s キーがインポートされました!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMAの有効化/無効化"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLEの有効化/無効化"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDBのアクティブ化/非アクティブ化"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOVのアクティブ化/非アクティブ化"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETVのアクティブ化/非アクティブ化"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "{}のアクティブ化/非アクティブ化"
 
 msgid "Add"
-msgstr ""
+msgstr "追加"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "すべての png がフォルダーから削除されました。"
 
 msgid "Automatic"
-msgstr ""
+msgstr "自動"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "背景の自動ダウンロード"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "ポスターの自動ダウンロード"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG に基づいてお気に入りのイベントの背景を自動的に取得します"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG に基づいてお気に入りのイベントのポスターを自動的に取得します"
 
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "背景"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "背景のダウンロード エラー: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "黒"
 
 msgid "Blue"
-msgstr ""
+msgstr "青"
 
 msgid "Brown"
-msgstr ""
+msgstr "茶色"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "チャンネル選択スタイル:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "チャンネル選択_1_ポスター_EX"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "チャンネル選択_1_ポスター_X"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "チャンネルセレクション_4_ポスター_EX"
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "チャンネル選択_4_ポスター_X"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "チャンネルセレクション_6_ポスター_EX"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "チャンネル選択_6_ポスター_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -122,334 +122,334 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "市"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "カラースタイル:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "ポスターの自動ダウンロードを開始するまでの遅延時間を分単位で設定します。"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "%s スキンのカスタマイズ ツール"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "ダークグリーン"
 
 msgid "Default"
-msgstr ""
+msgstr "デフォルト"
 
 msgid "Del Line"
-msgstr ""
+msgstr "デルライン"
 
 msgid "Delete"
-msgstr ""
+msgstr "消去"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "ダウンロード エラー: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "ダウンロード中です"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "今すぐ背景をダウンロード"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "今すぐポスターをダウンロード"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "アグレアをダウンロード中..."
 
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "ジャンルアイコンの表示を有効にする:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "InfoEvent の表示を有効にする:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "XMC ポスターの表示を有効にする:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "ペアレンタルアイコンを有効にする:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "評価スターを有効にする:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "イベントのダウンロード中のキャッシュを有効または無効にして、繰り返しの検索を高速化します。"
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "情報ウィジェットで、全キャスト、スタッフ、プロットの詳細、その他のメタデータを含む拡張イベント情報の表示を有効にします。"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "スキン ファイルの処理中にエラーが発生しました: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "ファイルのダウンロード中にエラーが発生しました!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "読み込みエラー: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "エラー {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "エラー： {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "イベントビューのスタイル:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "イベントビュー_7_ポスター"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "イベントビュー_NO_ポスター"
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "ファイルコマンダー - アドオン"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "ファイル {} が見つからないか空です"
 
 msgid "Green"
-msgstr ""
+msgstr "緑"
 
 msgid "Greta"
-msgstr ""
+msgstr "グレタさん"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "ヘンデルゴットD"
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "キー {0} を {1} からインポートしますか?"
 
 msgid "Info..."
-msgstr ""
+msgstr "情報..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "情報バーの日付:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "情報バーポスターX:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "情報バーのスタイル:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "情報バーの天気:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "情報バー_日付"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "情報バー_NO_日付"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "情報バー_NO_天気"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "情報バー_天気"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "インスライン"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "アップデートをインストールしています..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "キーが空です"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "キー {} が正常にロードされました。"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "ハリドアートボールドレギュラー"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/tmp/{}key.txt から読み込みます"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "ローカル ビルド ({}) はサーバー ビルド ({}) よりも新しいです。"
 
 msgid "Location code"
-msgstr ""
+msgstr "ロケーションコード"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN 位置検索結果"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "MVボリ"
 
 msgid "Magenta"
-msgstr ""
+msgstr "マゼンタ"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "アクティブなプロバイダーが有効になっていません"
 
 msgid "OFF"
-msgstr ""
+msgstr "オフ"
 
 msgid "OK"
-msgstr ""
+msgstr "わかりました"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDBのみ"
 
 msgid "ON"
-msgstr ""
+msgstr "の上"
 
 msgid "Off"
-msgstr ""
+msgstr "オフ"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} の個人 API キー"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "有効な都市名を入力してください。"
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "都市の有効な場所コードを入力してください。"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "ポスターのダウンロード エラー: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "紫"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "本当にこの WeatherPlugin エントリを削除しますか?"
 
 msgid "Red"
-msgstr ""
+msgstr "赤"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "すべての png を削除 (ポスター - 背景) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "今すぐ GUI を再起動しますか?"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Search Code"
-msgstr ""
+msgstr "検索コード"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar スタイル:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "2 番目の Infobar Xtraevent:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI ライト"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "フォントを選択してください:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "背景のダウンロードに時間を設定します - 分"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "ポスターのダウンロードに時間を設定します - 分"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "設定 Apikey サーバー"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Aglare スキン情報のセットアップ"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "各イベントのジャンル (アクション、コメディ、ドラマなど) を表すアイコンを表示します。"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "ローカルフォルダー内の映画のポスターを表示"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "スキンスタイル:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "すぐに背景のダウンロードを開始します"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "ポスターのダウンロードを今すぐ開始"
 
 msgid "Style2"
-msgstr ""
+msgstr "スタイル2"
 
 msgid "Style3"
-msgstr ""
+msgstr "スタイル3"
 
 msgid "Style4"
-msgstr ""
+msgstr "スタイル4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer スキンのサポート:"
 
 msgid "System"
-msgstr ""
+msgstr "システム"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDBのみ"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "ファイル %s は空です。"
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "ファイル %s が見つかりませんでした。"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "この操作により、選択した評価ソースに基づいてイベントの評価星を表示できるようになります。"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "この操作により、フォルダー デバイス (Poster-Backdrop) からすべての PNG が削除されます。"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "更新 URL が初期化されていない場合は、まず [プラグイン] メニューからプラグインを 1 回開きます。"
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "更新チェックに失敗しました: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "アップデートパッケージが見つかりません!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "ボリュームバーのスタイル:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: エントリーの編集"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: エントリのリスト"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "すでに最新バージョン ({}) がインストールされています。"
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "場所コードを検索する前に、有効な都市名を入力する必要があります。"
 
 msgid "imperial system"
-msgstr ""
+msgstr "天皇制"
 
 msgid "metric system"
-msgstr ""
+msgstr "メートル法"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "ファイルの再生/表示"
 
 msgid "volume2"
-msgstr ""
+msgstr "ボリューム2"

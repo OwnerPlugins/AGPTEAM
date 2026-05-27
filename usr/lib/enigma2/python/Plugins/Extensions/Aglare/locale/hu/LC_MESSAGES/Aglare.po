@@ -11,76 +11,76 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s kulcs importálva!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Az ELCINEMA aktiválása/deaktiválása"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "A GOOGLE aktiválása/deaktiválása"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB aktiválása/deaktiválása"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "A MOLOTOV aktiválása/deaktiválása"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "A PROGRAMMETV aktiválása/deaktiválása"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Aktiválás/deaktiválás {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Hozzáadás"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Minden png eltávolítva a mappából!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatikus"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "A háttér automatikus letöltése"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "A plakát automatikus letöltése"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "A kedvenc események hátterének automatikus lekérése az EPG alapján"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "A kedvenc események posztereinek automatikus lekérése az EPG alapján"
 
 msgid "Back"
-msgstr ""
+msgstr "Vissza"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Háttér"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Háttér-letöltési hiba: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Fekete"
 
 msgid "Blue"
-msgstr ""
+msgstr "Kék"
 
 msgid "Brown"
-msgstr ""
+msgstr "Barna"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Mégse"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Csatornaválasztási stílus:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -122,103 +122,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Város"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Színstílus:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Állítsa be a késleltetési időt (percben), mielőtt elindítaná az automatikus poszterletöltést"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Testreszabási eszköz a %s Skin számára"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Sötétzöld"
 
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezett"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Töröl"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Letöltési hiba: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Letöltés folyamatban"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Háttér letöltése most"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Töltse le most a posztert"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare letöltése..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Megjelenítési műfaj ikonok engedélyezése:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Display InfoEvents engedélyezése:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Display XMC Poster engedélyezése:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Szülői ikonok engedélyezése:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Rating Star engedélyezése:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Az ismételt keresések felgyorsítása érdekében engedélyezze vagy tiltsa le a gyorsítótárat az események letöltése közben."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Engedélyezze a kiterjesztett eseményinformációk megjelenítését, beleértve a teljes szereplőket, a stábot, a cselekmény részleteit és egyéb metaadatokat az információs widgetben."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Hiba a skin-fájl feldolgozása során: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Hiba a fájlok letöltése közben!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Hiba a betöltés során: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Hiba {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Hiba: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Eseménynézet stílusa:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Poszterek"
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Kijárat"
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "A(z) {} fájl nem található vagy üres"
 
 msgid "Green"
-msgstr ""
+msgstr "Zöld"
 
 msgid "Greta"
 msgstr ""
@@ -227,22 +227,22 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Importálja a(z) {0} kulcsot innen: {1}?"
 
 msgid "Info..."
 msgstr ""
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Infosáv dátuma:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Infosáv stílusa:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Időjárás:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -263,193 +263,193 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Frissítések telepítése..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "A kulcs üres"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "A(z) {} kulcs sikeresen betöltve!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Betöltés a /tmp/{}key.txt fájlból"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "A helyi build ({}) újabb, mint a szerver build ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Helykód"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN helykeresési eredmény"
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr ""
+msgstr "Bíborvörös"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Nincs engedélyezve aktív szolgáltató"
 
 msgid "OFF"
-msgstr ""
+msgstr "LE"
 
 msgid "OK"
-msgstr ""
+msgstr "RENDBEN"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Csak OMDB"
 
 msgid "ON"
 msgstr ""
 
 msgid "Off"
-msgstr ""
+msgstr "Le"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Személyes API-kulcs a következőhöz: {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Adjon meg egy érvényes városnevet."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Kérjük, adjon meg egy érvényes helykódot a városhoz."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Plakát letöltési hiba: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Lila"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Tényleg törli ezt a WeatherPlugin bejegyzést?"
 
 msgid "Red"
-msgstr ""
+msgstr "Piros"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Az összes png eltávolítása (poszter - háttér) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Újraindítja a GUI-t most?"
 
 msgid "Save"
-msgstr ""
+msgstr "Megtakarítás"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Kód keresése"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Második információs sáv stílusa:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI fény"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Válassza ki a betűtípusát:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Állítsa be a percet a Backdrop letöltéséhez"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Állítsa be az időt a poszter letöltéséhez"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Beállítások Apikey szerver"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Az Aglare Skin Info beállítása"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Az egyes események műfaját képviselő ikonok megjelenítése (pl. akció, vígjáték, dráma)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Szülői felügyeleti ikonok megjelenítése az eseményeken, jelezve a tartalom besorolását és az életkori alkalmasságot."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "A film plakátjának megjelenítése a helyi mappában"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Bőrstílus:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Azonnal kezdje meg a háttér letöltését"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Azonnal kezdje meg a poszter letöltését"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stílus2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stílus3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stílus4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer Skinek támogatása:"
 
 msgid "System"
-msgstr ""
+msgstr "Rendszer"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Csak TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "A %s fájl üres."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "A %s fájl nem található."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ez a művelet lehetővé teszi az események értékelési csillagainak megjelenítését a kiválasztott értékelési forrás alapján."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ez a művelet eltávolítja az összes png-t a mappaeszközről (poszter-háttér)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Nem inicializált URL frissítése először nyissa meg a beépülő modult a Plugins menüből."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "A frissítés ellenőrzése sikertelen: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "A frissítési csomag nem található!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar stílus:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Bejegyzés szerkesztése"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Bejegyzések listája"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Már rendelkezik a legújabb verzióval ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "A helykód keresése előtt meg kell adnia egy érvényes városnevet."
 
 msgid "imperial system"
-msgstr ""
+msgstr "birodalmi rendszer"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrikus rendszer"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "Fájlok lejátszása/megjelenítése"
 
 msgid "volume2"
-msgstr ""
+msgstr "kötet2"

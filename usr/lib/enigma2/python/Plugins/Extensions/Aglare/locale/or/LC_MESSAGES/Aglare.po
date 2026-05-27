@@ -10,100 +10,100 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "% s କି ଆମଦାନୀ ହୋଇଛି!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA କୁ ସକ୍ରିୟ / ନିଷ୍କ୍ରିୟ କରନ୍ତୁ |"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE କୁ ସକ୍ରିୟ / ନିଷ୍କ୍ରିୟ କରନ୍ତୁ |"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB କୁ ସକ୍ରିୟ / ନିଷ୍କ୍ରିୟ କରନ୍ତୁ |"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV କୁ ସକ୍ରିୟ / ନିଷ୍କ୍ରିୟ କରନ୍ତୁ |"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV କୁ ସକ୍ରିୟ / ନିଷ୍କ୍ରିୟ କରନ୍ତୁ |"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Active} ସକ୍ରିୟ / ନିଷ୍କ୍ରିୟ କରନ୍ତୁ |"
 
 msgid "Add"
-msgstr ""
+msgstr "ଯୋଡନ୍ତୁ |"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "ସମସ୍ତ png ଫୋଲ୍ଡରରୁ ଅପସାରିତ ହୋଇଛି!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "ସ୍ୱୟଂଚାଳିତ |"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "ପୃଷ୍ଠଭୂମିର ସ୍ୱୟଂଚାଳିତ ଡାଉନଲୋଡ୍ |"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "ପୋଷ୍ଟରର ସ୍ୱୟଂଚାଳିତ ଡାଉନଲୋଡ୍ |"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG ଉପରେ ଆଧାରିତ ପ୍ରିୟ ଘଟଣାଗୁଡ଼ିକ ପାଇଁ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ପୃଷ୍ଠଭୂମି ଆଣ |"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG ଉପରେ ଆଧାରିତ ପ୍ରିୟ ଘଟଣାଗୁଡ଼ିକ ପାଇଁ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ପୋଷ୍ଟର ଆଣ |"
 
 msgid "Back"
-msgstr ""
+msgstr "ପଛକୁ"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "ପୃଷ୍ଠଭୂମି"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "ପୃଷ୍ଠପଟ ଡାଉନଲୋଡ୍ ତ୍ରୁଟି: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "କଳା"
 
 msgid "Blue"
-msgstr ""
+msgstr "ନୀଳ"
 
 msgid "Brown"
-msgstr ""
+msgstr "ବ୍ରାଉନ୍ |"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "ବାତିଲ୍ କରନ୍ତୁ |"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ ଶ Style ଳୀ:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_1_ ପୋଷ୍ଟର_ଏକ୍ସ |"
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_1_ ପୋଷ୍ଟର_ ଏକ୍ସ"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_4_ ପୋଷ୍ଟର_ଏକ୍ସ |"
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_4_ ପୋଷ୍ଟର୍ସ_ X |"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_6_ ପୋଷ୍ଟର_ଏକ୍ସ |"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_6_ ପୋଷ୍ଟର୍ସ_ X |"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_ବ୍ୟାକ୍ ଡ୍ରପ୍_ H_EX |"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_ ବ୍ୟାକ୍ ଡ୍ରପ୍_ H_PX |"
 
 msgid "ChannelSelection_BackDrop_V_EX"
 msgstr ""
@@ -112,139 +112,139 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_NO_ ପୋଷ୍ଟରଗୁଡିକ |"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ଚ୍ୟାନେଲ ଚୟନ_NO_ ପୋଷ୍ଟର୍ସ_ନୋ_ପିକନ୍ |"
 
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "ସହର"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "ରଙ୍ଗ ଶ Style ଳୀ:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "ସ୍ୱୟଂଚାଳିତ ପୋଷ୍ଟର ଡାଉନଲୋଡ୍ ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ ବିଳମ୍ବ ସମୟ (ମିନିଟ୍ରେ) ବିନ୍ୟାସ କରନ୍ତୁ |"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "% S ଚର୍ମ ପାଇଁ କଷ୍ଟମାଇଜେସନ୍ ଉପକରଣ |"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "ଗା Green ସବୁଜ |"
 
 msgid "Default"
-msgstr ""
+msgstr "ଡିଫଲ୍ଟ |"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ଡେଲ୍ ଲାଇନ୍ |"
 
 msgid "Delete"
-msgstr ""
+msgstr "ବିଲୋପ କରନ୍ତୁ |"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "ତ୍ରୁଟି ଡାଉନଲୋଡ୍ କରନ୍ତୁ: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "ଡାଉନଲୋଡ୍ ଚାଲିଛି |"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "ବର୍ତ୍ତମାନ ବ୍ୟାକଡ୍ରପ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ |"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "ବର୍ତ୍ତମାନ ପୋଷ୍ଟର ଡାଉନଲୋଡ୍ କରନ୍ତୁ |"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare ଡାଉନଲୋଡ୍ ..."
 
 msgid "Edit"
-msgstr ""
+msgstr "ସଂପାଦନା କରନ୍ତୁ |"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "ପ୍ରଦର୍ଶନ ଧାରା ଆଇକନ୍ ସକ୍ଷମ କରନ୍ତୁ:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "ପ୍ରଦର୍ଶନ ସୂଚନା ଇଭେଣ୍ଟଗୁଡିକ ସକ୍ଷମ କରନ୍ତୁ:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "ପ୍ରଦର୍ଶନ XMC ପୋଷ୍ଟର ସକ୍ଷମ କରନ୍ତୁ:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "ପିତାମାତା ଆଇକନ୍ ସକ୍ଷମ କରନ୍ତୁ:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "ରେଟିଂ ଷ୍ଟାର୍ ସକ୍ଷମ କରନ୍ତୁ:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "ବାରମ୍ବାର ସନ୍ଧାନକୁ ତ୍ୱରାନ୍ୱିତ କରିବା ପାଇଁ ଇଭେଣ୍ଟ ଡାଉନଲୋଡ୍ ସମୟରେ କ୍ୟାଚିଂ ସକ୍ଷମ କିମ୍ବା ଅକ୍ଷମ କରନ୍ତୁ |"
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "ସୂଚନା ୱିଜେଟରେ ପୂର୍ଣ୍ଣ କାଷ୍ଟ, କ୍ରୁ, ପ୍ଲଟ୍ ବିବରଣୀ ଏବଂ ଅନ୍ୟାନ୍ୟ ମେଟାଡାଟା ଅନ୍ତର୍ଭୂକ୍ତ କରି ବିସ୍ତୃତ ଇଭେଣ୍ଟ ସୂଚନାର ପ୍ରଦର୍ଶନକୁ ସକ୍ଷମ କରନ୍ତୁ |"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "ଚର୍ମ ଫାଇଲ୍ ପ୍ରକ୍ରିୟାକରଣରେ ତ୍ରୁଟି: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରିବାରେ ତ୍ରୁଟି!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "ତ୍ରୁଟି ଧାରଣ: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "ତ୍ରୁଟି {0}: {1} |"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "ତ୍ରୁଟି: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "ଇଭେଣ୍ଟ ଭିଭ୍ ଷ୍ଟାଇଲ୍:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "ଇଭେଣ୍ଟ ଭ୍ୟୁ_7_ ପୋଷ୍ଟର |"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "ଇଭେଣ୍ଟ ଭ୍ୟୁ_ନୋ_ ପୋଷ୍ଟର |"
 
 msgid "Exit"
-msgstr ""
+msgstr "ପ୍ରସ୍ଥାନ"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "ଫାଇଲ୍ କମାଣ୍ଡର - ଆଡନ୍ |"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "ଫାଇଲ୍ found found ମିଳିଲା ନାହିଁ କିମ୍ବା ଖାଲି ନାହିଁ |"
 
 msgid "Green"
-msgstr ""
+msgstr "ସବୁଜ"
 
 msgid "Greta"
-msgstr ""
+msgstr "ଗ୍ରେଟା"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Key 1 from ରୁ key 0 import ଆମଦାନୀ କରନ୍ତୁ?"
 
 msgid "Info..."
-msgstr ""
+msgstr "ସୂଚନା ..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "ସୂଚନା ବାର୍ ତାରିଖ:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "ଇନଫୋ ବାର୍ ପୋଷ୍ଟରକ୍ସ:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "ଇନଫୋ ବାର୍ ଷ୍ଟାଇଲ୍:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "ସୂଚନା ବାର୍ ପାଣିପାଗ:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "ଇନଫୋ ବାର୍ Xtraevent:"
 
 msgid "Infobar_Date"
 msgstr ""
@@ -253,202 +253,202 @@ msgid "Infobar_NO_Date"
 msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_ ପାଣି"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "ଇନଫୋବର୍_ ୱିଥର୍ |"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "ଇନ୍ସ ଲାଇନ୍ |"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "ଅଦ୍ୟତନଗୁଡିକ ସଂସ୍ଥାପନ କରୁଛି ..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "ଚାବି ଖାଲି |"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "କୀ {} ସଫଳତାର ସହିତ ଲୋଡ୍ ହୋଇଛି!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "ଖାଲିଦ ଆର୍ଟବୋଲ୍ଡ ରେଗୁଲାର୍ |"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/Tmp/atial} key.txt ରୁ ଲୋଡ୍ କରନ୍ତୁ |"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "ସର୍ଭର ବିଲ୍ଡ ({}) ଅପେକ୍ଷା ସ୍ଥାନୀୟ ବିଲ୍ଡ ({}) ନୂତନ ଅଟେ |"
 
 msgid "Location code"
-msgstr ""
+msgstr "ଅବସ୍ଥାନ କୋଡ୍"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN ଅବସ୍ଥାନ ସନ୍ଧାନ ଫଳାଫଳ |"
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr ""
+msgstr "ମ୍ୟାଜେଣ୍ଟା |"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "କ active ଣସି ସକ୍ରିୟ ପ୍ରଦାନକାରୀ ସକ୍ଷମ ନୁହଁନ୍ତି |"
 
 msgid "OFF"
-msgstr ""
+msgstr "ବନ୍ଦ"
 
 msgid "OK"
-msgstr ""
+msgstr "ଠିକ ଅଛି |"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "କେବଳ OMDB |"
 
 msgid "ON"
-msgstr ""
+msgstr "ଅନ୍"
 
 msgid "Off"
-msgstr ""
+msgstr "ବନ୍ଦ"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} ପାଇଁ ବ୍ୟକ୍ତିଗତ API କି |"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "ଦୟାକରି ଏକ ବ city ଧ ସହର ନାମ ପ୍ରବେଶ କରନ୍ତୁ |"
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "ଦୟାକରି ସହର ପାଇଁ ଏକ ବ location ଧ ଅବସ୍ଥାନ କୋଡ୍ ପ୍ରବେଶ କରନ୍ତୁ |"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "ପୋଷ୍ଟର ଡାଉନଲୋଡ୍ ତ୍ରୁଟି: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "ବାଇଗଣୀ |"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "ପ୍ରକୃତରେ ଏହି ପାଣିପାଗ ପ୍ଲଗଇନ୍ ଏଣ୍ଟ୍ରି ବିଲୋପ କରନ୍ତୁ କି?"
 
 msgid "Red"
-msgstr ""
+msgstr "ଲାଲ୍ |"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "ସମସ୍ତ png (ପୋଷ୍ଟର - ବ୍ୟାକଡ୍ରପ୍) ଅପସାରଣ କରନ୍ତୁ (ଠିକ ଅଛି)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI ବର୍ତ୍ତମାନ ପୁନ Rest ଆରମ୍ଭ କରନ୍ତୁ?"
 
 msgid "Save"
-msgstr ""
+msgstr "ସଞ୍ଚୟ କରନ୍ତୁ |"
 
 msgid "Search Code"
-msgstr ""
+msgstr "ସନ୍ଧାନ କୋଡ୍"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar ଶ Style ଳୀ:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "ସେଗୋ UI ଆଲୋକ |"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "ଆପଣଙ୍କର ଫଣ୍ଟ ଚୟନ କରନ୍ତୁ:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "ବ୍ୟାକଡ୍ରପ୍ ଡାଉନଲୋଡ୍ ପାଇଁ ସମୟ ଆମର - ମିନିଟ୍ ସେଟ୍ କରନ୍ତୁ |"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "ପୋଷ୍ଟର ଡାଉନଲୋଡ୍ ପାଇଁ ସମୟ ଆମର - ମିନିଟ୍ ସେଟ୍ କରନ୍ତୁ |"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "ଆପିକି ସର୍ଭର ସେଟିଂସମୂହ |"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "ଆଗଲେ ସ୍କିନ୍ ସୂଚନା ସେଟ୍ଅପ୍ କରନ୍ତୁ |"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "ପ୍ରତ୍ୟେକ ଇଭେଣ୍ଟର ଧାରାକୁ ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବା ଆଇକନ୍ଗୁଡିକ ଦେଖାନ୍ତୁ (ଯଥା, କାର୍ଯ୍ୟ, କମେଡି, ଡ୍ରାମା)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "ବିଷୟବସ୍ତୁ ମୂଲ୍ୟାୟନ ଏବଂ ବୟସ ଉପଯୁକ୍ତତା ସୂଚାଇବା ପାଇଁ ଇଭେଣ୍ଟଗୁଡିକରେ ପିତାମାତାଙ୍କ ମାର୍ଗଦର୍ଶିକା ଆଇକନ୍ ଦେଖାନ୍ତୁ |"
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "ସ୍ଥାନୀୟ ଫୋଲ୍ଡରରେ ଚଳଚ୍ଚିତ୍ରରୁ ପୋଷ୍ଟର ଦେଖାନ୍ତୁ |"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "ଚର୍ମ ଶ Style ଳୀ:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "ତୁରନ୍ତ ବ୍ୟାକଡ୍ରପ୍ ଡାଉନଲୋଡ୍ କରିବା ଆରମ୍ଭ କର |"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "ତୁରନ୍ତ ପୋଷ୍ଟର ଡାଉନଲୋଡ୍ କରିବା ଆରମ୍ଭ କର |"
 
 msgid "Style2"
-msgstr ""
+msgstr "ଶ Style ଳୀ 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "ଶ Style ଳୀ 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "ଶ Style ଳୀ 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer ଚର୍ମକୁ ସମର୍ଥନ କରନ୍ତୁ:"
 
 msgid "System"
-msgstr ""
+msgstr "ସିଷ୍ଟମ୍"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "କେବଳ TMDB |"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "% S ଫାଇଲ୍ ଖାଲି ଅଛି |"
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "% S ଫାଇଲ୍ ମିଳିଲା ନାହିଁ |"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "ମନୋନୀତ ରେଟିଂ ଉତ୍ସ ଉପରେ ଆଧାର କରି ଏହି ଅପରେସନ୍ ଇଭେଣ୍ଟଗୁଡିକ ପାଇଁ ରେଟିଂ ଷ୍ଟାରଗୁଡିକର ପ୍ରଦର୍ଶନକୁ ସକ୍ଷମ କରିଥାଏ |"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "ଏହି ଅପରେସନ୍ ଫୋଲ୍ଡର ଡିଭାଇସ୍ (ପୋଷ୍ଟର-ବ୍ୟାକଡ୍ରପ୍) ରୁ ସମସ୍ତ png କୁ ଅପସାରଣ କରେ |"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "ଅପଡେଟ୍ URL ପ୍ରାରମ୍ଭ ହୋଇନାହିଁ ପ୍ଲଗଇନ୍ ମେନୁରୁ ଥରେ ପ୍ଲଗଇନ୍ ଖୋଲ |"
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "ଅଦ୍ୟତନ ଯାଞ୍ଚ ବିଫଳ ହେଲା: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "ପ୍ୟାକେଜ୍ ଅପଡେଟ୍ ମିଳିଲା ନାହିଁ!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "ଭଲ୍ୟୁମ୍ ବାର୍ ଷ୍ଟାଇଲ୍:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: ଏଣ୍ଟ୍ରି ସଂପାଦନ କରନ୍ତୁ |"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "ପାଣିପାଗ ପ୍ଲଗଇନ୍: ଏଣ୍ଟ୍ରିଗୁଡିକର ତାଲିକା |"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "ଆପଣଙ୍କ ପାଖରେ ସର୍ବଶେଷ ସଂସ୍କରଣ ({}) ଅଛି |"
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "ଲୋକେସନ କୋଡ୍ ଖୋଜିବା ପୂର୍ବରୁ ଆପଣଙ୍କୁ ଏକ ବ valid ଧ ସହର ନାମ ପ୍ରବେଶ କରିବାକୁ ପଡିବ |"
 
 msgid "imperial system"
-msgstr ""
+msgstr "ସାମ୍ରାଜ୍ୟ ପ୍ରଣାଳୀ |"
 
 msgid "metric system"
-msgstr ""
+msgstr "ମେଟ୍ରିକ୍ ସିଷ୍ଟମ୍ |"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "ଫାଇଲଗୁଡିକ ଚଲାନ୍ତୁ / ଦେଖାନ୍ତୁ |"
 
 msgid "volume2"
-msgstr ""
+msgstr "ଭଲ୍ୟୁମ୍ 2"

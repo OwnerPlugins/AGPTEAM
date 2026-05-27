@@ -10,64 +10,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Kitufe %s kimeingizwa!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Washa/Zima ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Washa/Zima GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Washa/Zima IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Washa/Zima MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Washa/Zima PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Washa/Zima {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Ongeza"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Png zote zimeondolewa kwenye folda!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Otomatiki"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Upakuaji wa kiotomatiki wa mandhari"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Upakuaji otomatiki wa bango"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Leta mandhari kiotomatiki kwa matukio unayopenda kulingana na EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Leta mabango kiotomatiki kwa matukio unayopenda kulingana na EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Nyuma"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Mandhari"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Hitilafu ya upakuaji wa mandhari: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Nyeusi"
 
 msgid "Blue"
-msgstr ""
+msgstr "Bluu"
 
 msgid "Brown"
 msgstr ""
@@ -76,10 +76,10 @@ msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ghairi"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Mtindo wa Uchaguzi wa Channel:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -91,13 +91,13 @@ msgid "ChannelSelection_4_Posters_EX"
 msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "ChannelSelection_4_Mabango_X"
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "ChannelSelection_6_Mabango_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -112,7 +112,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ChannelSelection_NO_Mabango"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -121,103 +121,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Jiji"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Mtindo wa Rangi:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Sanidi muda wa kuchelewa (kwa dakika) kabla ya kuanza upakuaji wa kiotomatiki wa bango"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Zana ya kugeuza kukufaa kwa %s Ngozi"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Kijani Kijani"
 
 msgid "Default"
-msgstr ""
+msgstr "Chaguomsingi"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Futa"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Hitilafu ya kupakua: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Upakuaji unaendelea"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Pakua mandhari sasa"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Pakua bango sasa"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Inapakua Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Hariri"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Washa aikoni za Aina ya Maonyesho:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Washa Display InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Washa Bango la Onyesho la XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Washa Aikoni za Wazazi:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Washa Nyota ya Ukadiriaji:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Washa au lemaza uhifadhi wakati wa upakuaji wa tukio ili kuharakisha utafutaji unaorudiwa."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Washa onyesho la maelezo marefu ya tukio, ikijumuisha waigizaji kamili, wafanyakazi, maelezo ya njama na metadata nyingine, katika wijeti ya maelezo."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Hitilafu katika kuchakata faili ya ngozi: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Hitilafu katika kupakua faili!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Hitilafu katika upakiaji: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Hitilafu {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Hitilafu: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Mtindo wa EventView:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "Mabango ya EventView_7"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "Mabango ya EventView_NO_"
 
 msgid "Exit"
-msgstr ""
+msgstr "Utgång"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Kamanda wa faili - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Faili {} haijapatikana au haina chochote"
 
 msgid "Green"
-msgstr ""
+msgstr "Kijani"
 
 msgid "Greta"
 msgstr ""
@@ -226,31 +226,31 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Leta ufunguo {0} kutoka kwa {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Taarifa..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Tarehe ya InfoBar:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Mtindo wa InfoBar:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Hali ya hewa ya InfoBar:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Tarehe"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Tarehe"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
@@ -262,28 +262,28 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Inasakinisha masasisho..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Kitufe tupu"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Ufunguo {} umepakiwa!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtbold Kawaida"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Pakia kutoka /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Ubunifu wa ndani ({}) ni mpya zaidi kuliko uundaji wa seva ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Msimbo wa eneo"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Matokeo ya utafutaji wa eneo la MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -292,163 +292,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Hakuna watoa huduma amilifu waliowezeshwa"
 
 msgid "OFF"
-msgstr ""
+msgstr "IMEZIMWA"
 
 msgid "OK"
-msgstr ""
+msgstr "Sawa"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB Pekee"
 
 msgid "ON"
-msgstr ""
+msgstr "WASHA"
 
 msgid "Off"
-msgstr ""
+msgstr "Imezimwa"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Ufunguo wa API ya kibinafsi ya {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Tafadhali weka jina halali la jiji."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Tafadhali weka msimbo halali wa eneo wa jiji."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Hitilafu ya kupakua bango: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Zambarau"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Je, ungependa kufuta Ingizo hili la WeatherPlugin?"
 
 msgid "Red"
-msgstr ""
+msgstr "Nyekundu"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Ondoa png zote (bango - mandhari) (Sawa)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Ungependa kuanzisha upya GUI sasa?"
 
 msgid "Save"
-msgstr ""
+msgstr "Hifadhi"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Tafuta Msimbo"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Mtindo wa PiliInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI mwanga"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Chagua Fonti Yako:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Weka Muda - dakika yetu kwa upakuaji wa Mandhari"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Weka Muda - dakika yetu ya kupakua Bango"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Mipangilio Seva ya Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Sanidi Maelezo ya Ngozi ya Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Onyesha aikoni zinazowakilisha aina ya kila tukio (k.m., hatua, vichekesho, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Onyesha aikoni za mwongozo wa wazazi kwenye matukio ili kuonyesha daraja la maudhui na ufaafu wa umri."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Onyesha bango kutoka kwa filamu kwenye folda ya ndani"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Mtindo wa Ngozi:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Anza kupakua mandhari mara moja"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Anza kupakua bango mara moja"
 
 msgid "Style2"
-msgstr ""
+msgstr "Mtindo2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Mtindo3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Mtindo4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Msaada wa Ngozi za E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Mfumo"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB Pekee"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Faili %s ni tupu."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Faili %s haikupatikana."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Uendeshaji huu unawezesha uonyeshaji wa nyota za ukadiriaji kwa matukio, kulingana na chanzo kilichochaguliwa cha ukadiriaji."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Operesheni hii ondoa png zote kutoka kwa kifaa cha folda (Bango-Nyuma)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Sasisha URL haijaanzishwa fungua programu-jalizi mara moja kutoka kwa menyu ya Programu-jalizi kwanza."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Ukaguzi wa kusasisha haukufaulu: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Kifurushi cha kusasisha hakijapatikana!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Mtindo wa VolumeBar:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Badilisha Ingizo"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Orodha ya Maingizo"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Tayari una toleo jipya zaidi ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Unahitaji kuingiza jina halali la jiji kabla ya kutafuta msimbo wa eneo."
 
 msgid "imperial system"
-msgstr ""
+msgstr "mfumo wa kifalme"
 
 msgid "metric system"
-msgstr ""
+msgstr "mfumo wa metric"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "cheza/onyesha Faili"
 
 msgid "volume2"
-msgstr ""
+msgstr "juzuu ya 2"

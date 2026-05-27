@@ -11,76 +11,76 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "Імпартаваны ключ %s!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Уключыць/выключыць ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Уключыць/выключыць GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Актываваць/дэактываваць IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Актываваць/дэактываваць MOLATOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Уключыць/выключыць PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Актываваць/дэактываваць {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Дадаць"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Усе png выдаляюцца з папкі!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Аўтаматычны"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Аўтаматычная загрузка фону"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Аўтаматычная загрузка плаката"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
 msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Аўтаматычна атрымліваць афішы для любімых падзей на аснове EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Фон"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Памылка загрузкі фону: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Чорны"
 
 msgid "Blue"
-msgstr ""
+msgstr "Сіні"
 
 msgid "Brown"
-msgstr ""
+msgstr "Карычневы"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Адмяніць"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Стыль выбару канала:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -122,85 +122,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Горад"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Стыль колеру:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Наладзьце час затрымкі (у хвілінах) перад пачаткам аўтаматычнай загрузкі плаката"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Інструмент налады для скіна %s"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Цёмна-зялёны"
 
 msgid "Default"
-msgstr ""
+msgstr "Па змаўчанні"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Дэль Лайн"
 
 msgid "Delete"
-msgstr ""
+msgstr "Выдаліць"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Памылка загрузкі: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Ідзе загрузка"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Спампаваць зараз фон"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Спампаваць зараз плакат"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Спампоўка Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Рэдагаваць"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Уключыць значкі жанраў адлюстравання:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Уключыць адлюстраванне InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Уключыць Display XMC Poster:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Уключыць бацькоўскія значкі:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Уключыць зорку:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Уключыце або адключыце кэшаванне падчас загрузкі падзей, каб паскорыць паўторны пошук."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Уключыце адлюстраванне пашыранай інфармацыі аб падзеі, у тым ліку поўнага акцёрскага складу, здымачнай групы, дэталяў сюжэта і іншых метаданых, у інфармацыйным віджэце."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Памылка апрацоўкі файла вокладкі: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Памылка спампоўкі файлаў!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Памылка загрузкі: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Памылка {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Памылка: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Стыль EventView:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -209,247 +209,247 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Выхад"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "File Commander - адон"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Файл {} не знойдзены або пусты"
 
 msgid "Green"
-msgstr ""
+msgstr "Зялёны"
 
 msgid "Greta"
-msgstr ""
+msgstr "Грэта"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "ГендэльГотД"
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Імпартаваць ключ {0} з {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "інфармацыя..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Дата інфармацыйнай панэлі:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "Інфармацыйная панэль PosterX:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Стыль інфармацыйнай панэлі:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Інфармацыйная панэль надвор'я:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "Інфармацыйная панэль Xtraevent:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Інфармацыйная панэль_Дата"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Інфармацыйная панэль_НЕ_Дата"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Інфабар_НЕ_Надвор'е"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Інфабар_Надвор'е"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Лінія Ins"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Усталяванне абнаўленняў..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Ключ пусты"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Ключ {} паспяхова загружаны!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Загрузіць з /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Лакальная зборка ({}) навейшая за зборку сервера ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Код месцазнаходжання"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Вынік пошуку месцазнаходжання MSN"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "М.В.Болі"
 
 msgid "Magenta"
-msgstr ""
+msgstr "Пурпурны"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Няма актыўных правайдэраў"
 
 msgid "OFF"
-msgstr ""
+msgstr "ВЫКЛ"
 
 msgid "OK"
-msgstr ""
+msgstr "добра"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Толькі OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "ВКЛ"
 
 msgid "Off"
-msgstr ""
+msgstr "Выкл"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Персанальны ключ API для {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Увядзіце сапраўдную назву горада."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Калі ласка, увядзіце сапраўдны код месцазнаходжання для горада."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Памылка загрузкі плаката: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Фіялетавы"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Сапраўды выдаліць гэты запіс WeatherPlugin?"
 
 msgid "Red"
-msgstr ""
+msgstr "Чырвоны"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Выдаліць усе PNG (плакат - фон) (ОК)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Перазапусціць GUI?"
 
 msgid "Save"
-msgstr ""
+msgstr "Захаваць"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Код пошуку"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Стыль Second Infobar:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "Xtraevent SecondInfobar:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Падсвятленне інтэрфейсу Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Выберыце свой шрыфт:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Усталюйце наш час - хвіліна для загрузкі фону"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Усталюйце наш час - хвіліна для загрузкі плаката"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Налады сервера Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Налада Aglare Skin Info"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Паказаць значкі, якія прадстаўляюць жанр кожнай падзеі (напрыклад, баявік, камедыя, драма)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Паказваць значкі бацькоўскага кантролю на падзеях, каб паказаць рэйтынг змесціва і адпаведнасць узросту."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Паказаць постэр з фільма ў лакальнай тэчцы"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Стыль скуры:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Неадкладна пачніце спампоўку фону"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Пачніце загрузку плаката неадкладна"
 
 msgid "Style2"
-msgstr ""
+msgstr "Стыль2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Стыль3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Стыль4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Падтрымка скінаў E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "сістэма"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Толькі TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Файл %s пусты."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Файл %s не знойдзены."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Гэтая аперацыя дазваляе паказваць рэйтынгавыя зоркі для падзей на аснове абранай крыніцы рэйтынгаў."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Гэтая аперацыя выдаляе ўвесь PNG з прылады папкі (Плакат-Застава)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "URL-адрас абнаўлення не ініцыялізаваны, спачатку адкрыйце ўбудову адзін раз з меню "Убудовы"."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Памылка праверкі абнаўлення: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Пакет абнаўлення не знойдзены!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Стыль VolumeBar:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Рэдагаваць запіс"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: спіс запісаў"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "У вас ужо ёсць апошняя версія ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Вам неабходна ўвесці сапраўдную назву горада, перш чым вы зможаце шукаць код месцазнаходжання."
 
 msgid "imperial system"
-msgstr ""
+msgstr "імперскі лад"
 
 msgid "metric system"
-msgstr ""
+msgstr "метрычная сістэма"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "прайграваць/паказваць файлы"
 
 msgid "volume2"
-msgstr ""
+msgstr "том2"

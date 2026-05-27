@@ -11,76 +11,76 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s ključ uvožen!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Aktiviraj/deaktiviraj ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Aktiviraj/deaktiviraj GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Aktiviraj/deaktiviraj IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Aktiviraj/deaktiviraj MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Aktiviraj/deaktiviraj PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Aktiviraj/deaktiviraj {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Vsi png so odstranjeni iz mape!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Samodejno"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Samodejni prenos ozadja"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Samodejni prenos plakata"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Samodejno pridobi ozadje za priljubljene dogodke na podlagi EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Samodejno pridobite plakate za priljubljene dogodke na podlagi EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Nazaj"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Ozadje"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Napaka pri prenosu kulise: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Črna"
 
 msgid "Blue"
-msgstr ""
+msgstr "Modra"
 
 msgid "Brown"
-msgstr ""
+msgstr "Rjava"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Prekliči"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Slog izbire kanala:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -122,103 +122,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Mesto"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Barvni slog:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Konfigurirajte čas zakasnitve (v minutah) pred začetkom samodejnega prenosa plakata"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Orodje za prilagajanje preobleke %s"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Temno zelena"
 
 msgid "Default"
-msgstr ""
+msgstr "Privzeto"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Napaka pri prenosu: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Prenos v teku"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Prenesite zdaj ozadje"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Prenesite zdaj plakat"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Prenašanje Aglare ..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Omogoči ikone zvrsti prikaza:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Omogoči prikaz informacij o dogodkih:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Omogoči plakat Display XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Omogoči starševske ikone:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Omogoči oceno z zvezdico:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Omogočite ali onemogočite predpomnjenje med prenosom dogodkov, da pospešite ponavljajoča se iskanja."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Omogočite prikaz razširjenih informacij o dogodku, vključno s celotno igralsko zasedbo, posadko, podrobnostmi zapleta in drugimi metapodatki, v informacijskem gradniku."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Napaka pri obdelavi datoteke preobleke: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Napaka pri prenosu datotek!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Napaka pri nalaganju: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Napaka {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Napaka: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Slog pogleda dogodka:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Plakati"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NI_Plakatov"
 
 msgid "Exit"
-msgstr ""
+msgstr "Izhod"
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Datoteke {} ni mogoče najti ali je prazna"
 
 msgid "Green"
-msgstr ""
+msgstr "zelena"
 
 msgid "Greta"
 msgstr ""
@@ -227,64 +227,64 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Uvoziti ključ {0} iz {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Informacije ..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Datum informacijske vrstice:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Slog vrstice z informacijami:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Vreme:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Datum"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Datum"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NI_Vreme"
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "Infobar_Vreme"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Namestitev posodobitev ..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Ključ prazen"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Ključ {} je uspešno naložen!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Naloži iz /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Lokalna zgradba ({}) je novejša od zgradbe strežnika ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Koda lokacije"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Rezultat iskanja lokacije MSN"
 
 msgid "MV Boli"
 msgstr ""
@@ -293,163 +293,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Ni omogočenih aktivnih ponudnikov"
 
 msgid "OFF"
-msgstr ""
+msgstr "IZKLOP"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Samo OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "VKLOP"
 
 msgid "Off"
-msgstr ""
+msgstr "Izključeno"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Osebni ključ API za {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Vnesite veljavno ime mesta."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Vnesite veljavno lokacijsko kodo za mesto."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Napaka pri prenosu plakata: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Vijolična"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Ali res želite izbrisati ta vnos WeatherPlugin?"
 
 msgid "Red"
-msgstr ""
+msgstr "Rdeča"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Odstrani vse png (plakat - ozadje) (V redu)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Naj zdaj znova zaženem GUI?"
 
 msgid "Save"
-msgstr ""
+msgstr "Shrani"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Iskalna koda"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Slog druge informacijske vrstice:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Luč uporabniškega vmesnika Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Izberite svojo pisavo:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Nastavite čas - minuto za prenos ozadja"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Nastavite naš čas - minuta za prenos plakata"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Nastavitve strežnika Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Nastavitev informacij o preobleki Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Pokaži ikone, ki predstavljajo žanr vsakega dogodka (npr. akcija, komedija, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Prikažite ikone za starševski nadzor na dogodkih, ki označujejo oceno vsebine in starostno primernost."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Prikaži plakat iz filma v lokalni mapi"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Slog kože:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Takoj začnite prenašati ozadje"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Takoj začnite prenašati plakat"
 
 msgid "Style2"
-msgstr ""
+msgstr "Slog2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Slog3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Slog4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Podpira preobleke E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Samo TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Datoteka %s je prazna."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Datoteke %s ni bilo mogoče najti."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ta operacija omogoča prikaz ocen z zvezdicami za dogodke na podlagi izbranega vira ocen."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ta operacija odstrani ves png iz mapne naprave (poster-ozadje)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Posodobitev URL-ja ni inicializirana, najprej enkrat odprite vtičnik v meniju Vtičniki."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Preverjanje posodobitve ni uspelo: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Paket posodobitev ni bil najden!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "Slog vrstice glasnosti:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Uredi vnos"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: seznam vnosov"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Najnovejšo različico ({}) že imate."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Preden lahko iščete kodo lokacije, morate vnesti veljavno ime mesta."
 
 msgid "imperial system"
-msgstr ""
+msgstr "imperialni sistem"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrični sistem"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "predvajaj/prikaži datoteke"
 
 msgid "volume2"
-msgstr ""
+msgstr "obseg2"

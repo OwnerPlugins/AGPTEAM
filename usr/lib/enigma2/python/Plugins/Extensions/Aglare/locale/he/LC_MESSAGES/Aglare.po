@@ -11,94 +11,94 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "מפתח %s יובא!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "הפעל/השבת את ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "הפעל/השבת את GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "הפעל/השבת את IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "הפעל/השבת את MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "הפעל/השבת את PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "הפעל/השבת את {}"
 
 msgid "Add"
-msgstr ""
+msgstr "לְהוֹסִיף"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "כל ה-png מוסרים מהתיקייה!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "אוֹטוֹמָטִי"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "הורדה אוטומטית של רקע"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "הורדה אוטומטית של פוסטר"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "אחזר אוטומטית רקע לאירועים מועדפים בהתבסס על EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "אחזר אוטומטית פוסטרים לאירועים מועדפים על בסיס EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "בְּחֲזָרָה"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "רקע"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "שגיאת הורדת רקע: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "שָׁחוֹר"
 
 msgid "Blue"
-msgstr ""
+msgstr "כְּחוֹל"
 
 msgid "Brown"
-msgstr ""
+msgstr "חוּם"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "לְבַטֵל"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "סגנון בחירת ערוץ:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgstr "בחירת ערוץ_1_פוסטר_X"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "Channelsselection_4_Posters_EX"
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgstr "בחירת ערוץ_4_פוסטרים_X"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "Channelsselection_6_Posters_EX"
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgstr "בחירת ערוץ_6_פוסטרים_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -113,136 +113,136 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ערוץ בחירת_NO_פוסטרים"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "Channelsselection_NO_Posters_NO_Picon"
 
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "עִיר"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "סגנון צבע:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "הגדר את זמן ההשהיה (בדקות) לפני התחלת הורדת הפוסטר האוטומטית"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "כלי התאמה אישית לעור %s"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "ירוק כהה"
 
 msgid "Default"
-msgstr ""
+msgstr "בְּרִירַת מֶחדָל"
 
 msgid "Del Line"
-msgstr ""
+msgstr "דל ליין"
 
 msgid "Delete"
-msgstr ""
+msgstr "לִמְחוֹק"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "שגיאת הורדה: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "ההורדה מתבצעת"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "הורד עכשיו רקע"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "הורד עכשיו פוסטר"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "מוריד את Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "לַעֲרוֹך"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "אפשר סמלי ז'אנר תצוגה:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "הפעל אירועי תצוגה מידע:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "אפשר להציג את פוסטר XMC:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "אפשר סמלי הורים:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "אפשר כוכב דירוג:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "הפעל או השבת שמירה במטמון במהלך הורדת אירוע כדי להאיץ חיפושים חוזרים."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "אפשר הצגת מידע מורחב על אירוע, כולל צוות מלא, צוות, פרטי עלילה ומטא נתונים אחרים, בווידג'ט המידע."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "שגיאה בעיבוד קובץ העור: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "שגיאה בהורדת קבצים!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "שגיאה בטעינת: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "שגיאה {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "שגיאה: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "סגנון תצוגה של אירוע:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_פוסטרים"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_פוסטרים"
 
 msgid "Exit"
-msgstr ""
+msgstr "יְצִיאָה"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "מפקד קבצים - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "הקובץ {} לא נמצא או ריק"
 
 msgid "Green"
-msgstr ""
+msgstr "יָרוֹק"
 
 msgid "Greta"
-msgstr ""
+msgstr "גרטה"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "לייבא מפתח {0} מ-{1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "מידע..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "תאריך סרגל המידע:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "סגנון סרגל המידע:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "מזג אוויר בסרגל המידע:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -257,199 +257,199 @@ msgid "Infobar_NO_Weather"
 msgstr ""
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "סרגל המידע_מזג אוויר"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "מתקין עדכונים..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "מפתח ריק"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "מפתח {} נטען בהצלחה!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "טען מ-/tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "מבנה מקומי ({}) חדש יותר ממבנה שרת ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "קוד מיקום"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "תוצאת חיפוש מיקום MSN"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "MV בולי"
 
 msgid "Magenta"
-msgstr ""
+msgstr "מַגֶנטָה"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "לא הופעלו ספקים פעילים"
 
 msgid "OFF"
-msgstr ""
+msgstr "כבוי"
 
 msgid "OK"
-msgstr ""
+msgstr "בְּסֵדֶר"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "OMDB בלבד"
 
 msgid "ON"
-msgstr ""
+msgstr "עַל"
 
 msgid "Off"
-msgstr ""
+msgstr "כבוי"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "מפתח API אישי עבור {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "נא להזין שם עיר חוקי."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "אנא הזן קוד מיקום חוקי עבור העיר."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "שגיאת הורדת פוסטר: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "סָגוֹל"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "האם באמת למחוק את הערך הזה של WeatherPlugin?"
 
 msgid "Red"
-msgstr ""
+msgstr "אָדוֹם"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "הסר את כל ה-png (פוסטר - רקע) (אישור)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "להפעיל מחדש את GUI עכשיו?"
 
 msgid "Save"
-msgstr ""
+msgstr "לְהַצִיל"
 
 msgid "Search Code"
-msgstr ""
+msgstr "קוד חיפוש"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "סגנון SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "נורית ממשק המשתמש של Segoe"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "בחר את הגופן שלך:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "הגדר את הזמן שלנו - דקה להורדה ברקע"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "הגדר את הזמן שלנו - דקה להורדת הפוסטר"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "הגדרות Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "הגדר מידע על העור של Aglare"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "הצג סמלים המייצגים את הז'אנר של כל אירוע (למשל, פעולה, קומדיה, דרמה)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "הצג סמלי הנחיית הורים באירועים כדי לציין דירוג תוכן והתאמת גיל."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "הצג פוסטר מהסרט בתיקייה מקומית"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "סגנון עור:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "התחל להוריד את הרקע מיד"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "התחל להוריד פוסטר מיד"
 
 msgid "Style2"
-msgstr ""
+msgstr "סגנון2"
 
 msgid "Style3"
-msgstr ""
+msgstr "סגנון 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "סגנון4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "תמיכה ב-E2iplayer Skins:"
 
 msgid "System"
-msgstr ""
+msgstr "מַעֲרֶכֶת"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB בלבד"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "הקובץ %s ריק."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "הקובץ %s לא נמצא."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "פעולה זו מאפשרת הצגת כוכבי דירוג עבור אירועים, בהתבסס על מקור הדירוג שנבחר."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "פעולה זו הסר את כל ה-png מהתקן התיקיות (פוסטר-רקע)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "עדכון כתובת URL לא אתחול פתח תחילה את הפלאגין פעם אחת מתפריט התוספים."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "בדיקת העדכון נכשלה: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "חבילת העדכון לא נמצאה!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "סגנון סרגל Volume:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: ערוך ערך"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: רשימת ערכים"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "כבר יש לך את הגרסה העדכנית ביותר ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "עליך להזין שם עיר חוקי לפני שתוכל לחפש את קוד המיקום."
 
 msgid "imperial system"
-msgstr ""
+msgstr "מערכת אימפריאלית"
 
 msgid "metric system"
-msgstr ""
+msgstr "מערכת מטרית"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "הפעל/הצג קבצים"
 
 msgid "volume2"
-msgstr ""
+msgstr "נפח 2"

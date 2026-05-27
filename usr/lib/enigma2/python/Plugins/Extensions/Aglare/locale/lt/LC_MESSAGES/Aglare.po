@@ -11,76 +11,76 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s raktas importuotas!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "Įjungti / išjungti ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "Suaktyvinti / išjungti GOOGLE"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "Įjungti / išjungti IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "Įjungti / išjungti MOLOTOV"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "Įjungti / išjungti PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Suaktyvinti / išjungti {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Pridėti"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Visi png failai pašalinti iš aplanko!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatinis"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Automatinis fono atsisiuntimas"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Automatinis plakato atsisiuntimas"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Automatiškai gauti mėgstamiausių įvykių foną pagal EPG"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Automatiškai gaukite mėgstamų įvykių plakatus pagal EPG"
 
 msgid "Back"
-msgstr ""
+msgstr "Atgal"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Fonas"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Fono atsisiuntimo klaida: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "Juoda"
 
 msgid "Blue"
-msgstr ""
+msgstr "Mėlyna"
 
 msgid "Brown"
-msgstr ""
+msgstr "Ruda"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Atšaukti"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Kanalo pasirinkimo stilius:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -122,103 +122,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "Miestas"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Spalvos stilius:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Prieš pradėdami automatinį plakato atsisiuntimą, sukonfigūruokite delsos laiką (minutėmis)."
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Tinkinimo įrankis %s odai"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "Tamsiai žalia"
 
 msgid "Default"
-msgstr ""
+msgstr "Numatytoji"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Ištrinti"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Atsisiuntimo klaida: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "Atsisiuntimas vyksta"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Atsisiųskite dabar foną"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Atsisiųskite plakatą dabar"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Atsisiunčiama Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Redaguoti"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Įgalinti ekrano žanro piktogramas:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "Įgalinti vaizdo informacijos įvykius:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "Įgalinti Display XMC plakatą:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Įgalinti tėvų piktogramas:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Įgalinti įvertinimo žvaigždutę:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Įgalinkite arba išjunkite talpyklą atsisiunčiant įvykį, kad paspartintumėte pakartotines paieškas."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "Informacijos valdiklyje įgalinkite išplėstinės įvykio informacijos, įskaitant visus aktorius, komandą, siužeto detales ir kitus metaduomenis, rodymą."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Klaida apdorojant odos failą: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Klaida atsisiunčiant failus!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Klaida įkeliant: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Klaida {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Klaida: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "Įvykio peržiūros stilius:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Plakatai"
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Išeiti"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "Failų vadas – priedas"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Failas {} nerastas arba tuščias"
 
 msgid "Green"
-msgstr ""
+msgstr "Žalia"
 
 msgid "Greta"
 msgstr ""
@@ -227,28 +227,28 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Importuoti raktą {0} iš {1}?"
 
 msgid "Info..."
-msgstr ""
+msgstr "Informacija..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "Informacijos juostos data:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "Informacijos juostos plakatasX:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "Informacijos juostos stilius:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "Informacijos juostos orai:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Data"
 
 msgid "Infobar_NO_Date"
 msgstr ""
@@ -263,28 +263,28 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Diegiami naujinimai..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "Raktas tuščias"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Raktas {} sėkmingai įkeltas!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Įkelti iš /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Vietinė versija ({}) yra naujesnė nei serverio versija ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Vietos kodas"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN vietos paieškos rezultatas"
 
 msgid "MV Boli"
 msgstr ""
@@ -293,163 +293,163 @@ msgid "Magenta"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Aktyvių teikėjų neįjungta"
 
 msgid "OFF"
-msgstr ""
+msgstr "IŠJUNGTA"
 
 msgid "OK"
-msgstr ""
+msgstr "Gerai"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Tik OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "ĮJUNGTA"
 
 msgid "Off"
-msgstr ""
+msgstr "Išjungta"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Asmeninis API raktas, skirtas {}"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Įveskite galiojantį miesto pavadinimą."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Įveskite galiojantį miesto vietos kodą."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Plakato atsisiuntimo klaida: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "Violetinė"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Tikrai ištrinti šį WeatherPlugin įrašą?"
 
 msgid "Red"
-msgstr ""
+msgstr "Raudona"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Pašalinti visus png (plakatas – fonas) (Gerai)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "Iš naujo paleisti GUI dabar?"
 
 msgid "Save"
-msgstr ""
+msgstr "Išsaugoti"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Paieškos kodas"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "Antrasis informacijos juostos stilius:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI lemputė"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Pasirinkite savo šriftą:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Nustatyti laiką mūsų – minutę fono atsisiuntimui"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Nustatyti laiką mūsų – minutę plakato atsisiuntimui"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Apikey serverio nustatymai"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Nustatykite Aglare odos informaciją"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "Rodyti piktogramas, atspindinčias kiekvieno įvykio žanrą (pvz., veiksmas, komedija, drama)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "Rodyti tėvų nurodymų piktogramas įvykiuose, kad nurodytumėte turinio įvertinimą ir tinkamumą pagal amžių."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Rodyti plakatą iš filmo vietiniame aplanke"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Odos stilius:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Nedelsdami pradėkite atsisiųsti foną"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Nedelsdami pradėkite atsisiųsti plakatą"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stilius 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stilius 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stilius 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Palaikykite E2iplayer skinus:"
 
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Tik TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Failas %s tuščias."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Failas %s nerastas."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "Ši operacija leidžia rodyti įvykių įvertinimo žvaigždutes pagal pasirinktą vertinimo šaltinį."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Ši operacija pašalina visus png iš aplanko įrenginio (plakato fonas)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Atnaujinti URL nėra inicijuotas vieną kartą atidarykite papildinį iš meniu Papildiniai."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Nepavyko patikrinti atnaujinimo: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Atnaujinimo paketas nerastas!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar stilius:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "„Weather“ papildinys: redaguoti įrašą"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "„Weather“ papildinys: įrašų sąrašas"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Jau turite naujausią versiją ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Kad galėtumėte ieškoti vietos kodo, turite įvesti galiojantį miesto pavadinimą."
 
 msgid "imperial system"
-msgstr ""
+msgstr "imperinė sistema"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrinė sistema"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "žaisti / rodyti failus"
 
 msgid "volume2"
-msgstr ""
+msgstr "tomas2"

@@ -10,76 +10,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s გასაღები იმპორტირებულია!"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA-ს გააქტიურება/გამორთვა"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE-ის გააქტიურება/გამორთვა"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "გაააქტიურეთ/გამორთეთ IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV-ის გააქტიურება/გამორთვა"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "გააქტიურეთ/გამორთეთ PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "გააქტიურება/გამორთვა {}"
 
 msgid "Add"
-msgstr ""
+msgstr "დამატება"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "ყველა png ამოღებულია საქაღალდიდან!"
 
 msgid "Automatic"
-msgstr ""
+msgstr "ავტომატური"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "ფონის ავტომატური ჩამოტვირთვა"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "პლაკატის ავტომატური ჩამოტვირთვა"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG-ზე დაფუძნებული ფონის ავტომატური მიღება საყვარელი მოვლენებისთვის"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG-ზე დაფუძნებული საყვარელი მოვლენების პლაკატების ავტომატურად მიღება"
 
 msgid "Back"
-msgstr ""
+msgstr "უკან"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "ფონი"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "ფონის ჩამოტვირთვის შეცდომა: {}"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Black"
-msgstr ""
+msgstr "შავი"
 
 msgid "Blue"
-msgstr ""
+msgstr "ლურჯი"
 
 msgid "Brown"
-msgstr ""
+msgstr "ყავისფერი"
 
 msgid "CD"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "გაუქმება"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "არხის შერჩევის სტილი:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -112,7 +112,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "ChannelSelection_NO_პოსტერები"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -121,334 +121,334 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr ""
+msgstr "ქალაქი"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "ფერის სტილი:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "პლაკატის ავტომატური ჩამოტვირთვის დაწყებამდე დააყენეთ დაგვიანების დრო (წუთებში)."
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "პერსონალიზაციის ინსტრუმენტი %s კანისთვის"
 
 msgid "Dark Green"
-msgstr ""
+msgstr "მუქი მწვანე"
 
 msgid "Default"
-msgstr ""
+msgstr "ნაგულისხმევი"
 
 msgid "Del Line"
-msgstr ""
+msgstr "დელ ლაინი"
 
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "ჩამოტვირთვის შეცდომა: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "ჩამოტვირთვა მიმდინარეობს"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "ჩამოტვირთეთ ახლა ფონი"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "ჩამოტვირთეთ პლაკატი ახლა"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "მიმდინარეობს Aglare-ის ჩამოტვირთვა..."
 
 msgid "Edit"
-msgstr ""
+msgstr "რედაქტირება"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "ჩვენების ჟანრის ხატულების ჩართვა:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "ჩართეთ Display InfoEvents:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "ეკრანის XMC პოსტერის ჩართვა:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "მშობლის ხატების ჩართვა:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "რეიტინგის ვარსკვლავის ჩართვა:"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "ჩართეთ ან გამორთეთ ქეშირება მოვლენის ჩამოტვირთვის დროს, განმეორებითი ძიების დასაჩქარებლად."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr ""
+msgstr "ჩართეთ მოვლენის გაფართოებული ინფორმაციის ჩვენება, მათ შორის სრული შემსრულებელი, ეკიპაჟი, სიუჟეტის დეტალები და სხვა მეტამონაცემები, ინფორმაციის ვიჯეტში."
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "შეცდომა კანის ფაილის დამუშავებისას: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "შეცდომა ფაილების ჩამოტვირთვისას!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "შეცდომა ჩატვირთვისას: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "შეცდომა {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "შეცდომა: {}"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView სტილი:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_პოსტერები"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_პოსტერები"
 
 msgid "Exit"
-msgstr ""
+msgstr "გასვლა"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "ფაილის მეთაური - Addon"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "ფაილი {} არ მოიძებნა ან ცარიელია"
 
 msgid "Green"
-msgstr ""
+msgstr "მწვანე"
 
 msgid "Greta"
-msgstr ""
+msgstr "გრეტა"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "გსურთ გასაღების {0} იმპორტი {1}-დან?"
 
 msgid "Info..."
-msgstr ""
+msgstr "ინფორმაცია..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "ინფობარის თარიღი:"
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "ინფობარის სტილი:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar ამინდი:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "ინფობარი_თარიღი"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "ინფორმაციის ზოლი_NO_თარიღი"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
 
 msgid "Infobar_Weather"
-msgstr ""
+msgstr "ინფობარი_ამინდი"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "მიმდინარეობს განახლებების ინსტალაცია..."
 
 msgid "Key empty"
-msgstr ""
+msgstr "გასაღები ცარიელია"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "გასაღები {} წარმატებით ჩაიტვირთა!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "ჩატვირთვა /tmp/{}key.txt-დან"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "ლოკალური აშენება ({}) უფრო ახალია, ვიდრე სერვერის აშენება ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "მდებარეობის კოდი"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN მდებარეობის ძიების შედეგი"
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr ""
+msgstr "მაგენტა"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "აქტიური პროვაიდერები არ არის ჩართული"
 
 msgid "OFF"
-msgstr ""
+msgstr "გამორთულია"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "მხოლოდ OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "ჩართულია"
 
 msgid "Off"
-msgstr ""
+msgstr "გამორთულია"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "პერსონალური API გასაღები {}-ისთვის"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "გთხოვთ, შეიყვანოთ ქალაქის სწორი სახელი."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "გთხოვთ, შეიყვანოთ ქალაქის სწორი მდებარეობის კოდი."
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "პლაკატის ჩამოტვირთვის შეცდომა: {}"
 
 msgid "Purple"
-msgstr ""
+msgstr "იასამნისფერი"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "მართლა წაშალოთ ეს WeatherPlugin ჩანაწერი?"
 
 msgid "Red"
-msgstr ""
+msgstr "წითელი"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "წაშალეთ ყველა png (პოსტერი - ფონი) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "გადატვირთოთ GUI ახლა?"
 
 msgid "Save"
-msgstr ""
+msgstr "შენახვა"
 
 msgid "Search Code"
-msgstr ""
+msgstr "ძებნის კოდი"
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar სტილი:"
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe UI ნათურა"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "აირჩიეთ თქვენი შრიფტი:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "დააყენეთ დრო ჩვენი - წუთი ფონის ჩამოტვირთვისთვის"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "დააყენეთ დრო ჩვენი - წუთი პოსტერის ჩამოტვირთვისთვის"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "პარამეტრები Apikey სერვერი"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "დააყენეთ Aglare კანის ინფორმაცია"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr ""
+msgstr "აჩვენეთ ხატები, რომლებიც წარმოადგენენ თითოეული მოვლენის ჟანრს (მაგ. მოქმედება, კომედია, დრამა)"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr ""
+msgstr "აჩვენეთ მშობლის ხელმძღვანელობის ხატები მოვლენებზე, რათა მიუთითოთ კონტენტის რეიტინგი და ასაკობრივი შესაბამისობა."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "აჩვენეთ პოსტერი ფილმიდან ლოკალურ საქაღალდეში"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "კანის სტილი:"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "დაუყოვნებლივ დაიწყეთ ფონის ჩამოტვირთვა"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "დაუყოვნებლივ დაიწყეთ პოსტერის ჩამოტვირთვა"
 
 msgid "Style2"
-msgstr ""
+msgstr "სტილი 2"
 
 msgid "Style3"
-msgstr ""
+msgstr "სტილი 3"
 
 msgid "Style4"
-msgstr ""
+msgstr "სტილი 4"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer Skins-ის მხარდაჭერა:"
 
 msgid "System"
-msgstr ""
+msgstr "სისტემა"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "მხოლოდ TMDB"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "ფაილი %s ცარიელია."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "ფაილი %s ვერ მოიძებნა."
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr ""
+msgstr "ეს ოპერაცია იძლევა შეფასების ვარსკვლავების ჩვენებას მოვლენებზე, შერჩეული შეფასების წყაროზე დაყრდნობით."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "ეს ოპერაცია წაშლის ყველა png საქაღალდე მოწყობილობიდან (ფოსტა-ფონი)"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "URL-ის განახლება, რომელიც არ არის ინიციალირებული, გახსენით მოდული ერთხელ Plugins მენიუდან."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "განახლების შემოწმება ვერ მოხერხდა: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "განახლების პაკეტი ვერ მოიძებნა!"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "მოცულობის ზოლის სტილი:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: ჩანაწერის რედაქტირება"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: ჩანაწერების სია"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "თქვენ უკვე გაქვთ უახლესი ვერსია ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "მდებარეობის კოდის მოძიებამდე უნდა შეიყვანოთ ქალაქის სწორი სახელი."
 
 msgid "imperial system"
-msgstr ""
+msgstr "იმპერიული სისტემა"
 
 msgid "metric system"
-msgstr ""
+msgstr "მეტრულ სისტემას"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "ფაილების დაკვრა/ჩვენება"
 
 msgid "volume2"
-msgstr ""
+msgstr "მოცულობა 2"
