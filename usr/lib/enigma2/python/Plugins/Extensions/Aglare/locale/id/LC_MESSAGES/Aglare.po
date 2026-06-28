@@ -147,6 +147,7 @@ msgstr "Menghapus"
 msgid "Download error: {}"
 msgstr "Kesalahan pengunduhan: {}"
 
+#, fuzzy
 msgid "Download in progress"
 msgstr "Pengunduhan sedang berlangsung"
 
@@ -417,6 +418,7 @@ msgstr "Operasi ini mengaktifkan tampilan bintang peringkat untuk acara, berdasa
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Operasi ini menghapus semua png dari perangkat folder (Poster-Backdrop)"
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "Perbarui URL tidak diinisialisasi, buka plugin sekali dari menu Plugins terlebih dahulu."
 

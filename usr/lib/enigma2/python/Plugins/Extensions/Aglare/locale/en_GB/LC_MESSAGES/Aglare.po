@@ -417,6 +417,7 @@ msgstr ""
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr ""
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "Update URL not initialised open the plugin once from the Plugins menu first."
 

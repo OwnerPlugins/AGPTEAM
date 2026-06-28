@@ -147,6 +147,7 @@ msgstr "Ezabatu"
 msgid "Download error: {}"
 msgstr "Deskargaren errorea: {}"
 
+#, fuzzy
 msgid "Download in progress"
 msgstr "Deskarga abian"
 
@@ -417,6 +418,7 @@ msgstr "Eragiketa honek gertaeren balorazio-izarrak bistaratzea ahalbidetzen du,
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Eragiketa honek png guztiak kendu karpeta gailutik (Poster-Backdrop)"
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "Hasieratu gabeko URL eguneratzea ireki plugina behin Plugins menutik lehenik."
 

@@ -147,6 +147,7 @@ msgstr "Padam"
 msgid "Download error: {}"
 msgstr "Ralat muat turun: {}"
 
+#, fuzzy
 msgid "Download in progress"
 msgstr "Muat turun sedang dijalankan"
 
@@ -417,6 +418,7 @@ msgstr "Operasi ini membolehkan paparan bintang penilaian untuk acara, berdasark
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Operasi ini mengalih keluar semua png daripada peranti folder (Poster-Latar Belakang)"
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "Kemas kini URL yang tidak dimulakan, buka pemalam sekali daripada menu Pemalam dahulu."
 

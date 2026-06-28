@@ -147,6 +147,7 @@ msgstr "Tanggalin"
 msgid "Download error: {}"
 msgstr "Error sa pag-download: {}"
 
+#, fuzzy
 msgid "Download in progress"
 msgstr "Kasalukuyang i-download"
 
@@ -417,6 +418,7 @@ msgstr "Pinapagana ng operasyong ito ang pagpapakita ng mga bituin ng rating par
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ang operasyong ito ay nag-aalis ng lahat ng png mula sa folder na device (Poster-Backdrop)"
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "I-update ang URL na hindi nasimulan buksan muna ang plugin mula sa menu ng Mga Plugin."
 
