@@ -1,14 +1,50 @@
 <h1 align="center">🖼️ AGP (Advanced Graphics Renderer)</h1>
 
-** Optimized for Aglare FHD Skin**
-[![Tested on Aglare FHD](https://img.shields.io/badge/Skin-Aglare_FHD-blueviolet)](https://github.com/Belfagor2005/enigma2-plugin-skins-aglare/main/usr/share/enigma2/Aglare-FHD-PLI)
-![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)
-[![Version](https://img.shields.io/badge/Version-1.0-blue.svg)](https://github.com/Belfagor2005/AGPTEAM)
-[![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
-[![Python](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-red)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-![Python package](https://github.com/Belfagor2005/AGPTEAM/actions/workflows/pylint.yml/badge.svg)
-[![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
+<p align="center">
+  <b>Optimized for Aglare FHD Skin</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Belfagor2005/enigma2-plugin-skins-aglare">
+    <img src="https://img.shields.io/badge/Skin-Aglare_FHD-blueviolet" alt="Aglare FHD Skin">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Belfagor2005/AGPTEAM">
+    <img src="https://img.shields.io/badge/Version-1.0-blue.svg" alt="Version">
+  </a>
+
+  <a href="https://www.enigma2.net">
+    <img src="https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg" alt="Enigma2">
+  </a>
+
+  <a href="https://www.python.org">
+    <img src="https://img.shields.io/badge/Python-3-blue.svg" alt="Python">
+  </a>
+
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+    <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-red" alt="License">
+  </a>
+
+  <img src="https://github.com/Belfagor2005/AGPTEAM/actions/workflows/pylint.yml/badge.svg" alt="Python package">
+</p>
+
+<p align="center">
+  <a href="https://github.com/Belfagor2005">
+    <img src="https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet" alt="Visitors">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/lululla">
+    <img src="https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Ko-fi">
+  </a>
+
+  <a href="https://paypal.me/belfagor2005">
+    <img src="https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="PayPal">
+  </a>
+</p>
 
 
 <img src="https://raw.githubusercontent.com/Belfagor2005/enigma2-plugin-skins-aglare/main/usr/share/enigma2/Aglare-FHD-PLI/picon_default.png?raw=true">
