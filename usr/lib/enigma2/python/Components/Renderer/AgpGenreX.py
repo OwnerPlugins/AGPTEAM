@@ -58,8 +58,9 @@ from Components.config import config
 import urllib3
 
 from Plugins.Extensions.Aglare.api_config import cfg
-from .Agp_Utils import POSTER_FOLDER, clean_for_tvdb, logger
+from .Agp_Utils import POSTER_FOLDER, clean_for_tvdb
 from .Agp_Requests import intCheck
+from .Agp_Logger import logger
 
 if not POSTER_FOLDER.endswith("/"):
     POSTER_FOLDER += "/"

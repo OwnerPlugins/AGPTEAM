@@ -84,9 +84,9 @@ from .Agp_Utils import (
     validate_media_path,
     # MemClean,
     clean_for_tvdb,
-    logger,
     create_secure_log_dir
 )
+from .Agp_Logger import logger
 
 # ========================
 # DISABLE URLLIB3 DEBUG LOGS

@@ -65,7 +65,8 @@ from enigma import eLabel, eEPGCache, eTimer
 
 from Plugins.Extensions.Aglare.api_config import cfg
 from Plugins.Extensions.Aglare.api_config import ApiKeyManager
-from .Agp_Utils import POSTER_FOLDER, clean_for_tvdb, logger
+from .Agp_Utils import POSTER_FOLDER, clean_for_tvdb
+from .Agp_Logger import logger
 from .Agp_Requests import intCheck
 from .Agp_lib import quoteEventName
 

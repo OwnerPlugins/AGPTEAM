@@ -66,7 +66,8 @@ from Plugins.Extensions.Aglare.api_config import cfg
 from Plugins.Extensions.Aglare.api_config import ApiKeyManager
 from Components.Renderer.AgpDownloadThread import AgpDownloadThread
 
-from .Agp_Utils import IMOVIE_FOLDER, clean_for_tvdb, logger, create_secure_log_dir
+from .Agp_Utils import IMOVIE_FOLDER, clean_for_tvdb, create_secure_log_dir
+from .Agp_Logger import logger
 from .Agp_Requests import intCheck
 from .Agp_lib import sanitize_filename
 

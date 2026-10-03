@@ -69,7 +69,7 @@ from enigma import getDesktop
 from Components.config import config
 
 from .Agp_apikeys import tmdb_api, thetvdb_api, fanart_api  # , omdb_api
-from .Agp_Utils import logger
+from .Agp_Logger import logger
 
 
 # ========================
