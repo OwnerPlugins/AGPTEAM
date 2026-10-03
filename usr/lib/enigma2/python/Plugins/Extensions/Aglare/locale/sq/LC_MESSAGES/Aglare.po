@@ -367,7 +367,7 @@ msgid "Select Your Font:"
 msgstr "Zgjidhni fontin tuaj:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "Cakto kohën tonë - minutë për shkarkimin e \\\\\\\"Sfondit\\\\\\\"."
+msgstr "Cakto kohën tonë - minutë për shkarkimin e \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Sfondit\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"."
 
 msgid "Set Time our - minute for Poster download"
 msgstr "Cakto kohën tonë - minutë për shkarkimin e posterit"
