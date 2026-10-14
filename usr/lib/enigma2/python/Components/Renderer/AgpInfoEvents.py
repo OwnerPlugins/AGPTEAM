@@ -170,7 +170,9 @@ class AgpInfoEvents(Renderer, VariableText):
                     self.event.getEventName().replace(
                         '\xc2\x86', '').replace(
                         '\xc2\x87', ''))
-                json_file = join(self.storage_path, "{}.json".format(clean_title))
+                json_file = join(
+                    self.storage_path,
+                    "{}.json".format(clean_title))
                 self.text = ''
                 year = self.extract_year(self.event)
 
@@ -248,7 +250,8 @@ class AgpInfoEvents(Renderer, VariableText):
                 ("&y=" + year if year else "") +
                 "&plot=full"
             )
-            url = "http://www.omdbapi.com/?apikey={}&{}".format(api_key, params)
+            url = "http://www.omdbapi.com/?apikey={}&{}".format(
+                api_key, params)
 
             with urlopen(url) as response:
                 return json_load(response)
@@ -272,7 +275,9 @@ class AgpInfoEvents(Renderer, VariableText):
         try:
             if 'title' in data or 'name' in data:
                 info_lines.append(
-                    "{}: {}".format(_('Title'), data.get('title', data.get('name'))))
+                    "{}: {}".format(
+                        _('Title'), data.get(
+                            'title', data.get('name'))))
 
                 if data.get('release_date'):
                     year = data['release_date'].split('-')[0]
@@ -295,7 +300,9 @@ class AgpInfoEvents(Renderer, VariableText):
 
                     if directors:
                         info_lines.append(
-                            "{}: {}".format(_('Director'), ', '.join(directors)))
+                            "{}: {}".format(
+                                _('Director'),
+                                ', '.join(directors)))
                     if writers:
                         info_lines.append(
                             "{}: {}".format(_('Writer'), ', '.join(writers)))
@@ -306,14 +313,35 @@ class AgpInfoEvents(Renderer, VariableText):
                     info_lines.append("{}: {}".format(_('Country'), countries))
 
             else:
-                info_lines.append("{}: {}".format(_('Title'), data.get('Title')))
+                info_lines.append(
+                    "{}: {}".format(
+                        _('Title'),
+                        data.get('Title')))
                 info_lines.append("{}: {}".format(_('Year'), data.get('Year')))
-                info_lines.append("{}: {}".format(_('Rating'), data.get('imdbRating')))
-                info_lines.append("{}: {}".format(_('Genre'), data.get('Genre')))
-                info_lines.append("{}: {}".format(_('Director'), data.get('Director')))
-                info_lines.append("{}: {}".format(_('Writer'), data.get('Writer')))
-                info_lines.append("{}: {}".format(_('Cast'), data.get('Actors')))
-                info_lines.append("{}: {}".format(_('Country'), data.get('Country')))
+                info_lines.append(
+                    "{}: {}".format(
+                        _('Rating'),
+                        data.get('imdbRating')))
+                info_lines.append(
+                    "{}: {}".format(
+                        _('Genre'),
+                        data.get('Genre')))
+                info_lines.append(
+                    "{}: {}".format(
+                        _('Director'),
+                        data.get('Director')))
+                info_lines.append(
+                    "{}: {}".format(
+                        _('Writer'),
+                        data.get('Writer')))
+                info_lines.append(
+                    "{}: {}".format(
+                        _('Cast'),
+                        data.get('Actors')))
+                info_lines.append(
+                    "{}: {}".format(
+                        _('Country'),
+                        data.get('Country')))
 
             runtime = data.get('runtime') or data.get('Runtime')
             if runtime:
@@ -327,7 +355,9 @@ class AgpInfoEvents(Renderer, VariableText):
             self.timer.start(100)
 
         except Exception as e:
-            logger.error("AgpInfoEvents Data processing error: {}".format(str(e)))
+            logger.error(
+                "AgpInfoEvents Data processing error: {}".format(
+                    str(e)))
             self.text = ""
             if self.instance:
                 self.instance.hide()
@@ -351,7 +381,9 @@ class AgpInfoEvents(Renderer, VariableText):
                     return max(valid_years)
             return None
         except Exception as e:
-            logger.warning("AgpInfoEvents Year extraction failed: {}".format(str(e)))
+            logger.warning(
+                "AgpInfoEvents Year extraction failed: {}".format(
+                    str(e)))
             return None
 
     def onHide(self):

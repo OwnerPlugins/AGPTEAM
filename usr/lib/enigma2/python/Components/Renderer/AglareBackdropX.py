@@ -286,7 +286,10 @@ class AglareBackdropX(Renderer):
                 if checkBackdropExistence(cached_path):
                     self.showBackdrop(cached_path)
                     return
-            backdrop_path = join(self.storage_path, "{}.jpg".format(self.pstcanal))
+            backdrop_path = join(
+                self.storage_path,
+                "{}.jpg".format(
+                    self.pstcanal))
             if checkBackdropExistence(backdrop_path):
                 self.showBackdrop(backdrop_path)
             else:
@@ -423,7 +426,10 @@ class BackdropDB(AgbDownloadThread):
             if not self.pstcanal:
                 logger.error("Invalid channel name: {}".format(canal[0]))
                 return
-            backdrop_path = join(BACKDROP_FOLDER, "{}.jpg".format(self.pstcanal))
+            backdrop_path = join(
+                BACKDROP_FOLDER,
+                "{}.jpg".format(
+                    self.pstcanal))
             with Lock():
                 self.queued_backdrops.add(self.pstcanal)
             try:
@@ -455,13 +461,17 @@ class BackdropDB(AgbDownloadThread):
                                 "Download successful with {}".format(provider_name))
                             break
                     except Exception as e:
-                        logger.error("Error with {}: {}".format(provider_name, str(e)))
+                        logger.error(
+                            "Error with {}: {}".format(
+                                provider_name, str(e)))
                         continue
             finally:
                 with Lock():
                     self.queued_backdrops.discard(self.pstcanal)
         except Exception as e:
-            logger.error("Critical error in _process_canal_task: {}".format(str(e)))
+            logger.error(
+                "Critical error in _process_canal_task: {}".format(
+                    str(e)))
             logger.error(format_exc())
 
     def check_valid_backdrop(self, path):
@@ -594,7 +604,8 @@ class BackdropAutoDB(AgbDownloadThread):
                         logger.error("Invalid API key for {}".format(name))
                         continue
                 valid_providers.append((name, func))
-        logger.debug("Active providers: {}".format([p[0] for p in valid_providers]))
+        logger.debug("Active providers: {}".format(
+            [p[0] for p in valid_providers]))
         return valid_providers
 
     @property
@@ -664,7 +675,9 @@ class BackdropAutoDB(AgbDownloadThread):
         )
         if next_run <= current_time:
             next_run += timedelta(days=1)
-        logger.debug("Next scan: {}".format(next_run.strftime('%Y-%m-%d %H:%M:%S')))
+        logger.debug(
+            "Next scan: {}".format(
+                next_run.strftime('%Y-%m-%d %H:%M:%S')))
         return next_run
 
     def _execute_scheduled_scan(self):
@@ -690,8 +703,8 @@ class BackdropAutoDB(AgbDownloadThread):
     def _full_scan(self):
         self._log_info("Starting full service scan")
         self.service_queue = self._load_services()
-        self._log_info(
-            "Scan completed, found {} services".format(len(self.service_queue)))
+        self._log_info("Scan completed, found {} services".format(
+            len(self.service_queue)))
 
     def _load_services(self):
         services = OrderedDict()
@@ -737,7 +750,8 @@ class BackdropAutoDB(AgbDownloadThread):
                 events = epgcache.lookupEvent(
                     ['IBDCTESX', (service_ref, 0, -1, 1440)])
                 if not events:
-                    self._log_debug("No EPG data for service: {}".format(service_ref))
+                    self._log_debug(
+                        "No EPG data for service: {}".format(service_ref))
                     continue
                 for evt in events:
                     canal = self._prepare_canal_data(service_ref, evt)
@@ -745,7 +759,8 @@ class BackdropAutoDB(AgbDownloadThread):
                         self._download_backdrop(canal)
             except Exception as e:
                 self._log_error(
-                    "Error processing service {}: {}".format(service_ref, str(e)))
+                    "Error processing service {}: {}".format(
+                        service_ref, str(e)))
                 print_exc()
 
     def _prepare_canal_data(self, service_ref, event):
@@ -758,7 +773,8 @@ class BackdropAutoDB(AgbDownloadThread):
             if not event_name:
                 return None
             clean_title = clean_for_tvdb(event_name)
-            logger.debug("Processing event: {} -> {}".format(event_name, clean_title))
+            logger.debug(
+                "Processing event: {} -> {}".format(event_name, clean_title))
             return [
                 service_name,
                 event[1],
@@ -805,7 +821,10 @@ class BackdropAutoDB(AgbDownloadThread):
     def _try_provider(self, provider_name, provider_func, canal):
         try:
             api_key = api_key_manager.get_api_key(provider_name)
-            backdrop_path = join(BACKDROP_FOLDER, "{}.jpg".format(self.pstcanal))
+            backdrop_path = join(
+                BACKDROP_FOLDER,
+                "{}.jpg".format(
+                    self.pstcanal))
             result = provider_func(
                 dwn_backdrop=backdrop_path,
                 title=self.pstcanal,
@@ -815,7 +834,9 @@ class BackdropAutoDB(AgbDownloadThread):
                 api_key=api_key
             )
             if result:
-                logger.debug("{} returned URL: {}".format(provider_name, result))
+                logger.debug(
+                    "{} returned URL: {}".format(
+                        provider_name, result))
                 if self._validate_download(backdrop_path):
                     return True
             else:

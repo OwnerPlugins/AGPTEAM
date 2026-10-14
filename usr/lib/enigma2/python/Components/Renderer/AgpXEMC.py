@@ -173,9 +173,11 @@ class AgpXEMC(Renderer):
                     movie_path = service_ref.getPath()
 
                 logger.debug(
-                    "AgpXEMC service_handler {} movie_path {}".format(service, movie_path))
+                    "AgpXEMC service_handler {} movie_path {}".format(
+                        service, movie_path))
                 self._log_info(
-                    "AgpXEMC service_handler {} movie_path {}".format(service, movie_path))
+                    "AgpXEMC service_handler {} movie_path {}".format(
+                        service, movie_path))
 
             if hasattr(source, '__class__'):
                 class_name = source.__class__.__name__
@@ -185,7 +187,8 @@ class AgpXEMC(Renderer):
                     if service_ref:
                         movie_path = service_ref.getPath()
                         logger.debug(
-                            "AgpXEMC service {} movie_path {}".format(service_ref, movie_path))
+                            "AgpXEMC service {} movie_path {}".format(
+                                service_ref, movie_path))
 
                 elif class_name == "EMCCurrentService":
                     current_service = getattr(
@@ -193,26 +196,30 @@ class AgpXEMC(Renderer):
                     if current_service:
                         movie_path = current_service.getPath()
                         logger.debug(
-                            "AgpXEMC getCurrentService {} movie_path {}".format(current_service, movie_path))
+                            "AgpXEMC getCurrentService {} movie_path {}".format(
+                                current_service, movie_path))
 
             if not movie_path:
                 if isinstance(source, ServiceEvent):
                     service_ref = source.getCurrentService()
                     movie_path = service_ref.getPath() if service_ref else None
                     logger.debug(
-                        "AgpXEMC ServiceEvent {} movie_path {}".format(service_ref, movie_path))
+                        "AgpXEMC ServiceEvent {} movie_path {}".format(
+                            service_ref, movie_path))
 
                 elif isinstance(source, CurrentService):
                     service_ref = source.getCurrentServiceRef()
                     movie_path = service_ref.getPath() if service_ref else None
                     logger.debug(
-                        "AgpXEMC CurrentService {} movie_path {}".format(service_ref, movie_path))
+                        "AgpXEMC CurrentService {} movie_path {}".format(
+                            service_ref, movie_path))
 
                 elif isinstance(source, EventInfo):
                     service_ref = NavigationInstance.instance.getCurrentlyPlayingServiceReference()
                     movie_path = service_ref.getPath() if service_ref else None
                     logger.debug(
-                        "AgpXEMC EventInfo {} movie_path {}".format(service_ref, movie_path))
+                        "AgpXEMC EventInfo {} movie_path {}".format(
+                            service_ref, movie_path))
 
             if movie_path and _is_video_file(movie_path):
                 self._log_info("AgpXEMC Process valid movie paths")
@@ -282,7 +289,8 @@ class AgpXEMC(Renderer):
             return
 
         if poster_path:
-            logger.info("AgpXEMC Displaying poster from path: {}".format(poster_path))
+            logger.info(
+                "AgpXEMC Displaying poster from path: {}".format(poster_path))
 
             if _validate_poster(poster_path):
                 logger.info(
@@ -294,7 +302,8 @@ class AgpXEMC(Renderer):
                 self.instance.invalidate()
                 self.instance.show()
             else:
-                logger.error("AgpXEMC Poster file is invalid: {}".format(poster_path))
+                logger.error(
+                    "AgpXEMC Poster file is invalid: {}".format(poster_path))
                 self.instance.hide()
 
     def waitPoster(self, poster_path=None):
@@ -533,6 +542,7 @@ if cfg.xemc_poster.value:
                 AgpDBemc.daemon = True
                 AgpDBemc.start()
                 logger.debug(
-                    "AgpXEMC PosterDBEMC started with PID: {}".format(AgpDBemc.ident))
+                    "AgpXEMC PosterDBEMC started with PID: {}".format(
+                        AgpDBemc.ident))
 else:
     logger.debug("AgpXEMC PosterDBEMC not started - no active providers")
