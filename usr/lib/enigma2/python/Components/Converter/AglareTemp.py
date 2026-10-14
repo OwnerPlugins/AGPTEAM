@@ -79,7 +79,9 @@ class AglareTemp(Poll, Converter):
         try:
             self.hddtemp_output += strData.decode('utf-8', 'ignore')
         except Exception as e:
-            self.logger.warning("Error processing HDD temp data: {}".format(str(e)))
+            self.logger.warning(
+                "Error processing HDD temp data: {}".format(
+                    str(e)))
 
     def _hddtemp_finished(self, retval):
         """Process completed HDD temperature check"""
@@ -88,7 +90,8 @@ class AglareTemp(Poll, Converter):
                 self.hddtemp = 'HDD Temp: N/A'
             else:
                 temp = int(self.hddtemp_output.strip())
-                self.hddtemp = 'HDD Temp: {}°C'.format(temp) if temp > 0 else 'HDD idle or N/A'
+                self.hddtemp = 'HDD Temp: {}°C'.format(
+                    temp) if temp > 0 else 'HDD idle or N/A'
         except ValueError:
             self.hddtemp = 'HDD Temp: Invalid data'
         except Exception as e:
@@ -148,7 +151,9 @@ class AglareTemp(Poll, Converter):
                             temp = processor(temp)
                         return '{}°C'.format(temp)
                 except Exception as e:
-                    self.logger.debug("Error reading {}: {}".format(source, str(e)))
+                    self.logger.debug(
+                        "Error reading {}: {}".format(
+                            source, str(e)))
                     continue
         return 'N/A'
 
@@ -227,7 +232,9 @@ class AglareTemp(Poll, Converter):
                         if speed:
                             return 'CPU Speed: {} MHz'.format(speed)
                 except Exception as e:
-                    self.logger.debug("Error reading {}: {}".format(source, str(e)))
+                    self.logger.debug(
+                        "Error reading {}: {}".format(
+                            source, str(e)))
                     continue
         return 'CPU Speed: N/A'
 

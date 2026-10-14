@@ -312,18 +312,21 @@ class AgbDownloadThread(Thread):
                 if not backdrop_path:
                     continue
 
-                backdrop = "http://image.tmdb.org/t/p/original{}".format(backdrop_path)
+                backdrop = "http://image.tmdb.org/t/p/original{}".format(
+                    backdrop_path)
                 if not backdrop.strip():
                     print(
                         'No backdrop with original size, try with w500 -> {}'.format(backdrop))
-                    backdrop = "http://image.tmdb.org/t/p/w500{}".format(backdrop_path)
+                    backdrop = "http://image.tmdb.org/t/p/w500{}".format(
+                        backdrop_path)
 
                 if backdrop.strip():  # and not backdrop.endswith("/original"):
                     print(
                         'backdrop with w500 size, try with w500 -> {} '.format(backdrop))
                     callInThread(self.saveBackdrop, backdrop, dwn_backdrop)
                     if exists(dwn_backdrop):
-                        return True, "[SUCCESS] backdrop math: {}".format(title)
+                        return True, "[SUCCESS] backdrop math: {}".format(
+                            title)
 
                 # if backdrop.strip() and not backdrop.endswith("/original"):
                     # callInThread(self.saveBackdrop, backdrop, dwn_backdrop)
@@ -569,7 +572,9 @@ class AgbDownloadThread(Thread):
             match = self._find_best_match(
                 results, year, self.title_safe, aka_info)
             if not match or "imdb_id" not in match:
-                return (False, "[SKIP] No IMDb match for {}".format(self.title_safe))
+                return (
+                    False, "[SKIP] No IMDb match for {}".format(
+                        self.title_safe))
 
             # Open gallery page
             gallery_url = "https://www.imdb.com/title/{}/mediaindex/".format(
@@ -590,7 +595,10 @@ class AgbDownloadThread(Thread):
                 if exists(dwn_backdrop):
                     return (True, "[SUCCESS] IMDb backdrop downloaded")
 
-            return (False, "[SKIP] Download failed for {}".format(self.title_safe))
+            return (
+                False,
+                "[SKIP] Download failed for {}".format(
+                    self.title_safe))
 
         except Exception as e:
             logger.error("IMDb backdrop processing error: {}".format(str(e)))
@@ -666,7 +674,8 @@ class AgbDownloadThread(Thread):
                 r'\],\["https://www.programme-tv.net(.*?)",\d+,\d+]', ff)
             for backdroplst in plst:
                 ptv_id += 1
-                url_backdrop = "https://www.programme-tv.net{}".format(backdroplst)
+                url_backdrop = "https://www.programme-tv.net{}".format(
+                    backdroplst)
                 url_backdrop = sub(r"\\u003d", "=", url_backdrop)
                 url_backdrop_size = findall(
                     r'([\d]+)x([\d]+).*?([\w\.-]+).jpg', url_backdrop)
@@ -701,7 +710,8 @@ class AgbDownloadThread(Thread):
             if e.response is not None and e.response.status_code == 404:
                 return False, "No results found on programmetv-google"
             else:
-                logger.error("programmetv-google HTTP error: {}".format(str(e)))
+                logger.error(
+                    "programmetv-google HTTP error: {}".format(str(e)))
                 return False, "HTTP error during programmetv-google search"
 
     def search_molotov_google(
@@ -821,13 +831,15 @@ class AgbDownloadThread(Thread):
         pltt = findall(
             r'"https://fusion.molotov.tv/(.*?)/jpg" alt="(.*?)"', ffm)
         if len(pltt) > 0:
-            url_backdrop = "https://fusion.molotov.tv/{}/jpg".format(pltt[0][0])
+            url_backdrop = "https://fusion.molotov.tv/{}/jpg".format(
+                pltt[0][0])
             callInThread(self.saveBackdrop, url_backdrop, dwn_backdrop)
             if exists(dwn_backdrop):
                 return True, "[SUCCESS {}-google] Found backdrop for {} => {}".format(
                     platform, self.title_safe, url_backdrop)
         else:
-            return False, "[SKIP : {}-google] No suitable backdrop found.".format(platform)
+            return False, "[SKIP : {}-google] No suitable backdrop found.".format(
+                platform)
 
     def handle_fallback(self, ff, pchannel, title_safe, headers, dwn_backdrop):
         plst = findall(
@@ -838,7 +850,8 @@ class AgbDownloadThread(Thread):
                     url_backdrop = "https://{}".format(pl[0])
                     callInThread(self.saveBackdrop, url_backdrop, dwn_backdrop)
                     if exists(dwn_backdrop):
-                        return True, "[SUCCESS fallback] Found fallback backdrop for {} => {}".format(title_safe, url_backdrop)
+                        return True, "[SUCCESS fallback] Found fallback backdrop for {} => {}".format(
+                            title_safe, url_backdrop)
         return False, "[SKIP : fallback] No suitable fallback found."
 
     def search_google(
@@ -875,7 +888,8 @@ class AgbDownloadThread(Thread):
                     url, stream=True, headers=headers, cookies={
                         'CONSENT': 'YES+'}).text
 
-            url_google = "https://www.google.com/search?q={}&tbm=isch&tbs=sbd:0".format(url_google)
+            url_google = "https://www.google.com/search?q={}&tbm=isch&tbs=sbd:0".format(
+                url_google)
             ff = fetch_images(url_google)
 
             backdroplst = findall(r'\],\["https://(.*?)",\d+,\d+]', ff)
@@ -898,7 +912,8 @@ class AgbDownloadThread(Thread):
                 self.title_safe)
 
         except Exception as e:
-            return False, "[ERROR : google] {} => {}".format(self.title_safe, str(e))
+            return False, "[ERROR : google] {} => {}".format(
+                self.title_safe, str(e))
 
         except HTTPError as e:
             if e.response is not None and e.response.status_code == 404:
@@ -986,7 +1001,9 @@ class AgbDownloadThread(Thread):
                     return True
 
                 except Exception as e:
-                    logger.debug("Attempt {} failed: {}".format(attempt + 1, str(e)))
+                    logger.debug(
+                        "Attempt {} failed: {}".format(
+                            attempt + 1, str(e)))
 
                     # Clean up partial file
                     if exists(filepath):
@@ -1124,7 +1141,6 @@ class AgbDownloadThread(Thread):
         global srch
         srch = "multi"
         return srch, fd
-
 
     def UNAC(self, string):
         string = normalize('NFD', string)
