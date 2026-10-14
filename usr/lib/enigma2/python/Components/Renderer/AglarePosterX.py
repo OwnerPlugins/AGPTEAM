@@ -62,7 +62,6 @@ from collections import OrderedDict
 from queue import LifoQueue
 from concurrent.futures import ThreadPoolExecutor
 
-# Enigma2 specific imports
 from enigma import ePixmap, loadJPG, eEPGCache, eTimer
 from Components.Renderer.Renderer import Renderer
 from Components.Sources.Event import Event
@@ -72,7 +71,6 @@ from Components.Sources.ServiceEvent import ServiceEvent
 from ServiceReference import ServiceReference
 import NavigationInstance
 
-# Local imports
 from Plugins.Extensions.Aglare.api_config import cfg
 from Plugins.Extensions.Aglare.api_config import ApiKeyManager
 from Components.Renderer.AgpDownloadThread import AgpDownloadThread
@@ -82,7 +80,6 @@ from .Agp_Utils import (
     check_disk_space,
     delete_old_files_if_low_disk_space,
     validate_media_path,
-    # MemClean,
     clean_for_tvdb,
     create_secure_log_dir
 )
@@ -164,7 +161,6 @@ class AglarePosterX(Renderer):
     GUI_WIDGET = ePixmap
 
     def __init__(self):
-        """Initialize the poster renderer"""
         Renderer.__init__(self)
 
         self._stop_event = threading.Event()
@@ -201,13 +197,7 @@ class AglarePosterX(Renderer):
         self.poster_db = PosterDB(providers=self.providers)
         self.poster_auto_db = PosterAutoDB(providers=self.providers)
 
-        # -------------------------------------------------
-        # logger.info("AglarePosterX Renderer initialized")
-        # logger.debug(f"Path archiving: {self.storage_path}")
-        # logger.debug(f"Provider actives: {list(self.providers.keys())}")
-
     def applySkin(self, desktop, parent):
-        """Apply skin configuration and settings"""
         attribs = []
         for (attrib, value) in self.skinAttributes:
             if attrib == "nexts":
@@ -221,11 +211,9 @@ class AglarePosterX(Renderer):
         return Renderer.applySkin(self, desktop, parent)
 
     def changed(self, what):
-        """Handle screen/channel changes and update poster"""
         if not self.instance:
             return
 
-        # Skip unnecessary updates
         if what[0] not in (
                 self.CHANGED_DEFAULT,
                 self.CHANGED_ALL,
@@ -240,7 +228,6 @@ class AglarePosterX(Renderer):
         servicetype = None
         service = None
         try:
-            # Handle different source types
             if source_type is ServiceEvent:
                 service = source.getCurrentService()
                 servicetype = "ServiceEvent"
@@ -256,8 +243,6 @@ class AglarePosterX(Renderer):
                     service = NavigationInstance.instance.getCurrentlyPlayingServiceReference()
                     print('fallback service:', service)
                 else:
-                    # Clean and store event data
-                    # self.canal[0] = None
                     bt = source.event.getBeginTime()
                     if bt is not None:
                         self.canal[1] = bt
@@ -274,19 +259,16 @@ class AglarePosterX(Renderer):
 
             if service is not None:
                 service_str = service.toString()
-                # self._log_debug(f"Service string: {service_str}")
                 events = epgcache.lookupEvent(
                     ['IBDCTESX', (service_str, 0, -1, -1)])
 
                 if not events or len(events) <= self.nxts:
-                    # self._log_debug("No events or insufficient events")
                     if self.instance:
                         self.instance.hide()
                     return
 
                 service_name = ServiceReference(service).getServiceName().replace(
                     '\xc2\x86', '').replace('\xc2\x87', '')
-                # self._log_debug(f"Service name: {service_name}")
                 self.canal = [None] * 6
                 self.canal[0] = service_name
                 self.canal[1] = events[self.nxts][1]
@@ -294,19 +276,16 @@ class AglarePosterX(Renderer):
                 self.canal[3] = events[self.nxts][5]
                 self.canal[4] = events[self.nxts][6]
                 self.canal[5] = self.canal[2]
-                # self._log_debug(f"Event data set: {self.canal}")
 
                 if not autobouquet_file and service_name not in apdb:
                     apdb[service_name] = service_str
 
-            # Skip if no valid program data
             if not servicetype or not self.canal[5]:
                 if self.instance:
                     self.instance.hide()
                 return
 
-            # Check if program changed
-            curCanal = f"{self.canal[1]}-{self.canal[2]}"
+            curCanal = "{}-{}".format(self.canal[1], self.canal[2])
             if curCanal == self.oldCanal:
                 return
 
@@ -324,47 +303,35 @@ class AglarePosterX(Renderer):
                     self.showPoster(cached_path)
                     return
 
-            # Try to display existing poster
-            poster_path = join(self.storage_path, f"{self.pstcanal}.jpg")
+            poster_path = join(self.storage_path, "{}.jpg".format(self.pstcanal))
             if checkPosterExistence(poster_path):
                 self.showPoster(poster_path)
             else:
-                # Queue for download if not available
                 pdb.put(self.canal[:])
                 self.runPosterThread()
 
         except Exception as e:
-            logger.error(f"Error in changed: {str(e)}")
+            logger.error("Error in changed: {}".format(str(e)))
             if self.instance:
                 self.instance.hide()
             return
 
     def generatePosterPath(self):
-        """Generate filesystem path for current program's poster"""
         if len(self.canal) > 5 and self.canal[5]:
             self.pstcanal = clean_for_tvdb(self.canal[5])
             return join(self.storage_path, str(self.pstcanal) + ".jpg")
         return None
 
     def runPosterThread(self):
-        """Start background thread to wait for poster download"""
-        """
-        # for provider in self.providers:
-            # if str(self.providers[provider]).lower() == "true":
-                # self._log_debug(f"Providers attivi: {provider}")
-        """
-        # Thread(target=self.waitPoster).start()
         Thread(target=self.waitPoster, daemon=True).start()
 
     def showPoster(self, poster_path=None):
-        """Display the poster image"""
         if not self.instance:
             return
 
         if self.instance:
             self.instance.hide()
 
-        # Use cached path if none provided
         if not poster_path and self.backrNm:
             poster_path = self.backrNm
         if poster_path and checkPosterExistence(poster_path):
@@ -372,67 +339,23 @@ class AglarePosterX(Renderer):
             self.instance.setScale(1)
             self.instance.show()
 
-    """
-    # def showPoster(self, poster_path=None):
-        # if not self.instance:
-            # return
-
-        # try:
-            # path = poster_path or self.backrNm
-            # if not path:
-                # self.instance.hide()
-                # return
-
-            # if not self.check_valid_poster(path):
-                # # logger.warning(f"Invalid poster file: {path}")
-                # self.instance.hide()
-                # return
-
-            # max_attempts = 3
-            # for attempt in range(max_attempts):
-                # try:
-                    # pixmap = loadJPG(path)
-                    # if pixmap:
-                        # self.instance.setPixmap(pixmap)
-                        # self.instance.setScale(1)
-                        # self.instance.show()
-                        # # logger.debug(f"Displayed poster: {path}")
-                        # return
-                    # else:
-                        # logger.warning(f"Failed to load pixmap (attempt {attempt + 1})")
-                        # sleep(0.1 * (attempt + 1))
-                # except Exception as e:
-                    # logger.error(f"Pixmap error (attempt {attempt + 1}): {str(e)}")
-                    # sleep(0.1 * (attempt + 1))
-
-            # self.instance.hide()
-
-        # except Exception as e:
-            # logger.error(f"Error in showPoster: {str(e)}")
-            # self.instance.hide()
-    """
-
     def waitPoster(self):
-        """Wait for Poster download to complete with retries"""
         if not self.instance or not self.canal[5]:
             return
 
         self.backrNm = None
         pstcanal = clean_for_tvdb(self.canal[5])
-        poster_path = join(self.storage_path, f"{pstcanal}.jpg")
+        poster_path = join(self.storage_path, "{}.jpg".format(pstcanal))
 
         for attempt in range(5):
             if checkPosterExistence(poster_path):
                 self.backrNm = poster_path
-                # logger.debug(f"Poster found after {attempt} attempts")
                 self.showPoster(poster_path)
                 return
 
             sleep(0.3 * (attempt + 1))
-        # logger.warning(f"Poster not found after retries: {poster_path}")
 
     def check_valid_poster(self, path):
-        """Verify Poster is valid JPEG and >1KB"""
         try:
             if not exists(path):
                 return False
@@ -443,12 +366,12 @@ class AglarePosterX(Renderer):
 
             with open(path, 'rb') as f:
                 header = f.read(2)
-                if header != b'\xFF\xD8':  # JPEG magic number
+                if header != b'\xFF\xD8':
                     remove(path)
                     return False
             return True
         except Exception as e:
-            logger.error(f"Poster validation error: {str(e)}")
+            logger.error("Poster validation error: {}".format(str(e)))
             return False
 
     def _log_info(self, message):
@@ -461,7 +384,6 @@ class AglarePosterX(Renderer):
         self._write_log("ERROR", message, error=True)
 
     def _write_log(self, level, message, error=False):
-        """Centralized logging method writing to fixed log files"""
         try:
             if not hasattr(self, "log_dir"):
                 log_dir = secure_log_dir
@@ -481,11 +403,7 @@ class AglarePosterX(Renderer):
 
 
 class PosterDB(AgpDownloadThread):
-
-    """Handles Poster downloading and database management"""
-
     def __init__(self, providers=None):
-        # AgpDownloadThread.__init__()
         super().__init__()
 
         self.providers = {}
@@ -505,17 +423,16 @@ class PosterDB(AgpDownloadThread):
         self.provider_engines = self.build_providers()
 
     def build_providers(self):
-        """Initialize enabled provider search engines"""
         provider_mapping = {
             "tmdb": self.search_tmdb,
             "fanart": self.search_fanart,
             "thetvdb": self.search_tvdb,
-            "elcinema": self.search_elcinema,  # no apikey
-            "google": self.search_google,  # no apikey
+            "elcinema": self.search_elcinema,
+            "google": self.search_google,
             "omdb": self.search_omdb,
-            "imdb": self.search_imdb,  # no apikey
-            "programmetv": self.search_programmetv_google,  # no apikey
-            "molotov": self.search_molotov_google,  # no apikey
+            "imdb": self.search_imdb,
+            "programmetv": self.search_programmetv_google,
+            "molotov": self.search_molotov_google,
         }
         return [
             (name, func) for name, func in provider_mapping.items()
@@ -523,45 +440,32 @@ class PosterDB(AgpDownloadThread):
         ]
 
     def run(self):
-        """Main processing loop - handles incoming channel requests"""
         while True:
             canal = pdb.get()
             self.process_canal(canal)
             pdb.task_done()
 
     def process_canal(self, canal):
-        """Schedule channel processing in thread pool"""
         self.executor.submit(self._process_canal_task, canal)
 
     def _process_canal_task(self, canal):
-        """Download and process poster for a single channel"""
         try:
             self.pstcanal = clean_for_tvdb(canal[5])
             if not self.pstcanal:
-                logger.error(f"Invalid channel: {canal[0]}")
+                logger.error("Invalid channel: {}".format(canal[0]))
                 return
 
-            poster_path = join(POSTER_FOLDER, f"{self.pstcanal}.jpg")
+            poster_path = join(POSTER_FOLDER, "{}.jpg".format(self.pstcanal))
 
-            # Check if already in the queue
-            """
-            if self.pstcanal in self.queued_posters:
-                logger.debug(f"Poster already queued: {self.pstcanal}")
-                return
-            """
-            # Add to queue and process
             with Lock():
                 self.queued_posters.add(self.pstcanal)
 
             try:
-                # Check if a valid file already exists
                 if self.check_valid_poster(poster_path):
-                    # logger.debug(f"Valid existing poster: {poster_path}")
                     return
 
-                logger.info(f"Starting download: {self.pstcanal}")
+                logger.info("Starting download: {}".format(self.pstcanal))
 
-                # Sort providers by configured priority
                 sorted_providers = sorted(
                     self.provider_engines,
                     key=lambda x: self.providers.get(x[0], 0),
@@ -570,14 +474,12 @@ class PosterDB(AgpDownloadThread):
 
                 for provider_name, provider_func in sorted_providers:
                     try:
-                        # Retrieve the API key for the current provider
                         api_key = api_key_manager.get_api_key(provider_name)
                         if not api_key:
                             logger.warning(
-                                f"Missing API key for {provider_name}")
+                                "Missing API key for {}".format(provider_name))
                             continue
 
-                        # Call the provider function to download the poster
                         result = provider_func(
                             dwn_poster=poster_path,
                             title=self.pstcanal,
@@ -588,24 +490,22 @@ class PosterDB(AgpDownloadThread):
                         )
                         if result and self.check_valid_poster(poster_path):
                             logger.info(
-                                f"Download successful with {provider_name}")
+                                "Download successful with {}".format(provider_name))
                             break
 
                     except Exception as e:
-                        logger.error(f"Error from {provider_name}: {str(e)}")
+                        logger.error("Error from {}: {}".format(provider_name, str(e)))
                         continue
 
             finally:
-                # Remove the channel from the queue after processing
                 with Lock():
                     self.queued_posters.discard(self.pstcanal)
 
         except Exception as e:
-            logger.error(f"Critical error in _process_canal_task: {str(e)}")
+            logger.error("Critical error in _process_canal_task: {}".format(str(e)))
             logger.error(format_exc())
 
     def check_valid_poster(self, path):
-        """Verify poster is valid JPEG and >1KB"""
         try:
             if not exists(path):
                 return False
@@ -616,25 +516,16 @@ class PosterDB(AgpDownloadThread):
 
             with open(path, 'rb') as f:
                 header = f.read(2)
-                if header != b'\xFF\xD8':  # JPEG magic number
+                if header != b'\xFF\xD8':
                     remove(path)
                     return False
             return True
         except Exception as e:
-            logger.error(f"Poster validation error: {str(e)}")
+            logger.error("Poster validation error: {}".format(str(e)))
             return False
 
-    # def update_poster_cache(self, poster_name, path):
-        # """Force update cache entry"""
-        # self.poster_cache[poster_name] = path
-        # # Limit cache size
-        # if len(self.poster_cache) > 50:
-            # oldest = next(iter(self.poster_cache))
-            # del self.poster_cache[oldest]
-
     def mark_failed_attempt(self, canal_name):
-        """Track failed download attempts"""
-        self._log_debug(f"Failed attempt for {canal_name}")
+        self._log_debug("Failed attempt for {}".format(canal_name))
 
     def _log_info(self, message):
         self._write_log("INFO", message)
@@ -646,7 +537,6 @@ class PosterDB(AgpDownloadThread):
         self._write_log("ERROR", message, error=True)
 
     def _write_log(self, level, message, error=False):
-        """Centralized logging method writing to fixed log files"""
         try:
             if not hasattr(self, "log_dir"):
                 log_dir = secure_log_dir
@@ -666,29 +556,10 @@ class PosterDB(AgpDownloadThread):
 
 
 class PosterAutoDB(AgpDownloadThread):
-    """Automatic Poster download scheduler
-
-    Features:
-    - Scheduled daily scans (configurable)
-    - Batch processing for efficiency
-    - Automatic retry mechanism
-    - Provider fallback system
-
-    Configuration:
-    - providers: Configured via plugin setup parameters
-    """
-
     _instance = None
 
     def __init__(self, providers=None, max_posters=2000):
-        """Initialize the poster downloader with provider configurations"""
-        """
-        # if hasattr(self, '_initialized') and self._initialized:
-            # return
-        """
         super().__init__()
-        # AgpDownloadThread.__init__(self)
-        # self._initialized = True
         self._stop_event = threading.Event()
         self._active_event = threading.Event()
         self._scan_lock = Lock()
@@ -719,14 +590,11 @@ class PosterAutoDB(AgpDownloadThread):
         self._active_event.set()
 
         if not cfg.pstdown.value:
-            # logger.debug("PosterAutoDB: Automatic downloads DISABLED in configuration")
             return
 
         if not any(api_key_manager.get_active_providers().values()):
-            # logger.debug("Disabled - no active provider")
             return
 
-        # Proceed with full initialization
         self.active = True
         self.providers = api_key_manager.get_active_providers()
         self.poster_folder = self._init_poster_folder()
@@ -738,9 +606,8 @@ class PosterAutoDB(AgpDownloadThread):
             self.scheduled_hour = int(scan_time[0])
             self.scheduled_minute = int(scan_time[1])
             logger.debug(
-                f"Configured time: {
-                    self.scheduled_hour:02d}:{
-                    self.scheduled_minute:02d}")
+                "Configured time: {:02d}:{:02d}".format(
+                    self.scheduled_hour, self.scheduled_minute))
         except Exception as e:
             logger.error("Error parsing scan time: " + str(e))
 
@@ -761,26 +628,23 @@ class PosterAutoDB(AgpDownloadThread):
             "tmdb": self.search_tmdb,
             "fanart": self.search_fanart,
             "thetvdb": self.search_tvdb,
-            "elcinema": self.search_elcinema,  # no apikey
-            "google": self.search_google,  # no apikey
+            "elcinema": self.search_elcinema,
+            "google": self.search_google,
             "omdb": self.search_omdb,
-            "imdb": self.search_imdb,  # no apikey
-            "programmetv": self.search_programmetv_google,  # no apikey
-            "molotov": self.search_molotov_google,  # no apikey
+            "imdb": self.search_imdb,
+            "programmetv": self.search_programmetv_google,
+            "molotov": self.search_molotov_google,
         }
         for name, func in provider_mapping.items():
             if active_providers.get(name, False):
-                if name in [
-                    "tmdb",
-                    "fanart",
-                        "omdb"]:  # Providers requiring API keys
+                if name in ["tmdb", "fanart", "omdb"]:
                     key = api_key_manager.get_api_key(name)
                     if not key:
-                        logger.error(f"Invalid API key for {name}")
+                        logger.error("Invalid API key for {}".format(name))
                         continue
                 valid_providers.append((name, func))
 
-        logger.debug(f"Active providers: {[p[0] for p in valid_providers]}")
+        logger.debug("Active providers: {}".format([p[0] for p in valid_providers]))
         return valid_providers
 
     @property
@@ -801,9 +665,6 @@ class PosterAutoDB(AgpDownloadThread):
 
     def run(self):
         logger.info("PosterAutoDB THREAD STARTED")
-        # logger.info("RUNNING IN TEST MODE - BYPASSING SCHEDULER")
-        # self._execute_scheduled_scan()  # Force immediate scan
-        # logger.info("TEST SCAN COMPLETED")
         try:
             while not self._stop_event.is_set():
                 if self.force_immediate:
@@ -814,11 +675,10 @@ class PosterAutoDB(AgpDownloadThread):
 
                 now = datetime.now()
                 next_run = self._calculate_next_run(now)
-                logger.debug(f"Scheduled for: {next_run}")
+                logger.debug("Scheduled for: {}".format(next_run))
 
                 while datetime.now() < next_run and not self._stop_event.is_set():
                     remaining = (next_run - datetime.now()).total_seconds()
-                    # logger.debug(f"Residual wait: {remaining:.1f}s")
 
                     for _ in range(int(min(remaining, 1))):
                         if self._stop_event.is_set() or self.force_immediate:
@@ -834,7 +694,7 @@ class PosterAutoDB(AgpDownloadThread):
                     self._execute_scheduled_scan()
 
         except Exception as e:
-            logger.error(f"ERROR: {str(e)}", exc_info=True)
+            logger.error("ERROR: {}".format(str(e)), exc_info=True)
         finally:
             logger.info("PosterAutoDB STOPPED")
 
@@ -862,11 +722,10 @@ class PosterAutoDB(AgpDownloadThread):
         if next_run <= current_time:
             next_run += timedelta(days=1)
 
-        logger.debug(f"Next scan: {next_run.strftime('%Y-%m-%d %H:%M:%S')}")
+        logger.debug("Next scan: {}".format(next_run.strftime('%Y-%m-%d %H:%M:%S')))
         return next_run
 
     def _execute_scheduled_scan(self):
-        """Run a single scheduled scan"""
         with self._scan_lock:
             if self.active:
                 logger.debug("Starting scheduled scan")
@@ -876,7 +735,6 @@ class PosterAutoDB(AgpDownloadThread):
                 logger.debug("Scheduled scan completed")
 
     def stop(self):
-        """Safe stop with timeout"""
         self.active = False
         self._active_event.set()
         if self.is_alive():
@@ -888,14 +746,12 @@ class PosterAutoDB(AgpDownloadThread):
         logger.info("PosterAutoDB stopped gracefully")
 
     def _full_scan(self):
-        """Scan all available TV services"""
         self._log_info("Starting full service scan")
         self.service_queue = self._load_services()
         self._log_info(
-            f"Scan completed, found {len(self.service_queue)} services")
+            "Scan completed, found {} services".format(len(self.service_queue)))
 
     def _load_services(self):
-        """Load services from Enigma2 bouquet files"""
         services = OrderedDict()
         fav_path = "/etc/enigma2/userbouquet.favourites.tv"
         bouquets = [fav_path] if exists(fav_path) else []
@@ -910,7 +766,7 @@ class PosterAutoDB(AgpDownloadThread):
                         if line.startswith("#SERVICE") and "FROM BOUQUET" in line
                     ]
             except Exception as e:
-                self._log_error(f"Error reading bouquets.tv: {str(e)}")
+                self._log_error("Error reading bouquets.tv: {}".format(str(e)))
 
         for bouquet in bouquets:
             if exists(bouquet):
@@ -926,26 +782,23 @@ class PosterAutoDB(AgpDownloadThread):
                                     self.apdb[service_ref] = service_ref
                 except Exception as e:
                     self._log_error(
-                        f"Error reading bouquet {bouquet}: {
-                            str(e)}")
+                        "Error reading bouquet {}: {}".format(bouquet, str(e)))
 
         return list(services.keys())
 
     def _is_valid_service(self, sref):
-        """Validate service reference format"""
         parts = sref.split(':')
         if len(parts) < 6:
             return False
         return parts[3:6] != ["0", "0", "0"]
 
     def _process_services(self):
-        """Process all services and download posters"""
         for service_ref in self.apdb.values():
             try:
                 events = epgcache.lookupEvent(
                     ['IBDCTESX', (service_ref, 0, -1, 1440)])
                 if not events:
-                    self._log_debug(f"No EPG data for service: {service_ref}")
+                    self._log_debug("No EPG data for service: {}".format(service_ref))
                     continue
 
                 for evt in events:
@@ -955,44 +808,39 @@ class PosterAutoDB(AgpDownloadThread):
 
             except Exception as e:
                 self._log_error(
-                    f"Error processing service {service_ref}: {
-                        str(e)}")
+                    "Error processing service {}: {}".format(service_ref, str(e)))
                 print_exc()
 
     def _prepare_canal_data(self, service_ref, event):
         try:
-            # Get service name from service reference
             service_name = ServiceReference(service_ref).getServiceName()
             service_name = service_name.replace(
                 "\xc2\x86", "").replace(
                 "\xc2\x87", "")
 
-            # Safely get the raw event title (could be None)
             raw_title = event[4] or ""
             event_name = raw_title.strip()
             if not event_name:
-                # nothing to search for, skip this event
                 return None
 
             clean_title = clean_for_tvdb(event_name)
 
-            logger.debug(f"Processing event: {event_name} -> {clean_title}")
+            logger.debug("Processing event: {} -> {}".format(event_name, clean_title))
 
             return [
                 service_name,
-                event[1],      # begin_time
+                event[1],
                 event_name,
-                event[5],      # extended_desc
-                event[6],      # short_desc
+                event[5],
+                event[6],
                 clean_title,
             ]
 
         except Exception as e:
-            logger.error(f"Failed to parse event: {str(e)}")
+            logger.error("Failed to parse event: {}".format(str(e)))
             return None
 
     def _download_poster(self, canal):
-        """Download poster with provider fallback logic"""
         try:
             if not self._pre_download_checks(canal):
                 return
@@ -1002,13 +850,12 @@ class PosterAutoDB(AgpDownloadThread):
                     downloaded = True
                     break
             if not downloaded:
-                logger.error(f"Download failed for: {self.pstcanal}")
+                logger.error("Download failed for: {}".format(self.pstcanal))
         except Exception as e:
-            logger.error(f"Critical error: {str(e)}")
+            logger.error("Critical error: {}".format(str(e)))
             print_exc()
 
     def _pre_download_checks(self, canal):
-        """Run pre-download checks"""
         if not canal or len(canal) < 6:
             return False
 
@@ -1030,12 +877,9 @@ class PosterAutoDB(AgpDownloadThread):
         return True
 
     def _try_provider(self, provider_name, provider_func, canal):
-        """Try downloading with a specific provider"""
         try:
             api_key = api_key_manager.get_api_key(provider_name)
-            # logger.debug(f"Trying {provider_name} with key: {api_key[:3]}...")
-            poster_path = join(POSTER_FOLDER, f"{self.pstcanal}.jpg")
-            # logger.debug(f"Searching: {self.pstcanal} | Channel: {canal[0]}")
+            poster_path = join(POSTER_FOLDER, "{}.jpg".format(self.pstcanal))
             result = provider_func(
                 dwn_poster=poster_path,
                 title=self.pstcanal,
@@ -1045,26 +889,24 @@ class PosterAutoDB(AgpDownloadThread):
                 api_key=api_key
             )
             if result:
-                logger.debug(f"{provider_name} returned URL: {result}")
+                logger.debug("{} returned URL: {}".format(provider_name, result))
                 if self._validate_download(poster_path):
                     return True
             else:
-                logger.debug(f"{provider_name} returned no results")
+                logger.debug("{} returned no results".format(provider_name))
 
         except Exception as e:
-            logger.error(f"Error with {provider_name}: {str(e)}")
+            logger.error("Error with {}: {}".format(provider_name, str(e)))
 
         return False
 
     def _validate_download(self, poster_path):
-        """Verify the integrity of the downloaded file"""
         if checkPosterExistence(poster_path) and getsize(poster_path) > 1024:
             self.poster_download_count += 1
             return True
         return False
 
     def _init_poster_folder(self):
-        """Initialize the folder with validation"""
         try:
             return validate_media_path(
                 POSTER_FOLDER,
@@ -1072,7 +914,7 @@ class PosterAutoDB(AgpDownloadThread):
                 min_space_mb=self.min_disk_space
             )
         except Exception as e:
-            self._log_error(f"Poster folder init failed: {str(e)}")
+            self._log_error("Poster folder init failed: {}".format(str(e)))
             fallback = "/tmp/posters"
             try:
                 if not exists(fallback):
@@ -1082,7 +924,6 @@ class PosterAutoDB(AgpDownloadThread):
             return fallback
 
     def _check_storage(self):
-        """Version optimized using utilities"""
         try:
             if check_disk_space(self.poster_folder, self.min_disk_space):
                 return True
@@ -1097,7 +938,7 @@ class PosterAutoDB(AgpDownloadThread):
             return check_disk_space(self.poster_folder, self.min_disk_space)
 
         except Exception as e:
-            self._log_error(f"Storage check failed: {str(e)}")
+            self._log_error("Storage check failed: {}".format(str(e)))
             return False
 
     def _log_info(self, message):
@@ -1110,13 +951,11 @@ class PosterAutoDB(AgpDownloadThread):
         self._write_log("ERROR", message, error=True)
 
     def _write_log(self, level, message, error=False):
-        """Centralized logging method writing to fixed log files"""
         try:
             log_dir = "/tmp/agplog"
             if not exists(log_dir):
                 makedirs(log_dir)
 
-            # Choose file based on error flag
             if error:
                 log_file = log_dir + "/PosterX_errors.log"
             elif level == "DEBUG":
@@ -1125,9 +964,9 @@ class PosterAutoDB(AgpDownloadThread):
                 log_file = log_dir + "/PosterX.log"
 
             with open(log_file, "a") as w:
-                w.write(f"{datetime.now()} {level}: {message}\n")
+                w.write("{} {}: {}\n".format(datetime.now(), level, message))
         except Exception as e:
-            print(f"Logging error: {e}")
+            print("Logging error: {}".format(e))
 
 
 def checkPosterExistence(poster_path):
@@ -1135,7 +974,6 @@ def checkPosterExistence(poster_path):
 
 
 def is_valid_poster(poster_path):
-    """Check if the poster file is valid (exists and has a valid size)"""
     return exists(poster_path) and getsize(poster_path) > 100
 
 
@@ -1155,7 +993,6 @@ def clear_all_log():
             logger.error("log_files cleanup failed: {}".format(e))
 
 
-# download on requests
 if any(api_key_manager.get_active_providers().values()):
     logger.debug("Starting PosterDB with active providers")
     with db_lock:
@@ -1168,16 +1005,13 @@ else:
     logger.debug("PosterDB not started - no active providers")
 
 
-# automatic download
 if cfg.pstdown.value:
     logger.debug("Starting PosterAutoDB...")
 
-    # Stop existing instance if any
     if global_agp_auto_db:
         global_agp_auto_db.stop()
         global_agp_auto_db = None
 
-    # Start new instance
     global_agp_auto_db = PosterAutoDB()
     global_agp_auto_db.daemon = True
     global_agp_auto_db.start()

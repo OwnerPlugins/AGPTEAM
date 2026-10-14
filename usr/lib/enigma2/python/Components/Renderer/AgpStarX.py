@@ -161,10 +161,7 @@ class AgpStarX(VariableValue, Renderer):
         self.rating_source = cfg.rating_source.value
         self._setup_caching()
 
-        # logger.info("AgpStarX Renderer initialized")
-
     def changed(self, what):
-        """Handle content changes"""
         if what[0] == self.CHANGED_CLEAR:
             (self.range, self.value) = ((0, 1), 0)
             return
@@ -174,7 +171,6 @@ class AgpStarX(VariableValue, Renderer):
             return
 
         if what[0] != self.CHANGED_CLEAR:
-            # logger.info('AgpStarX event B what[0] != self.CHANGED_CLEAR')
             if self.instance:
                 self.instance.hide()
 
@@ -188,11 +184,6 @@ class AgpStarX(VariableValue, Renderer):
             if events:
                 source.event = events[0]
 
-        # if not hasattr(self.source, 'event') or not self.source.event:
-            # return
-
-        # logger.debug(f"AgpStarX - Source type: {type(source).__name__}")  #
-        # <--- QUESTA RIGA
         if not self.rating_source:
             return
 
@@ -215,10 +206,9 @@ class AgpStarX(VariableValue, Renderer):
             self.current_request.start()
 
         except Exception as e:
-            logger.error(f"AgpStarX Infos error: {str(e)}")
+            logger.error("AgpStarX Infos error: {}".format(str(e)))
 
     def _setup_caching(self):
-        """Dynamic caching configuration"""
         if config.plugins.Aglare.cache.value:
             self.cached_download = lru_cache(
                 maxsize=100)(
@@ -234,9 +224,8 @@ class AgpStarX(VariableValue, Renderer):
                         self.pstcanal) < 3:
                     return
 
-                info_file = f"{POSTER_FOLDER}/{self.pstcanal}.json"
+                info_file = "{}/{}.json".format(POSTER_FOLDER, self.pstcanal)
 
-                # Attempting to read from existing file
                 if exists(info_file):
                     try:
                         if getsize(info_file) > 0:
@@ -249,26 +238,23 @@ class AgpStarX(VariableValue, Renderer):
                                 "AgpStarX JSON file is empty (0 bytes): %s", info_file)
                     except Exception as e:
                         logger.warning(
-                            f"File corrotto, elimino: {info_file} {e}")
+                            "File corrotto, elimino: {} {}".format(info_file, e))
                         remove(info_file)
 
-                # Download API
                 self.api_key = api_key_manager.get_api_key('tmdb')
                 if not self.api_key or len(self.pstcanal) < 3:
                     return None
 
                 try:
                     clean_query = quoteEventName(self.pstcanal.strip())
-                    url = f"https://api.themoviedb.org/3/search/multi?api_key={
-                        self.api_key}&query={clean_query}"
+                    url = "https://api.themoviedb.org/3/search/multi?api_key={}&query={}".format(
+                        self.api_key, clean_query)
 
                     with urlopen(url, timeout=10) as response:
                         if response.status != 200:
-
                             return
                         url_data = json_load(response)
 
-                    # Cascade Validation
                     results = url_data.get('results', [])
                     valid_results = [
                         r for r in results if r.get('media_type') in [
@@ -277,7 +263,6 @@ class AgpStarX(VariableValue, Renderer):
                     if not valid_results:
                         return
 
-                    # Content type control (exclude TV shows)
                     best_result = valid_results[0]
                     content_type = best_result['media_type']
                     content_id = best_result['id']
@@ -296,10 +281,8 @@ class AgpStarX(VariableValue, Renderer):
                             return
                         movie_data = json_load(details_response)
 
-                    # Save data
                     with open(info_file, "w") as f:
                         json_dump(movie_data, f, indent=2)
-                        # logger.debug(f"AgpStarX Data saved in: {info_file}")
 
                     self.process_data(movie_data)
 
@@ -309,13 +292,12 @@ class AgpStarX(VariableValue, Renderer):
                     return
 
                 except Exception as e:
-                    logger.error(f"AgpStarX Error while downloading: {str(e)}")
+                    logger.error("AgpStarX Error while downloading: {}".format(str(e)))
 
         except Exception as e:
-            logger.error(f"AgpStarX Critical error: {str(e)}", exc_info=True)
+            logger.error("AgpStarX Critical error: {}".format(str(e)), exc_info=True)
 
     def _safe_download_impl(self, channel_hash: str):
-        """Basic download implementation with correct parameters"""
         try:
             with self.lock:
                 channel_name = self.pstcanal
@@ -338,7 +320,6 @@ class AgpStarX(VariableValue, Renderer):
                         return None
                     search_data = json_load(res)
 
-                # Processing results
                 valid_results = [
                     r for r in search_data.get(
                         'results', []) if r.get('media_type') in [
@@ -350,9 +331,9 @@ class AgpStarX(VariableValue, Renderer):
                 content_type = best_result['media_type']
                 content_id = best_result['id']
 
-                # Request details
-                details_url = f"https://api.themoviedb.org/3/{content_type}/{content_id}?api_key={
-                    self.api_key}"
+                details_url = (
+                    "https://api.themoviedb.org/3/" + content_type + "/" +
+                    str(content_id) + "?api_key=" + self.api_key)
                 with urlopen(details_url, timeout=15) as detail_res:
                     return json_load(detail_res)
 
@@ -363,7 +344,7 @@ class AgpStarX(VariableValue, Renderer):
             return None
 
         except Exception as e:
-            logger.error(f"AgpStarX Error download: {str(e)}")
+            logger.error("AgpStarX Error download: {}".format(str(e)))
             return None
 
     def process_data(self, data):
@@ -405,21 +386,13 @@ class AgpStarX(VariableValue, Renderer):
 
     def _delayed_ui_update(self, data):
         try:
-            """
-            # Checking for instance existence
-            if not self.instance or not hasattr(self.instance, 'show'):
-                return
-            """
-
             if not self.instance:
                 return
 
-            # Channel consistency check
             current_event = self.source.event
             if not current_event or current_event.getEventName() != self.last_channel:
                 return
 
-            # Data processing and UI update
             rating = data.get('vote_average', 0)
             rtng = min(int(rating * 10), 100) if rating else 0
             with self.lock:
@@ -428,14 +401,15 @@ class AgpStarX(VariableValue, Renderer):
                 self.instance.show()
 
         except Exception as e:
-            logger.debug(f"AgpStarX UI update skipped: {str(e)}")
+            logger.debug("AgpStarX UI update skipped: {}".format(str(e)))
 
     def extract_year(self, event):
         try:
-            desc = f"{
-                event.getEventName()}\n{
-                event.getShortDescription()}\n{
-                event.getExtendedDescription()}"
+            desc = (
+                str(event.getEventName()) + "\n" +
+                str(event.getShortDescription()) + "\n" +
+                str(event.getExtendedDescription())
+            )
             years = findall(r'\b\d{4}\b', desc)
             if years:
                 valid_years = [y for y in years if 1900 <= int(y) <= 2100]
@@ -445,7 +419,7 @@ class AgpStarX(VariableValue, Renderer):
                 "AgpStarX No valid production year found in event details")
             return None
         except Exception as e:
-            logger.warning(f"AgpStarXYear Year extraction failed: {str(e)}")
+            logger.warning("AgpStarXYear Year extraction failed: {}".format(str(e)))
             return None
 
     def postWidgetCreate(self, instance):

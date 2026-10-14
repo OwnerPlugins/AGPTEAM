@@ -232,11 +232,11 @@ class AgbanDownloadThread(Thread):
             if not year:
                 year = self._extract_year(fd)
             # &page=1&include_adult=false"
-            url = f"https://api.themoviedb.org/3/search/{srch}?api_key={tmdb_api_key}&language={lng}&query={
-                self.title_safe}"
+            url = "https://api.themoviedb.org/3/search/{}?api_key={}&language={}&query={}".format(
+                srch, tmdb_api_key, lng, self.title_safe)
 
             if year and srch == "movie":
-                url += f"&year={year}"
+                url += "&year={}".format(year)
             # Make API request with retries
             retries = Retry(
                 total=3,
@@ -305,17 +305,20 @@ class AgbanDownloadThread(Thread):
                 if not banner_path:
                     continue
 
-                banner = f"http://image.tmdb.org/t/p/original{banner_path}"
+                banner = "http://image.tmdb.org/t/p/original{}".format(
+                    banner_path)
                 if not banner.strip():
                     print(
-                        f'No banner with original size, try with w500 -> {banner}')
-                    banner = f"http://image.tmdb.org/t/p/w500{banner_path}"
+                        'No banner with original size, try with w500 -> {}'.format(banner))
+                    banner = "http://image.tmdb.org/t/p/w500{}".format(
+                        banner_path)
 
                 if banner.strip():  # and not banner.endswith("/original"):
-                    print(f'banner with w500 size, try with w500 -> {banner} ')
+                    print(
+                        'banner with w500 size, try with w500 -> {} '.format(banner))
                     callInThread(self.saveBanner, banner, dwn_poster)
                     if exists(dwn_poster):
-                        return True, f"[SUCCESS] banner math: {title}"
+                        return True, "[SUCCESS] banner math: {}".format(title)
 
                 # if banner.strip() and not banner.endswith("/original"):
                     # callInThread(self.saveBanner, banner, dwn_poster)
@@ -472,8 +475,8 @@ class AgbanDownloadThread(Thread):
                 if exists(dwn_poster):
                     return True, msg
             else:
-                return False, f"[SKIP : fanart] {
-                    self.title_safe} [{chkType}-{year}] => {url_fanart} (Not found)"
+                return False, "[SKIP : fanart] {} [{}-{}] => {} (Not found)".format(
+                    self.title_safe, chkType, year, url_fanart)
 
         except HTTPError as e:
             if e.response is not None and e.response.status_code == 404:
@@ -581,7 +584,7 @@ class AgbanDownloadThread(Thread):
                     logger.warning("Removing corrupted file")
                     remove(filepath)
                 except Exception as e:
-                    logger.error(f"File check failed: {e}")
+                    logger.error("File check failed: {}".format(e))
                     if exists(filepath):
                         remove(filepath)
 
@@ -607,8 +610,8 @@ class AgbanDownloadThread(Thread):
                     if "image/jpeg" not in response.headers.get(
                             "Content-Type", "").lower():
                         raise ValueError(
-                            f"Invalid content type: {
-                                response.headers.get('Content-Type')}")
+                            "Invalid content type: {}".format(
+                                response.headers.get('Content-Type')))
 
                     # Write directly to final file (no .tmp)
                     with open(filepath, "wb") as f:
@@ -623,11 +626,13 @@ class AgbanDownloadThread(Thread):
                             remove(filepath)
                             raise ValueError("Invalid JPEG file")
 
-                    logger.debug(f"Successfully saved: {url}")
+                    logger.debug("Successfully saved: {}".format(url))
                     return True
 
                 except Exception as e:
-                    logger.debug(f"Attempt {attempt + 1} failed: {str(e)}")
+                    logger.debug(
+                        "Attempt {} failed: {}".format(
+                            attempt + 1, str(e)))
 
                     # Clean up partial file
                     if exists(filepath):

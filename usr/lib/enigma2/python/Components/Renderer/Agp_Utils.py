@@ -7,9 +7,6 @@
 ###################################
 from __future__ import absolute_import, print_function
 
-# ========================
-# SYSTEM IMPORTS
-# ========================
 from sys import version_info
 from functools import lru_cache
 from os import (
@@ -38,41 +35,22 @@ from pathlib import Path
 import glob
 import tempfile
 
-# ========================
-# LOGGER (extracted module - breaks circular import)
-# ========================
 from .Agp_Logger import logger
 
-# ========================
-# IMPORTS FOR TIME/DATE
-# ========================
 from time import ctime
 from datetime import datetime
 import time
 
-# ========================
-# IMPORTS FOR TEXT PROCESSING
-# ========================
 from unicodedata import normalize
 from re import sub, IGNORECASE, S, I, search
 
-# ========================
-# ENIGMA SPECIFIC IMPORTS
-# ========================
 from Components.config import config
 
-# ========================
-# THREADING
-# ========================
 from threading import Lock as threading_Lock
 
-# Check Python version
 PY3 = version_info[0] >= 3
 
 
-# ================ START GUI CONFIGURATION ===============
-
-# Initialize skin paths
 cur_skin = join(
     config.skin.primary_skin.value,
     "skin.xml").replace(
@@ -81,9 +59,8 @@ cur_skin = join(
 noposter = join("/usr/share/enigma2", cur_skin, "noposter.jpg")
 nobackdrop = join("/usr/share/enigma2", cur_skin, "nobackdrop.png")
 
-# Active services configuration
 ACTIVE_SERVICES = [
-    '_search_tmdb',  # Main service
+    '_search_tmdb',
     '_search_tvdb',
     '_search_omdb'
 ]
@@ -95,43 +72,32 @@ except BaseException:
     lng = "en"
 
 
-# ========================
-# BACKDROP CONFIGURATION (shared)
-# ========================
 BACKDROP_SIZES = [
-    "original",  # Highest quality
-    "w1920",     # Full HD
-    "w1280",     # HD ready
-    "w780",      # Default recommendation
-    "w500",      # Fallback
-    "w300"       # Low bandwidth
+    "original",
+    "w1920",
+    "w1280",
+    "w780",
+    "w500",
+    "w300"
 ]
 
-MIN_BACKDROP_WIDTH = 500  # Minimum width in pixels
-MAX_ORIGINAL_SIZE = 10    # Maximum file size in MB
+MIN_BACKDROP_WIDTH = 500
+MAX_ORIGINAL_SIZE = 10
 
 
 def verify_backdrop_integrity(self):
-    """Verify that folder and cache are synchronized"""
     missing_files = 0
-
-    # Check each cache entry
     for title, entry in list(self.cache.cache.items()):
         if not exists(entry['path']):
             logger.warning(
-                f"verify_backdrop_integrity Missing file: {
-                    entry['path']}")
+                "verify_backdrop_integrity Missing file: {}".format(entry['path']))
             del self.cache.cache[title]
             missing_files += 1
 
     if missing_files:
         logger.info(
-            f"verify_backdrop_integrity Cleaned {missing_files} invalid cache entries")
+            "verify_backdrop_integrity Cleaned {} invalid cache entries".format(missing_files))
         self.cache._async_save()
-# validate_backdrop_folder()
-
-# ================ END GUI CONFIGURATION ===============
-# ================ START TEXT MANAGER ===============
 
 
 try:
@@ -146,7 +112,6 @@ except Exception as e:
 
 
 def clean_epg_text(text):
-    """Centralized text cleaning for EPG data"""
     if not text:
         return ""
     text = str(text).replace('\xc2\x86', '').replace('\xc2\x87', '')
@@ -154,10 +119,6 @@ def clean_epg_text(text):
 
 
 def clean_filename(title):
-    """
-    Sanitize title for use as filename.
-    Handles special characters, accents, and Unicode properly.
-    """
     if not title:
         return "no_title"
 
@@ -194,7 +155,6 @@ def clean_filename(title):
         return "no_title"
 
 
-# Character replacement mapping for filename sanitization
 CHAR_REPLACEMENTS = {
     "$": "s",
     "@": "at",
@@ -254,126 +214,54 @@ CHAR_REPLACEMENTS = {
 
 
 def clean_for_tvdb_optimized(title):
-    """Thin wrapper around the shared cleaner kept in Agp_lib."""
     try:
         return convtext(title) or ""
     except Exception as e:
         logger.error(
-            f"clean_for_tvdb_optimized Error cleaning title: {
-                str(e)}")
+            "clean_for_tvdb_optimized Error cleaning title: {}".format(str(e)))
         return ""
 
 
 def cleanText(text):
     cutlist = [
-        '720p',
-        '1080p',
-        '1080i',
-        'PAL',
-        'HDTV',
-        'HDTVRiP',
-        'HDRiP',
-        'Web-DL',
-        'WEBHDTV',
-        'WebHD',
-        'WEBHDTVRiP',
-        'WEBHDRiP',
-        'WEBRiP',
-        'ITUNESHD',
-        'DVDR',
-        'DVDR5',
-        'DVDR9',
-        'DVDRiP',
-        'BDRiP',
-        'BLURAY',
-        'x264',
-        'h264',
-        'AVC',
-        'AC3',
-        'AC3D',
-        'AC3MD',
-        'DTS',
-        'DTSD',
-        'DD51',
-        'XViD',
-        'DIVX',
-        'UNRATED',
-        'RETAIL',
-        'COMPLETE',
-        'INTERNAL',
-        'REPACK',
-        'SYNC',
-        'GERMAN',
-        'ENGLiSH',
-        'DUBBED',
-        'LINE.DUBBED',
-        'WS',
-        'LD',
-        'MiC',
-        'MD',
-        'TS',
-        'DVDSCR',
-        'UNCUT',
-        'ANiME',
-        'DL']
+        '720p', '1080p', '1080i', 'PAL', 'HDTV', 'HDTVRiP', 'HDRiP',
+        'Web-DL', 'WEBHDTV', 'WebHD', 'WEBHDTVRiP', 'WEBHDRiP', 'WEBRiP',
+        'ITUNESHD', 'DVDR', 'DVDR5', 'DVDR9', 'DVDRiP', 'BDRiP', 'BLURAY',
+        'x264', 'h264', 'AVC', 'AC3', 'AC3D', 'AC3MD', 'DTS', 'DTSD',
+        'DD51', 'XViD', 'DIVX', 'UNRATED', 'RETAIL', 'COMPLETE', 'INTERNAL',
+        'REPACK', 'SYNC', 'GERMAN', 'ENGLiSH', 'DUBBED', 'LINE.DUBBED',
+        'WS', 'LD', 'MiC', 'MD', 'TS', 'DVDSCR', 'UNCUT', 'ANiME', 'DL']
 
     text = text.replace(
-        '.wmv',
-        '').replace(
-        '.flv',
-        '').replace(
-            '.ts',
-            '').replace(
-                '.m2ts',
-                '').replace(
-                    '.mkv',
-                    '').replace(
-                        '.avi',
-                        '').replace(
-                            '.mpeg',
-                            '').replace(
-                                '.mpg',
-                                '').replace(
-                                    '.iso',
-                                    '').replace(
-                                        '.mp4',
-        '')
+        '.wmv', '').replace(
+        '.flv', '').replace(
+            '.ts', '').replace(
+                '.m2ts', '').replace(
+                    '.mkv', '').replace(
+                        '.avi', '').replace(
+                            '.mpeg', '').replace(
+                                '.mpg', '').replace(
+                                    '.iso', '').replace(
+                                        '.mp4', '')
 
     for word in cutlist:
         text = sub(
-            r'(\_|\-|\.|\+)' +
-            word +
-            r'(\_|\-|\.|\+)',
-            '+',
-            text,
-            flags=I)
+            r'(\_|\-|\.|\+)' + word + r'(\_|\-|\.|\+)',
+            '+', text, flags=I)
     text = text.replace(
-        '.',
-        ' ').replace(
-        '-',
-        ' ').replace(
-            '_',
-            ' ').replace(
-                '+',
-                '').replace(
-                    " Director's Cut",
-                    "").replace(
-                        " director's cut",
-                        "").replace(
-                            "[Uncut]",
-                            "").replace(
-                                "Uncut",
-                                "").replace(
-                                    "Elokuva: ",
-                                    "").replace(
-                                        "Uusi Kino: ",
-                                        "").replace(
-                                            "Kino Klassikko: ",
-                                            "").replace(
-                                                "Kino Suomi: ",
-                                                "").replace(
-                                                    "Kino: ",
-        "")
+        '.', ' ').replace(
+        '-', ' ').replace(
+            '_', ' ').replace(
+                '+', '').replace(
+                    " Director's Cut", "").replace(
+                        " director's cut", "").replace(
+                            "[Uncut]", "").replace(
+                                "Uncut", "").replace(
+                                    "Elokuva: ", "").replace(
+                                        "Uusi Kino: ", "").replace(
+                                            "Kino Klassikko: ", "").replace(
+                                                "Kino Suomi: ", "").replace(
+                                                    "Kino: ", "")
 
     text_split = text.split()
     if text_split and text_split[0].lower() in ("new:", "live:"):
@@ -389,21 +277,14 @@ def cleanText(text):
 
 @lru_cache(maxsize=2000)
 def clean_for_tvdb(title):
-    """Thin wrapper around the shared cleaner kept in Agp_lib."""
     if title is None:
         return ""
     try:
         return convtext(title) or ""
     except Exception as e:
         logger.error(
-            f"clean_for_tvdb Error cleaning title '{
-                str(title)}': {
-                str(e)}")
+            "clean_for_tvdb Error cleaning title '{}': {}".format(str(title), str(e)))
         return ""
-
-
-# ================ END TEXT MANAGER ===============
-# ================ START MEDIASTORAGE CONFIGURATION ===============
 
 
 def check_disk_space(
@@ -411,7 +292,6 @@ def check_disk_space(
         min_space_mb,
         media_type=None,
         purge_strategy="oldest_first"):
-    """Check disk space and optionally purge old files if needed"""
     try:
         if not exists(path):
             path = "/tmp"
@@ -423,8 +303,7 @@ def check_disk_space(
             return True
 
         logger.warning(
-            f"check_disk_space Low space in {path}: {
-                free_mb:.1f}MB < {min_space_mb}MB")
+            "check_disk_space Low space in {}: {:.1f}MB < {}MB".format(path, free_mb, min_space_mb))
 
         if media_type:
             return free_up_space(
@@ -436,12 +315,11 @@ def check_disk_space(
         return False
 
     except Exception as e:
-        logger.error(f"check_disk_space Space check failed: {str(e)}")
+        logger.error("check_disk_space Space check failed: {}".format(str(e)))
         return False
 
 
 def free_up_space(path, min_space_mb, media_type, strategy="oldest_first"):
-    """Free up space by deleting old files based on strategy"""
     try:
         files = []
         for f in listdir(path):
@@ -468,53 +346,47 @@ def free_up_space(path, min_space_mb, media_type, strategy="oldest_first"):
                 remove(file_info["path"])
                 freed_mb += file_mb
                 logger.info(
-                    f"free_up_space Purged {media_type}: {basename(file_info['path'])} "f"({file_mb:.1f}MB, {ctime(file_info['mtime'])})")
+                    "free_up_space Purged {}: {} ({:.1f}MB, {})".format(
+                        media_type, basename(file_info['path']), file_mb, ctime(file_info['mtime'])))
             except Exception as e:
                 logger.error(
-                    f"free_up_space Purge failed for {
-                        file_info['path']}: {
-                        str(e)}")
+                    "free_up_space Purge failed for {}: {}".format(file_info['path'], str(e)))
 
         success = check_disk_space(path, min_space_mb, media_type=None)
         logger.info(
-            f"free_up_space Freed {
-                freed_mb:.1f}MB for {media_type}. Success: {success}")
+            "free_up_space Freed {:.1f}MB for {}. Success: {}".format(freed_mb, media_type, success))
         return success
 
     except Exception as e:
-        logger.error(f"free_up_space Space purge failed: {str(e)}")
+        logger.error("free_up_space Space purge failed: {}".format(str(e)))
         return False
 
 
 def validate_media_path(path, media_type, min_space_mb=None):
-    """Validate and prepare a media storage path with comprehensive checks"""
     try:
-
         if not exists(path):
             makedirs(path, exist_ok=True)
 
         if not access(path, W_OK):
-            raise PermissionError(f"Path not writable: {path}")
+            raise PermissionError("Path not writable: {}".format(path))
 
         if min_space_mb is not None:
             stat = statvfs(path)
             free_mb = (stat.f_bavail * stat.f_frsize) / (1024 * 1024)
             if free_mb < min_space_mb:
                 raise OSError(
-                    f"Insufficient space: {free_mb}MB < {min_space_mb}MB")
+                    "Insufficient space: {}MB < {}MB".format(free_mb, min_space_mb))
 
         return path
 
     except Exception as e:
-        logger.error(f"validate_media_path Validation failed: {str(e)}")
-        fallback = f"/tmp/{media_type}"
+        logger.error("validate_media_path Validation failed: {}".format(str(e)))
+        fallback = "/tmp/{}".format(media_type)
         makedirs(fallback, exist_ok=True)
         return fallback
 
 
 class MediaStorage:
-    """Centralized media storage management"""
-
     def __init__(self):
         self.logger = logger
         self.poster_folder = self._init_storage('poster')
@@ -523,20 +395,18 @@ class MediaStorage:
         self.logo_folder = self._init_storage('logo')
 
     def _get_mount_points(self, media_type):
-        """Get potential storage locations based on media type"""
         return [
-            ("/media/hdd", f"/media/hdd/{media_type}"),
-            ("/media/usb", f"/media/usb/{media_type}"),
-            ("/media/mmc", f"/media/mmc/{media_type}"),
-            ("/media/nas", f"/media/nas/{media_type}"),
-            ("/mnt/media", f"/mnt/media/{media_type}"),
-            ("/media/network", f"/media/net/{media_type}"),
-            ("/tmp", f"/tmp/{media_type}"),
-            ("/var/tmp", f"/var/tmp/{media_type}")
+            ("/media/hdd", "/media/hdd/{}".format(media_type)),
+            ("/media/usb", "/media/usb/{}".format(media_type)),
+            ("/media/mmc", "/media/mmc/{}".format(media_type)),
+            ("/media/nas", "/media/nas/{}".format(media_type)),
+            ("/mnt/media", "/mnt/media/{}".format(media_type)),
+            ("/media/network", "/media/net/{}".format(media_type)),
+            ("/tmp", "/tmp/{}".format(media_type)),
+            ("/var/tmp", "/var/tmp/{}".format(media_type))
         ]
 
     def _check_disk_space(self, path, min_space=50):
-        """Check available disk space (50MB minimum)"""
         try:
             stat = statvfs(path)
             return (stat.f_bavail * stat.f_frsize) / (1024 * 1024) > min_space
@@ -544,35 +414,31 @@ class MediaStorage:
             return False
 
     def _init_storage(self, media_type):
-        """Initialize storage folder"""
         for base_path, folder in self._get_mount_points(media_type):
             if exists(base_path) and access(base_path, W_OK):
                 if self._check_disk_space(base_path):
                     try:
                         makedirs(folder, exist_ok=True)
                         self.logger.info(
-                            f"MediaStorage Using {media_type} storage: {folder}")
+                            "MediaStorage Using {} storage: {}".format(media_type, folder))
                         return folder
                     except OSError as e:
                         self.logger.warning(
-                            f"MediaStorage Create folder failed: {
-                                str(e)}")
+                            "MediaStorage Create folder failed: {}".format(str(e)))
 
-        fallback = f"/tmp/{media_type}"
+        fallback = "/tmp/{}".format(media_type)
         try:
             makedirs(fallback, exist_ok=True)
             self.logger.warning(
-                f"MediaStorage Using fallback storage: {fallback}")
+                "MediaStorage Using fallback storage: {}".format(fallback))
             return fallback
         except OSError as e:
             self.logger.critical(
-                f"MediaStorage All storage options failed: {
-                    str(e)}")
+                "MediaStorage All storage options failed: {}".format(str(e)))
             raise RuntimeError(
-                f"MediaStorage No valid {media_type} storage available")
+                "MediaStorage No valid {} storage available".format(media_type))
 
 
-# MediaStorage Configuration
 try:
     media_config = MediaStorage()
     POSTER_FOLDER = media_config.poster_folder
@@ -580,7 +446,7 @@ try:
     IMOVIE_FOLDER = media_config.imovie_folder
     LOGO_FOLDER = media_config.logo_folder
 except Exception as e:
-    logger.critical(f"MediaStorage initialization failed: {str(e)}")
+    logger.critical("MediaStorage initialization failed: {}".format(str(e)))
     raise
 
 
@@ -588,7 +454,6 @@ def delete_old_files_if_low_disk_space(
         MEDIA_FOLDER,
         min_free_space_mb=50,
         max_age_days=30):
-    """Delete old files if disk space is below threshold"""
     try:
         from shutil import disk_usage
         total, used, free = disk_usage(MEDIA_FOLDER)
@@ -596,11 +461,10 @@ def delete_old_files_if_low_disk_space(
 
         if free_space_mb < min_free_space_mb:
             logger.warning(
-                f"{MEDIA_FOLDER}: Low disk space: {
-                    free_space_mb:.2f} MB available. Deleting old files...")
+                "{}: Low disk space: {:.2f} MB available. Deleting old files...".format(
+                    MEDIA_FOLDER, free_space_mb))
 
             current_time = time()
-
             age_limit = max_age_days * 86400
 
             for filename in listdir(MEDIA_FOLDER):
@@ -612,16 +476,16 @@ def delete_old_files_if_low_disk_space(
                     if file_age > age_limit:
                         remove(file_path)
                         logger.debug(
-                            f"{MEDIA_FOLDER}: Deleted {filename}, it was {
-                                file_age / 86400:.2f} days old.")
+                            "{}: Deleted {}, it was {:.2f} days old.".format(
+                                MEDIA_FOLDER, filename, file_age / 86400))
         else:
             logger.info(
-                f"{MEDIA_FOLDER}: Sufficient disk space: {
-                    free_space_mb:.2f} MB available. No files will be deleted.")
+                "{}: Sufficient disk space: {:.2f} MB available. No files will be deleted.".format(
+                    MEDIA_FOLDER, free_space_mb))
 
     except Exception as e:
         logger.critical(
-            f"Error while checking disk space or deleting old files: {e}")
+            "Error while checking disk space or deleting old files: {}".format(e))
 
 
 delete_old_files_if_low_disk_space(
@@ -643,7 +507,6 @@ delete_old_files_if_low_disk_space(
 
 
 def create_secure_log_dir():
-    """Create a secure log directory with safety checks for Python 2.7"""
     base_tmp = tempfile.gettempdir()
     target_dir = join(base_tmp, "agplog")
 
@@ -665,16 +528,10 @@ def create_secure_log_dir():
         return tempfile.mkdtemp(prefix="agplog_")
 
 
-# Usage:
 secure_log_dir = create_secure_log_dir()
 
 
-# ================ END MEDIASTORAGE CONFIGURATION ===============
-# ================ START MEMORY CONFIGURATION ================
-
-
 def MemClean():
-    """Clear system memory caches"""
     try:
         logger.info("Clear system memory caches")
         system('sync')
@@ -684,20 +541,14 @@ def MemClean():
     except BaseException:
         pass
 
-# ================ END MEMORY CONFIGURATION ================
-# ================ START SERVICE API CONFIGURATION ================
 
-
-# Initialize API lock for thread safety
 api_lock = threading_Lock()
 
-# Default API keys
 tmdb_api = "3c3efcf47c3577558812bb9d64019d65"
 thetvdb_api = "a99d487bb3426e5f3a60dea6d3d3c7ef"
 omdb_api = "cb1d9f55"
 fanart_api = "6d231536dea4318a88cb2520ce89473b"
 
-# Centralized API key management
 API_KEYS = {
     "tmdb_api": tmdb_api,
     "thetvdb_api": thetvdb_api,
@@ -707,11 +558,10 @@ API_KEYS = {
 
 
 def _load_api_keys():
-    """Load API keys from skin configuration files"""
     try:
         logger.info("Load API keys from skin configuration files")
         cur_skin = config.skin.primary_skin.value.replace('/skin.xml', '')
-        skin_path = Path(f"/usr/share/enigma2/{cur_skin}")
+        skin_path = Path("/usr/share/enigma2/{}".format(cur_skin))
 
         key_files = {
             "tmdb_api": skin_path / "tmdb_api",
@@ -729,13 +579,10 @@ def _load_api_keys():
         return True
 
     except Exception as e:
-        logger.warning(f"[API Keys] Loading error: {str(e)}")
+        logger.warning("[API Keys] Loading error: {}".format(str(e)))
         return False
 
 
-# Initialize API keys
 _load_api_keys()
 
-
-# ================ END SERVICE API CONFIGURATION ================
 logger.info("AGP Utils initialized")

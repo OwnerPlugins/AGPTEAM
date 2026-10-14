@@ -39,7 +39,6 @@ from __future__ import absolute_import, print_function
 __author__ = "Lululla"
 __copyright__ = "AGP Team"
 
-# Standard library imports
 from os.path import join, exists, getsize
 from re import findall
 from json import load as json_load, dump as json_dump
@@ -60,7 +59,6 @@ from .Agp_Logger import logger
 from .Agp_Requests import intCheck
 from .Agp_lib import quoteEventName
 
-# ========================
 # DISABLE URLLIB3 DEBUG LOGS
 # ========================
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -76,7 +74,7 @@ api_key_manager = ApiKeyManager()
 _ = gettext.gettext
 cur_skin = config.skin.primary_skin.value.replace('/skin.xml', '')
 
-PARENTAL_ICON_PATH = f'/usr/share/enigma2/{cur_skin}/parental/'
+PARENTAL_ICON_PATH = '/usr/share/enigma2/{}/parental/'.format(cur_skin)
 PARENT_SOURCE = cfg.info_parental_mode.value
 DEFAULT_RATING = 'UN'
 NA_RATING = 'NA'
@@ -107,7 +105,6 @@ try:
 except BaseException:
     lng = 'en'
     pass
-
 
 """skin configuration
 
@@ -149,7 +146,6 @@ class AgpParentalX(Renderer):
     - Skin-configurable providers
     - Asynchronous Parental loading
     """
-
     GUI_WIDGET = ePixmap
 
     def __init__(self):
@@ -166,7 +162,6 @@ class AgpParentalX(Renderer):
 
         self.icon_path = join(PARENTAL_ICON_PATH, DEFAULT_ICON)
         self.storage_path = POSTER_FOLDER
-        # logger.info("AgpParentalX Renderer initialized")
 
     def changed(self, what):
         if what is None or not self.adsl or PARENT_SOURCE == "off":
@@ -206,12 +201,11 @@ class AgpParentalX(Renderer):
                     self.event.getEventName().replace(
                         '\xc2\x86', '').replace(
                         '\xc2\x87', ''))
-                json_file = join(self.storage_path, f"{clean_title}.json")
+                json_file = join(self.storage_path, "{}.json".format(clean_title))
                 year = self.extract_year(self.event)
 
                 if exists(json_file):
                     if getsize(json_file) > 0:
-                        # logger.debug(f"AgpParentalX  Using cached data for: {clean_title}")
                         with open(json_file, "r") as f:
                             data = json_load(f)
                         self.process_data(data)
@@ -219,7 +213,7 @@ class AgpParentalX(Renderer):
                     else:
                         logger.info(
                             "GenreX JSON file is empty (0 bytes): %s", json_file)
-                # logger.info(f"Fetching fresh data for: {clean_title}")
+
                 if PARENT_SOURCE == "tmdb" or (
                         PARENT_SOURCE == "auto" and api_key_manager.get_api_key('tmdb')):
                     data = self.fetch_tmdb_data(clean_title, year)
@@ -227,21 +221,19 @@ class AgpParentalX(Renderer):
                     data = self.fetch_omdb_data(clean_title, year)
 
                 if data:
-                    # logger.debug(f"AgpParentalX  Saving data to cache: {json_file}")
                     with open(json_file, "w") as f:
                         json_dump(data, f, indent=2)
                     self.process_data(data)
 
             except Exception as e:
                 logger.error(
-                    f"AgpParentalX Data fetch error: {
-                        str(e)}", exc_info=True)
+                    "AgpParentalX Data fetch error: {}".format(str(e)),
+                    exc_info=True)
 
     def fetch_tmdb_data(self, title, year):
         try:
             api_key = api_key_manager.get_api_key('tmdb')
 
-            # Init Search
             search_url = (
                 "https://api.themoviedb.org/3/search/multi?api_key=" + api_key +
                 "&language=" + lng +
@@ -249,19 +241,16 @@ class AgpParentalX(Renderer):
                 ("&year=" + year if year else "")
             )
 
-            # logger.debug(f"AgpParentalX search_url Tmdb: {search_url}")
             with urlopen(search_url) as response:
                 search_data = json_load(response)
 
             if not search_data.get("results"):
                 return None
 
-            # Select the most relevant result
             result = self.select_best_result(search_data["results"], title)
             content_type = result["media_type"]
             content_id = result["id"]
 
-            # Full details
             details_url = (
                 "https://api.themoviedb.org/3/" +
                 content_type +
@@ -272,7 +261,6 @@ class AgpParentalX(Renderer):
                 "&language=" +
                 lng +
                 "&append_to_response=credits")
-            # logger.debug(f"AgpParentalX url tmdb credits: {details_url}")
 
             with urlopen(details_url) as response:
                 details = json_load(response)
@@ -292,7 +280,6 @@ class AgpParentalX(Renderer):
                             cert = rd.get("certification")
                             if cert:
                                 details["Rated"] = cert
-                                # logger.debug("AgpParentalX TMDb Rated (movie): " + cert)
                                 break
                         break
 
@@ -309,33 +296,31 @@ class AgpParentalX(Renderer):
                         cert = entry.get("rating")
                         if cert:
                             details["Rated"] = cert
-                            # logger.debug("AgpParentalX TMDb Rated (tv): " + cert)
                             break
 
             return details
 
         except Exception as e:
-            logger.error(f"AgpParentalX TMDB API error: {str(e)}")
+            logger.error("AgpParentalX TMDB API error: {}".format(str(e)))
             return None
 
     def fetch_omdb_data(self, title, year):
         try:
             api_key = api_key_manager.get_api_key('omdb')
-            params = f"t={
-                quoteEventName(title)}{
-                f'&y={year}' if year else ''}&plot=full"
-            url = f"http://www.omdbapi.com/?apikey={api_key}&{params}"
-
-            # logger.debug(f"AgpParentalX url omdb: {url}")
+            params = (
+                "t=" + quoteEventName(title) +
+                ("&y=" + year if year else "") +
+                "&plot=full"
+            )
+            url = "http://www.omdbapi.com/?apikey={}&{}".format(api_key, params)
 
             with urlopen(url) as response:
                 return json_load(response)
         except Exception as e:
-            logger.error(f"AgpParentalX OMDB API error: {str(e)}")
+            logger.error("AgpParentalX OMDB API error: {}".format(str(e)))
             return None
 
     def select_best_result(self, results, original_title):
-        # Best result selection logic
         for result in results:
             if result.get('media_type') == 'movie':
                 if result.get('title', "").lower() == original_title.lower():
@@ -346,7 +331,6 @@ class AgpParentalX(Renderer):
         return results[0]
 
     def process_data(self, data):
-        """Process the fetched data and update the widget with the appropriate icon."""
         try:
             rated = data.get("Rated", "").strip().upper()
             rating_code = RATING_MAP.get(rated, DEFAULT_RATING)
@@ -370,7 +354,6 @@ class AgpParentalX(Renderer):
             self.update_icon(self.icon_path)
 
     def update_icon(self, icon):
-        """Update the widget's icon based on the fetched data."""
         if self.instance:
             self.instance.setPixmap(loadPNG(icon))
             self.instance.show()
@@ -380,17 +363,17 @@ class AgpParentalX(Renderer):
 
     def extract_year(self, event):
         try:
-            desc = f"{
-                event.getEventName()}\n{
-                event.getShortDescription()}\n{
-                event.getExtendedDescription()}"
+            desc = (
+                str(event.getEventName()) + "\n" +
+                str(event.getShortDescription()) + "\n" +
+                str(event.getExtendedDescription())
+            )
             years = findall(r'\b\d{4}\b', desc)
             if years:
                 valid_years = [y for y in years if 1900 <= int(y) <= 2100]
                 if valid_years:
                     return max(valid_years)
-            # logger.debug("AgpParentalX No valid production year found in event details")
             return None
         except Exception as e:
-            logger.debug(f"AgpParentalX Year extraction failed: {str(e)}")
+            logger.debug("AgpParentalX Year extraction failed: {}".format(str(e)))
             return None

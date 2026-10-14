@@ -82,26 +82,23 @@ class AglareReceiverInfo(Poll, Converter):
 
     def format_text(self, label, info):
         if info[0] == 0:
-            return f'{label}: Not Available'
+            return '{}: Not Available'.format(label)
         elif self.shortFormat:
-            return f'{label}: {self.getSizeStr(info[0])}, in use: {info[3]}%'
+            return '{}: {}, in use: {}%'.format(
+                label, self.getSizeStr(info[0]), info[3])
         elif self.fullFormat:
-            return f'{label}: {
-                self.getSizeStr(
-                    info[0])} Free:{
-                self.getSizeStr(
-                    info[2])} used:{
-                self.getSizeStr(
-                    info[1])} ({
-                info[3]}%)'
+            return '{}: {} Free:{} used:{} ({}%)'.format(
+                label,
+                self.getSizeStr(info[0]),
+                self.getSizeStr(info[2]),
+                self.getSizeStr(info[1]),
+                info[3])
         else:
-            return f'{label}: {
-                self.getSizeStr(
-                    info[0])} used:{
-                self.getSizeStr(
-                    info[1])} Free:{
-                self.getSizeStr(
-                    info[2])}'
+            return '{}: {} used:{} Free:{}'.format(
+                label,
+                self.getSizeStr(info[0]),
+                self.getSizeStr(info[1]),
+                self.getSizeStr(info[2]))
 
     @cached
     def getValue(self):
@@ -131,12 +128,10 @@ class AglareReceiverInfo(Poll, Converter):
 
     def is_mmc_device(self, mount_point):
         try:
-            # 1. Controlla se il percorso contiene parole chiave MMC
             mp_lower = mount_point.lower()
             if any(kw in mp_lower for kw in ['mmc', 'sd', 'card', 'emmc']):
                 return True
 
-            # 2. Analizza i dispositivi in /sys/block
             for device in listdir('/sys/block'):
                 if device.startswith('mmcblk') and path.ismount(mount_point):
                     device_path = path.join('/dev', device)
@@ -151,7 +146,7 @@ class AglareReceiverInfo(Poll, Converter):
     def getHddTemp(self):
         try:
             temp = popen('hddtemp -n -q /dev/sda').readline().strip()
-            return f"{temp}°C" if temp else "No info"
+            return "{}°C".format(temp) if temp else "No info"
         except BaseException:
             return "No info"
 
@@ -167,10 +162,10 @@ class AglareReceiverInfo(Poll, Converter):
             check = 0
             with open('/proc/meminfo', 'r') as fd:
                 for line in fd:
-                    if f'{value}Total' in line:
+                    if '{}Total'.format(value) in line:
                         check += 1
                         result[0] = int(line.split()[1]) * 1024
-                    elif f'{value}Free' in line:
+                    elif '{}Free'.format(value) in line:
                         check += 1
                         result[2] = int(line.split()[1]) * 1024
                     if check > 1:
@@ -216,10 +211,8 @@ class AglareReceiverInfo(Poll, Converter):
                 fractal = mod * 10 // 1024
                 u += 1
 
-        return f'{value}{
-            "." +
-            str(fractal) if fractal else ""} {
-            SIZE_UNITS[u]}'
+        return '{}{} {}'.format(
+            value, "." + str(fractal) if fractal else "", SIZE_UNITS[u])
 
     def doSuspend(self, suspended):
         self.poll_enabled = not suspended

@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
-from __future__ import absolute_import, print_function
 """
 #########################################################
 #                                                        #
@@ -41,17 +39,16 @@ from __future__ import absolute_import, print_function
 #  Usage of this code without proper attribution        #
 #  is strictly prohibited.                                #
 #  For modifications and redistribution,                #
-#  please maintain this credit header.                    #
-#########################################################
+
+from __future__ import absolute_import, print_function
 """
+
 __author__ = "Lululla"
 __copyright__ = "AGP Team"
 
 from json import load as json_load, dump as json_dump
 from threading import Lock
-
 from threading import Thread
-
 from os.path import exists, join, getsize
 from urllib.request import urlopen
 from re import findall
@@ -70,41 +67,16 @@ from .Agp_Logger import logger
 from .Agp_Requests import intCheck
 from .Agp_lib import quoteEventName
 
-# ========================
-# DISABLE URLLIB3 DEBUG LOGS
-# ========================
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-# logging.getLogger("urllib3").setLevel(logging.WARNING)
-# logging.getLogger("requests").setLevel(logging.WARNING)
 
 if not POSTER_FOLDER.endswith("/"):
     POSTER_FOLDER += "/"
 
-# Constants
 api_key_manager = ApiKeyManager()
 DATA_SOURCE = cfg.info_display_mode.value
 epgcache = eEPGCache.getInstance()
 api_lock = Lock()
 _ = gettext.gettext
-
-
-"""skin custom configuration
-
-<widget source="ServiceEvent" render="AgpInfoEvents"
-    position="100,400"
-    size="600,300"
-    font="Regular;18"
-    transparent="1"
-    zPosition="5"/>
-
-# config.plugins.Aglare.info_display_mode = ConfigSelection(default="auto", choices=[
-    # ("auto", _("Automatic")),
-    # ("tmdb", _("TMDB Only")),
-    # ("omdb", _("OMDB Only")),
-    # ("off", _("Off"))
-# ])
-
-"""
 
 
 try:
@@ -116,18 +88,6 @@ except BaseException:
 
 
 class AgpInfoEvents(Renderer, VariableText):
-    """
-    Main InfoEvents Details indicator renderer class for Enigma2
-    Handles InfoEvents display and refresh logic
-
-    Features:
-    - Dynamic InfoEvents loading based on current program
-    - Automatic refresh when channel/program changes
-    - Multiple image format support
-    - Skin-configurable providers
-    - Asynchronous InfoEvents poster loading
-    """
-
     GUI_WIDGET = eLabel
 
     def __init__(self):
@@ -147,7 +107,6 @@ class AgpInfoEvents(Renderer, VariableText):
         self.storage_path = POSTER_FOLDER
         self.timer = eTimer()
         self.timer.callback.append(self.delayed_update)
-        # logger.info("AgpInfoEvents Renderer initialized")
 
     def get_labels(self):
         return {
@@ -166,8 +125,6 @@ class AgpInfoEvents(Renderer, VariableText):
         }
 
     def changed(self, what):
-        """Handle content changes"""
-        # Handle None case first
         if what is None or not self.adsl or DATA_SOURCE == "off":
             self.text = ""
             if self.instance:
@@ -190,7 +147,6 @@ class AgpInfoEvents(Renderer, VariableText):
                     self.last_event = current_event_hash
                     self.start_data_fetch()
         else:
-            # Clear the text and hide when there's no event
             self.text = ""
             self.last_event = None
             if self.instance:
@@ -214,13 +170,12 @@ class AgpInfoEvents(Renderer, VariableText):
                     self.event.getEventName().replace(
                         '\xc2\x86', '').replace(
                         '\xc2\x87', ''))
-                json_file = join(self.storage_path, f"{clean_title}.json")
+                json_file = join(self.storage_path, "{}.json".format(clean_title))
                 self.text = ''
                 year = self.extract_year(self.event)
 
                 if exists(json_file):
                     if getsize(json_file) > 0:
-                        # logger.debug(f"AgpInfoEvents Using cached data for: {clean_title}")
                         with open(json_file, "r") as f:
                             data = json_load(f)
                         self.process_data(data)
@@ -229,7 +184,6 @@ class AgpInfoEvents(Renderer, VariableText):
                         logger.info(
                             "AgpInfoEvents JSON file is empty (0 bytes): %s", json_file)
 
-                # logger.info(f"AgpInfoEvents Fetching fresh data for: {clean_title}")
                 if DATA_SOURCE == "tmdb" or (
                         DATA_SOURCE == "auto" and api_key_manager.get_api_key('tmdb')):
                     data = self.fetch_tmdb_data(clean_title, year)
@@ -237,15 +191,14 @@ class AgpInfoEvents(Renderer, VariableText):
                     data = self.fetch_omdb_data(clean_title, year)
 
                 if data:
-                    # logger.debug(f"AgpInfoEvents Saving data to cache: {json_file}")
                     with open(json_file, "w") as f:
                         json_dump(data, f, indent=2)
                     self.process_data(data)
 
             except Exception as e:
                 logger.error(
-                    f"AgpInfoEvents Data fetch error: {
-                        str(e)}", exc_info=True)
+                    "AgpInfoEvents Data fetch error: {}".format(str(e)),
+                    exc_info=True)
                 if self.instance:
                     self.instance.hide()
 
@@ -253,7 +206,6 @@ class AgpInfoEvents(Renderer, VariableText):
         try:
             api_key = api_key_manager.get_api_key('tmdb')
 
-            # Init Search
             search_url = (
                 "https://api.themoviedb.org/3/search/multi?api_key=" + api_key +
                 "&language=" + lng +
@@ -261,19 +213,16 @@ class AgpInfoEvents(Renderer, VariableText):
                 ("&year=" + year if year else "")
             )
 
-            # logger.debug(f"AgpInfoEvents search_url Tmdb: {search_url}")
             with urlopen(search_url) as response:
                 search_data = json_load(response)
 
             if not search_data.get("results"):
                 return None
 
-            # Select the most relevant result
             result = self.select_best_result(search_data["results"], title)
             content_type = result["media_type"]
             content_id = result["id"]
 
-            # Full details
             details_url = (
                 "https://api.themoviedb.org/3/" +
                 content_type +
@@ -284,32 +233,30 @@ class AgpInfoEvents(Renderer, VariableText):
                 "&language=" +
                 lng +
                 "&append_to_response=credits")
-            # logger.debug(f"AgpInfoEvents details_url Tmdb: {details_url}")
             with urlopen(details_url) as response:
                 return json_load(response)
 
         except Exception as e:
-            logger.error(f"AgpInfoEvents TMDB API error: {str(e)}")
+            logger.error("AgpInfoEvents TMDB API error: {}".format(str(e)))
             return None
 
     def fetch_omdb_data(self, title, year):
         try:
             api_key = api_key_manager.get_api_key('omdb')
-            params = f"t={
-                quoteEventName(title)}{
-                f'&y={year}' if year else ''}&plot=full"
-            url = f"http://www.omdbapi.com/?apikey={api_key}&{params}"
-
-            # logger.debug(f"AgpInfoEvents url omdb: {url}")
+            params = (
+                "t=" + quoteEventName(title) +
+                ("&y=" + year if year else "") +
+                "&plot=full"
+            )
+            url = "http://www.omdbapi.com/?apikey={}&{}".format(api_key, params)
 
             with urlopen(url) as response:
                 return json_load(response)
         except Exception as e:
-            logger.error(f"AgpInfoEvents OMDB API error: {str(e)}")
+            logger.error("AgpInfoEvents OMDB API error: {}".format(str(e)))
             return None
 
     def select_best_result(self, results, original_title):
-        # Best result selection logic
         for result in results:
             if result.get('media_type') == 'movie':
                 if result.get('title', "").lower() == original_title.lower():
@@ -320,26 +267,24 @@ class AgpInfoEvents(Renderer, VariableText):
         return results[0]
 
     def process_data(self, data):
-        """Process the fetched data and update the widget with the appropriate icon."""
         info_lines = []
 
         try:
-            # TMDB Data Management
             if 'title' in data or 'name' in data:
                 info_lines.append(
-                    f"{_('Title')}: {data.get('title', data.get('name'))}")
+                    "{}: {}".format(_('Title'), data.get('title', data.get('name'))))
 
                 if data.get('release_date'):
                     year = data['release_date'].split('-')[0]
-                    info_lines.append(f"{_('Year')}: {year}")
+                    info_lines.append("{}: {}".format(_('Year'), year))
 
                 if data.get('vote_average'):
                     info_lines.append(
-                        f"{_('Rating')}: {data['vote_average']}/10")
+                        "{}: {}/10".format(_('Rating'), data['vote_average']))
 
                 if data.get('genres'):
                     genres = ", ".join([g['name'] for g in data['genres']])
-                    info_lines.append(f"{_('Genre')}: {genres}")
+                    info_lines.append("{}: {}".format(_('Genre'), genres))
 
                 if data.get('credits'):
                     crew = data['credits'].get('crew', [])
@@ -350,40 +295,39 @@ class AgpInfoEvents(Renderer, VariableText):
 
                     if directors:
                         info_lines.append(
-                            f"{_('Director')}: {', '.join(directors)}")
+                            "{}: {}".format(_('Director'), ', '.join(directors)))
                     if writers:
                         info_lines.append(
-                            f"{_('Writer')}: {', '.join(writers)}")
+                            "{}: {}".format(_('Writer'), ', '.join(writers)))
 
                 if data.get('production_countries'):
                     countries = ", ".join([c['name']
                                           for c in data['production_countries']])
-                    info_lines.append(f"{_('Country')}: {countries}")
+                    info_lines.append("{}: {}".format(_('Country'), countries))
 
-            # OMDB Data Management
             else:
-                info_lines.append(f"{_('Title')}: {data.get('Title')}")
-                info_lines.append(f"{_('Year')}: {data.get('Year')}")
-                info_lines.append(f"{_('Rating')}: {data.get('imdbRating')}")
-                info_lines.append(f"{_('Genre')}: {data.get('Genre')}")
-                info_lines.append(f"{_('Director')}: {data.get('Director')}")
-                info_lines.append(f"{_('Writer')}: {data.get('Writer')}")
-                info_lines.append(f"{_('Cast')}: {data.get('Actors')}")
-                info_lines.append(f"{_('Country')}: {data.get('Country')}")
+                info_lines.append("{}: {}".format(_('Title'), data.get('Title')))
+                info_lines.append("{}: {}".format(_('Year'), data.get('Year')))
+                info_lines.append("{}: {}".format(_('Rating'), data.get('imdbRating')))
+                info_lines.append("{}: {}".format(_('Genre'), data.get('Genre')))
+                info_lines.append("{}: {}".format(_('Director'), data.get('Director')))
+                info_lines.append("{}: {}".format(_('Writer'), data.get('Writer')))
+                info_lines.append("{}: {}".format(_('Cast'), data.get('Actors')))
+                info_lines.append("{}: {}".format(_('Country'), data.get('Country')))
 
             runtime = data.get('runtime') or data.get('Runtime')
             if runtime:
-                info_lines.append(f"{_('Runtime')}: {runtime}")
+                info_lines.append("{}: {}".format(_('Runtime'), runtime))
 
             plot = data.get('overview') or data.get('Plot')
             if plot:
-                info_lines.append(f"\n{_('Plot')}: {plot}")
+                info_lines.append("\n{}: {}".format(_('Plot'), plot))
 
             self.text = "\n".join(info_lines)
             self.timer.start(100)
 
         except Exception as e:
-            logger.error(f"AgpInfoEvents Data processing error: {str(e)}")
+            logger.error("AgpInfoEvents Data processing error: {}".format(str(e)))
             self.text = ""
             if self.instance:
                 self.instance.hide()
@@ -395,19 +339,19 @@ class AgpInfoEvents(Renderer, VariableText):
 
     def extract_year(self, event):
         try:
-            desc = f"{
-                event.getEventName()}\n{
-                event.getShortDescription()}\n{
-                event.getExtendedDescription()}"
+            desc = (
+                str(event.getEventName()) + "\n" +
+                str(event.getShortDescription()) + "\n" +
+                str(event.getExtendedDescription())
+            )
             years = findall(r'\b\d{4}\b', desc)
             if years:
                 valid_years = [y for y in years if 1900 <= int(y) <= 2100]
                 if valid_years:
                     return max(valid_years)
-            # logger.debug("AgpInfoEvents No valid production year found in event details")
             return None
         except Exception as e:
-            logger.warning(f"AgpInfoEvents Year extraction failed: {str(e)}")
+            logger.warning("AgpInfoEvents Year extraction failed: {}".format(str(e)))
             return None
 
     def onHide(self):

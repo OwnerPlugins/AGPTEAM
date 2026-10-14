@@ -47,25 +47,15 @@ from __future__ import absolute_import, print_function
 __author__ = "Lululla"
 __copyright__ = "AGP Team"
 
-# Standard library imports
 from Components.config import config
 from pathlib import Path
 from threading import Lock
 import urllib3
 
-# ========================
-# DISABLE URLLIB3 DEBUG LOGS
-# ========================
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-# logging.getLogger("urllib3").setLevel(logging.WARNING)
-# logging.getLogger("requests").setLevel(logging.WARNING)
 
-# Initialize thread lock for API access synchronization
 api_lock = Lock()
 
-# ================ START SERVICE API CONFIGURATION ===============
-
-# Default API keys (fallback values)
 API_KEYS = {
     "tmdb_api": "3c3efcf47c3577558812bb9d64019d65",
     "omdb_api": "4ca6ea60",
@@ -99,13 +89,12 @@ def _load_api_keys():
     """
     try:
         cur_skin = config.skin.primary_skin.value.replace("/skin.xml", "")
-        skin_path = Path(f"/usr/share/enigma2/{cur_skin}")
+        skin_path = Path("/usr/share/enigma2/{}".format(cur_skin))
 
         if not skin_path.exists():
-            print(f"[API Config] Skin path not found: {skin_path}")
+            print("[API Config] Skin path not found: {}".format(skin_path))
             return False
 
-        # Map API key names to skin file paths
         key_files = {
             "tmdb_api": skin_path / "tmdb_api",
             "omdb_api": skin_path / "omdb_api",
@@ -113,10 +102,8 @@ def _load_api_keys():
             "fanart_api": skin_path / "fanart_api"
         }
 
-        # Plugin configuration reference
         plugin_cfg = config.plugins.Aglare
 
-        # API enablement and keys from plugin config
         plugin_keys = {
             "tmdb_api": (plugin_cfg.tmdb.value, plugin_cfg.tmdb_api.value),
             "omdb_api": (plugin_cfg.omdb.value, plugin_cfg.omdb_api.value),
@@ -127,18 +114,16 @@ def _load_api_keys():
         keys_loaded = False
         with api_lock:
             for key_name in key_files:
-                # Check if enabled in plugin and key is set
                 enabled, key_value = plugin_keys.get(key_name, (False, ""))
                 if enabled and key_value.strip():
                     API_KEYS[key_name] = key_value.strip()
-                    print(f"[API Config] Using plugin key for {key_name}")
+                    print("[API Config] Using plugin key for {}".format(key_name))
                     keys_loaded = True
                     continue
                 else:
                     print(
-                        f"[API Config] Plugin key for {key_name} not available or disabled, checking fallback...")
+                        "[API Config] Plugin key for {} not available or disabled, checking fallback...".format(key_name))
 
-                # Fallback to skin file
                 file_path = key_files[key_name]
                 if file_path.exists():
                     try:
@@ -146,11 +131,9 @@ def _load_api_keys():
                             key_value = f.read().strip()
                             API_KEYS[key_name] = key_value
                         print(
-                            f"[API Config] Loaded {key_name} from {file_path}")
+                            "[API Config] Loaded {} from {}".format(key_name, file_path))
                         keys_loaded = True
 
-                        # Save the key to the plugin config if successfully
-                        # loaded from file
                         if key_name == "tmdb_api":
                             plugin_cfg.tmdb_api.value = key_value
                         elif key_name == "omdb_api":
@@ -160,27 +143,21 @@ def _load_api_keys():
                         elif key_name == "fanart_api":
                             plugin_cfg.fanart_api.value = key_value
 
-                        # Commit changes to the plugin configuration
                         plugin_cfg.save()
                     except Exception as e:
                         print(
-                            f"[API Config] Error reading {file_path}: {
-                                str(e)}")
+                            "[API Config] Error reading {}: {}".format(file_path, str(e)))
                 else:
                     print(
-                        f"[API Config] Using default key for {key_name} (file not found)")
+                        "[API Config] Using default key for {} (file not found)".format(key_name))
 
-        # Update global namespace with current API keys
         globals().update(API_KEYS)
         return keys_loaded
 
     except Exception as e:
-        print(f"[API Config] Critical error loading keys: {str(e)}")
+        print("[API Config] Critical error loading keys: {}".format(str(e)))
         return False
 
 
-# Initialize API keys during module import
 if not _load_api_keys():
     print("[API Config] Using default API keys")
-
-# ================ END SERVICE API CONFIGURATION ================

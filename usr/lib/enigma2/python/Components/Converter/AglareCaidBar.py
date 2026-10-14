@@ -36,86 +36,44 @@ class AglareCaidBar(Poll, Converter):
         Poll.__init__(self)
         self.logger = logging.getLogger("AglareCaidBar")
 
-        # Parse input parameters
         params = type.split(',')
         self.main_color = self._convert_color(params[0].strip())
         self.emm_color = self._convert_color(params[1].strip())
         self.ecm_color = self._convert_color(params[2].strip())
 
-        # Determine display mode (default, Short, or Full)
         self.mode = "default"
         if len(params) > 3:
             self.mode = params[3].strip()
 
-        # Custom CAIDs if provided
         self.custom_caids = []
         if len(params) > 4:
             self.custom_caids = params[4].split()
 
-        # Initialize CAID mappings based on display mode
         self._init_caid_mappings()
 
-        # Setup polling
-        self.poll_interval = 1000  # ms
+        self.poll_interval = 1000
         self.poll_enabled = True
         self.current_caids = []
 
     def _init_caid_mappings(self):
-        """Initialize CAID to name mappings based on display mode"""
         if self.mode == "Short":
             self.default_caids = [
-                "SEC",
-                "VIA",
-                "IRD",
-                "NDS",
-                "CON",
-                "PVU",
-                "NAG",
-                "EXS",
-                "VRM",
-                "BiSS"]
+                "SEC", "VIA", "IRD", "NDS", "CON",
+                "PVU", "NAG", "EXS", "VRM", "BiSS"]
             self.caid_mappings = {
                 "a": {
-                    "01": "SEC",
-                    "05": "VIA",
-                    "06": "IRD",
-                    "07": "DIC",
-                    "09": "NDS",
-                    "0B": "CON",
-                    "0D": "CRW",
-                    "0E": "PVU",
-                    "10": "TAN",
-                    "18": "NAG",
-                    "22": "COD",
-                    "26": "BiSS",
-                    "27": "EXS",
-                    "4B": "TOP",
-                    "54": "GOS",
-                    "55": "BUL",
-                    "56": "VRM",
-                    "7B": "DRE",
-                    "A1": "ROS"},
-                "b": {
-                    "17": "VRM"},
-                "c": {
-                    "02": "BET",
-                    "22": "BET",
-                    "62": "BET"},
+                    "01": "SEC", "05": "VIA", "06": "IRD", "07": "DIC",
+                    "09": "NDS", "0B": "CON", "0D": "CRW", "0E": "PVU",
+                    "10": "TAN", "18": "NAG", "22": "COD", "26": "BiSS",
+                    "27": "EXS", "4B": "TOP", "54": "GOS", "55": "BUL",
+                    "56": "VRM", "7B": "DRE", "A1": "ROS"},
+                "b": {"17": "VRM"},
+                "c": {"02": "BET", "22": "BET", "62": "BET"},
                 "d": {
-                    "20": "ACR",
-                    "BF": "SKY",
-                    "D0": "XCR",
-                    "D1": "XCR",
-                    "D4": "OCR",
-                    "E0": "DRE",
-                    "E1": "DRE",
-                    "60": "SCR",
-                    "61": "SCR",
-                    "63": "SCR",
-                    "70": "DCR",
-                    "EA": "CGU",
-                    "EE": "BUL",
-                    "FC": "PAN"}}
+                    "20": "ACR", "BF": "SKY", "D0": "XCR", "D1": "XCR",
+                    "D4": "OCR", "E0": "DRE", "E1": "DRE", "60": "SCR",
+                    "61": "SCR", "63": "SCR", "70": "DCR", "EA": "CGU",
+                    "EE": "BUL", "FC": "PAN"}}
 
         elif self.mode == "Full":
             self.default_caids = [
@@ -124,96 +82,42 @@ class AglareCaidBar(Poll, Converter):
             ]
             self.caid_mappings = {
                 "a": {
-                    "01": "MEDIAGUARD",
-                    "05": "VIACCESS",
-                    "06": "IRDETO",
-                    "07": "DIGICIPHER",
-                    "09": "VIDEOGUARD",
-                    "0B": "CONAX",
-                    "0D": "CRYPTOWORKS",
-                    "0E": "POWERVU",
-                    "10": "TANDBERG",
-                    "18": "NAGRAVISION",
-                    "22": "CODICRYPT",
-                    "26": "BiSS",
-                    "27": "EXSET",
-                    "4B": "TOPVELL",
-                    "54": "GOSPELL",
-                    "55": "BULCRYPT",
-                    "56": "VERIMATRIX",
-                    "7B": "DRE-CRYPT",
+                    "01": "MEDIAGUARD", "05": "VIACCESS", "06": "IRDETO",
+                    "07": "DIGICIPHER", "09": "VIDEOGUARD", "0B": "CONAX",
+                    "0D": "CRYPTOWORKS", "0E": "POWERVU", "10": "TANDBERG",
+                    "18": "NAGRAVISION", "22": "CODICRYPT", "26": "BiSS",
+                    "27": "EXSET", "4B": "TOPVELL", "54": "GOSPELL",
+                    "55": "BULCRYPT", "56": "VERIMATRIX", "7B": "DRE-CRYPT",
                     "A1": "ROSSCRYPT"},
-                "b": {
-                    "17": "VERIMATRIX"},
-                "c": {
-                    "02": "BETACRYPT",
-                    "22": "BETACRYPT",
-                    "62": "BETACRYPT"},
+                "b": {"17": "VERIMATRIX"},
+                "c": {"02": "BETACRYPT", "22": "BETACRYPT", "62": "BETACRYPT"},
                 "d": {
-                    "20": "ALPHACRYPT",
-                    "BF": "SKYPILOT",
-                    "D0": "X-CRYPT",
-                    "D1": "X-CRYPT",
-                    "D4": "OMNICRYPT",
-                    "E0": "DRE-CRYPT",
-                    "E1": "DRE-CRYPT",
-                    "60": "SKYCRYPT",
-                    "61": "SKYCRYPT",
-                    "63": "SKYCRYPT",
-                    "70": "DREAMCRYPT",
-                    "EA": "CRYPTOGUARD",
-                    "EE": "BULCRYPT",
-                    "FC": "PANACCESS"}}
+                    "20": "ALPHACRYPT", "BF": "SKYPILOT", "D0": "X-CRYPT",
+                    "D1": "X-CRYPT", "D4": "OMNICRYPT", "E0": "DRE-CRYPT",
+                    "E1": "DRE-CRYPT", "60": "SKYCRYPT", "61": "SKYCRYPT",
+                    "63": "SKYCRYPT", "70": "DREAMCRYPT", "EA": "CRYPTOGUARD",
+                    "EE": "BULCRYPT", "FC": "PANACCESS"}}
 
-        else:  # Default mode
+        else:
             self.default_caids = [
                 "S", "V", "I", "ND", "CO", "PV", "N", "EX", "VM", "BI"
             ]
             self.caid_mappings = {
                 "a": {
-                    "01": "S",
-                    "05": "V",
-                    "06": "I",
-                    "07": "DC",
-                    "09": "ND",
-                    "0B": "CO",
-                    "0D": "CW",
-                    "0E": "PV",
-                    "10": "TA",
-                    "18": "N",
-                    "22": "CC",
-                    "26": "BI",
-                    "27": "EX",
-                    "4B": "T",
-                    "54": "G",
-                    "55": "BC",
-                    "56": "VM",
-                    "7B": "D",
-                    "A1": "RC"},
-                "b": {
-                    "17": "VM"},
-                "c": {
-                    "02": "BE",
-                    "22": "BE",
-                    "62": "BE"},
+                    "01": "S", "05": "V", "06": "I", "07": "DC",
+                    "09": "ND", "0B": "CO", "0D": "CW", "0E": "PV",
+                    "10": "TA", "18": "N", "22": "CC", "26": "BI",
+                    "27": "EX", "4B": "T", "54": "G", "55": "BC",
+                    "56": "VM", "7B": "D", "A1": "RC"},
+                "b": {"17": "VM"},
+                "c": {"02": "BE", "22": "BE", "62": "BE"},
                 "d": {
-                    "20": "AC",
-                    "BF": "SP",
-                    "D0": "XC",
-                    "D1": "XC",
-                    "D4": "OC",
-                    "E0": "D",
-                    "E1": "D",
-                    "60": "SC",
-                    "61": "SC",
-                    "63": "SC",
-                    "70": "DC",
-                    "EA": "CG",
-                    "EE": "BC",
-                    "FC": "P"}}
+                    "20": "AC", "BF": "SP", "D0": "XC", "D1": "XC",
+                    "D4": "OC", "E0": "D", "E1": "D", "60": "SC",
+                    "61": "SC", "63": "SC", "70": "DC", "EA": "CG",
+                    "EE": "BC", "FC": "P"}}
 
     def _convert_color(self, hex_color):
-        """Convert hex color to Enigma color codes"""
         color_map = {
             '0': '0', '1': '1', '2': '2', '3': '3', '4': '4', '5': '5',
             '6': '6', '7': '7', '8': '8', '9': '9',
@@ -223,8 +127,7 @@ class AglareCaidBar(Poll, Converter):
         return r'\c' + ''.join(color_map.get(c, '') for c in hex_color[1:])
 
     def _get_caid_from_ecm(self):
-        """Extract CAID from ECM info files"""
-        ecm_files = ["/tmp/ecm.info", "/tmp/ecm1.info"]  # Check both tuners
+        ecm_files = ["/tmp/ecm.info", "/tmp/ecm1.info"]
         for ecm_file in ecm_files:
             if os.path.isfile(ecm_file):
                 try:
@@ -238,12 +141,10 @@ class AglareCaidBar(Poll, Converter):
                                     ',')[0].split()[-1][2:].upper()
                 except Exception as e:
                     self.logger.warning(
-                        f"Error reading ECM file {ecm_file}: {
-                            str(e)}")
+                        f"Error reading ECM file {ecm_file}: {str(e)}")
         return ""
 
     def _get_caid_name(self, caid):
-        """Get display name for a given CAID"""
         if caid.startswith('4A'):
             return self.caid_mappings['d'].get(caid[2:], "?")
         elif caid.startswith('17'):
@@ -254,7 +155,6 @@ class AglareCaidBar(Poll, Converter):
 
     @cached
     def getText(self):
-        """Generate the CAID display string"""
         service = self.source.service
         if not service:
             return " ".join(
@@ -264,20 +164,16 @@ class AglareCaidBar(Poll, Converter):
         if not info:
             return ""
 
-        # Get current CAIDs from service
         caid_info = info.getInfoObject(iServiceInformation.sCAIDs)
         if not caid_info:
             return ""
 
-        # Get CAID from ECM if available
         ecm_caid = self._get_caid_from_ecm()
         ecm_caid_name = self._get_caid_name(ecm_caid) if ecm_caid else None
 
-        # Process all CAIDs
         self.current_caids = []
         display_parts = []
 
-        # First show default CAIDs with appropriate coloring
         for caid in self.default_caids:
             if ecm_caid_name and caid == ecm_caid_name:
                 display_parts.append(f"{self.ecm_color}{caid}")
@@ -286,7 +182,6 @@ class AglareCaidBar(Poll, Converter):
             else:
                 display_parts.append(f"{self.main_color}{caid}")
 
-        # Then show additional active CAIDs
         for caid in caid_info:
             caid_str = f"{caid:04X}"
             caid_name = self._get_caid_name(caid_str)
@@ -304,27 +199,22 @@ class AglareCaidBar(Poll, Converter):
     text = property(getText)
 
     def changed(self, what):
-        """Handle change events"""
         if what[0] == self.CHANGED_SPECIFIC or what[0] == self.CHANGED_POLL:
             Converter.changed(self, what)
 
 
-# Usage Examples:
-# Basic Usage:
 """
 <widget source="session.CurrentService" render="Label" position="100,100" size="400,30" font="Regular;20">
     <convert type="AglareCaidBar">#FFFFFF,#FF0000,#00FF00</convert>
 </widget>
 """
 
-# Short Mode:
 """
 <widget source="session.CurrentService" render="Label" position="100,130" size="400,30" font="Regular;20">
     <convert type="AglareCaidBar">#FFFFFF,#FF0000,#00FF00,Short</convert>
 </widget>
 """
 
-# Full Mode with Custom CAIDs:
 """
 <widget source="session.CurrentService" render="Label" position="100,160" size="400,30" font="Regular;20">
     <convert type="AglareCaidBar">#FFFFFF,#FF0000,#00FF00,Full,SEC VIACCESS IRDETO</convert>
