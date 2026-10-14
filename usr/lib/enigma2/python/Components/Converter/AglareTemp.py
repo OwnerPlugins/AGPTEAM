@@ -70,7 +70,7 @@ class AglareTemp(Poll, Converter):
             hdd_device = '/dev/sdb'  # Fallback device
 
         if os.path.exists(hdd_device):
-            self.container.execute(f'hddtemp -n -q {hdd_device}')
+            self.container.execute('hddtemp -n -q {}'.format(hdd_device))
         else:
             self.hddtemp = 'HDD not detected'
 
@@ -79,7 +79,7 @@ class AglareTemp(Poll, Converter):
         try:
             self.hddtemp_output += strData.decode('utf-8', 'ignore')
         except Exception as e:
-            self.logger.warning(f"Error processing HDD temp data: {str(e)}")
+            self.logger.warning("Error processing HDD temp data: {}".format(str(e)))
 
     def _hddtemp_finished(self, retval):
         """Process completed HDD temperature check"""
@@ -88,11 +88,11 @@ class AglareTemp(Poll, Converter):
                 self.hddtemp = 'HDD Temp: N/A'
             else:
                 temp = int(self.hddtemp_output.strip())
-                self.hddtemp = f'HDD Temp: {temp}°C' if temp > 0 else 'HDD idle or N/A'
+                self.hddtemp = 'HDD Temp: {}°C'.format(temp) if temp > 0 else 'HDD idle or N/A'
         except ValueError:
             self.hddtemp = 'HDD Temp: Invalid data'
         except Exception as e:
-            self.logger.warning(f"Error processing HDD temp: {str(e)}")
+            self.logger.warning("Error processing HDD temp: {}".format(str(e)))
             self.hddtemp = 'HDD Temp: Error'
 
     @cached
@@ -114,7 +114,7 @@ class AglareTemp(Poll, Converter):
             elif self.type == self.UPTIME:
                 return self._get_uptime()
         except Exception as e:
-            self.logger.error(f"Error in getText: {str(e)}")
+            self.logger.error("Error in getText: {}".format(str(e)))
             return "N/A"
 
     def _get_cpu_load(self):
@@ -123,10 +123,10 @@ class AglareTemp(Poll, Converter):
             if os.path.exists('/proc/loadavg'):
                 with open('/proc/loadavg', 'r') as f:
                     load = f.readline(4).strip()
-                return f'CPU Load: {load}'
+                return 'CPU Load: {}'.format(load)
             return 'CPU Load: N/A'
         except Exception as e:
-            self.logger.warning(f"Error getting CPU load: {str(e)}")
+            self.logger.warning("Error getting CPU load: {}".format(str(e)))
             return 'CPU Load: Error'
 
     def _get_temperature(self):
@@ -146,9 +146,9 @@ class AglareTemp(Poll, Converter):
                         temp = f.read().strip()
                         if processor:
                             temp = processor(temp)
-                        return f'{temp}°C'
+                        return '{}°C'.format(temp)
                 except Exception as e:
-                    self.logger.debug(f"Error reading {source}: {str(e)}")
+                    self.logger.debug("Error reading {}: {}".format(source, str(e)))
                     continue
         return 'N/A'
 
@@ -174,7 +174,7 @@ class AglareTemp(Poll, Converter):
 
             return 'IP: Not available'
         except Exception as e:
-            self.logger.warning(f"Error getting local IP: {str(e)}")
+            self.logger.warning("Error getting local IP: {}".format(str(e)))
             return 'IP: Error'
 
     def _get_ip_from_socket(self):
@@ -225,9 +225,9 @@ class AglareTemp(Poll, Converter):
                     with open(source, 'r') as f:
                         speed = processor(f.read())
                         if speed:
-                            return f'CPU Speed: {speed} MHz'
+                            return 'CPU Speed: {} MHz'.format(speed)
                 except Exception as e:
-                    self.logger.debug(f"Error reading {source}: {str(e)}")
+                    self.logger.debug("Error reading {}: {}".format(source, str(e)))
                     continue
         return 'CPU Speed: N/A'
 
@@ -258,11 +258,10 @@ class AglareTemp(Poll, Converter):
             return 'Fan Info: N/A'
 
         if self.short_format:
-            return f"{fan_data['speed']} - {fan_data['voltage']}V - P:{fan_data['pwm']}"
-        return f"Speed: {
-            fan_data['speed']} V: {
-            fan_data['voltage']} PWM: {
-            fan_data['pwm']}"
+            return "{} - {}V - P:{}".format(
+                fan_data['speed'], fan_data['voltage'], fan_data['pwm'])
+        return "Speed: {} V: {} PWM: {}".format(
+            fan_data['speed'], fan_data['voltage'], fan_data['pwm'])
 
     def _read_fan_file(self, path, hex=False):
         """Read fan information file"""
@@ -282,7 +281,7 @@ class AglareTemp(Poll, Converter):
                 uptime_seconds = float(f.readline().split()[0])
                 return self._format_uptime(uptime_seconds)
         except Exception as e:
-            self.logger.warning(f"Error getting uptime: {str(e)}")
+            self.logger.warning("Error getting uptime: {}".format(str(e)))
             return 'Uptime: N/A'
 
     def _format_uptime(self, seconds):
@@ -299,7 +298,7 @@ class AglareTemp(Poll, Converter):
             value = int(seconds // count)
             if value:
                 seconds -= value * count
-                result.append(f"{value} {name}")
+                result.append("{} {}".format(value, name))
 
         if not result:
             return "Uptime: 0 secs"
