@@ -238,7 +238,8 @@ class AgpStarX(VariableValue, Renderer):
                                 "AgpStarX JSON file is empty (0 bytes): %s", info_file)
                     except Exception as e:
                         logger.warning(
-                            "File corrotto, elimino: {} {}".format(info_file, e))
+                            "File corrotto, elimino: {} {}".format(
+                                info_file, e))
                         remove(info_file)
 
                 self.api_key = api_key_manager.get_api_key('tmdb')
@@ -292,10 +293,14 @@ class AgpStarX(VariableValue, Renderer):
                     return
 
                 except Exception as e:
-                    logger.error("AgpStarX Error while downloading: {}".format(str(e)))
+                    logger.error(
+                        "AgpStarX Error while downloading: {}".format(
+                            str(e)))
 
         except Exception as e:
-            logger.error("AgpStarX Critical error: {}".format(str(e)), exc_info=True)
+            logger.error(
+                "AgpStarX Critical error: {}".format(
+                    str(e)), exc_info=True)
 
     def _safe_download_impl(self, channel_hash: str):
         try:
@@ -419,7 +424,9 @@ class AgpStarX(VariableValue, Renderer):
                 "AgpStarX No valid production year found in event details")
             return None
         except Exception as e:
-            logger.warning("AgpStarXYear Year extraction failed: {}".format(str(e)))
+            logger.warning(
+                "AgpStarXYear Year extraction failed: {}".format(
+                    str(e)))
             return None
 
     def postWidgetCreate(self, instance):

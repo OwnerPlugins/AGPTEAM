@@ -136,7 +136,7 @@ class AglareBitrate(Converter, object):
         if DBG:
             AGDEBUG(
                 "[AglareBitrate:suspended] >>> self.is_suspended={}, suspended={}".format(
-                    self.is_suspended, suspended))                                               
+                    self.is_suspended, suspended))
 
         if not suspended:
             self.is_suspended = False
@@ -228,7 +228,7 @@ class AglareBitrate(Converter, object):
         if DBG:
             AGDEBUG(
                 "[AglareBitrate:app_closed] >>> retval={}, is_suspended={}".format(
-                    retval, self.is_suspended))                    
+                    retval, self.is_suspended))
 
         if self.is_suspended:
             self.clear_values()
@@ -239,7 +239,7 @@ class AglareBitrate(Converter, object):
         if DBG:
             AGDEBUG(
                 "[AglareBitrate:data_avail] >>> data '{}'\n\tself.remaining_data='{}'".format(
-                    data, self.remaining_data))           
+                    data, self.remaining_data))
 
         data_str = self.remaining_data + \
             (str(data) if six.PY2 else str(data, 'utf-8', 'ignore'))

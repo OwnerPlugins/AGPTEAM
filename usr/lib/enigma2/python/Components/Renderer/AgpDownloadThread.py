@@ -620,7 +620,9 @@ class AgpDownloadThread(Thread):
             match = self._find_best_match(
                 results, year, self.title_safe, aka_info)
             if not match or "imdb_id" not in match:
-                return (False, "[SKIP] No IMDb match for {}".format(self.title_safe))
+                return (
+                    False, "[SKIP] No IMDb match for {}".format(
+                        self.title_safe))
 
             url_poster = match['poster_url']
             if url_poster and url_poster[0]:
@@ -630,7 +632,10 @@ class AgpDownloadThread(Thread):
                         True, "[SUCCESS] IMDb poster match: {} ({})".format(
                             match['title'], match['year']))
 
-            return (False, "[SKIP] Download failed for {}".format(self.title_safe))
+            return (
+                False,
+                "[SKIP] Download failed for {}".format(
+                    self.title_safe))
 
         except Exception as e:
             logger.error("IMDb poster processing error: {}".format(str(e)))
@@ -742,7 +747,8 @@ class AgpDownloadThread(Thread):
             if e.response is not None and e.response.status_code == 404:
                 return False, "No results found on programmetv-google"
             else:
-                logger.error("programmetv-google HTTP error: {}".format(str(e)))
+                logger.error(
+                    "programmetv-google HTTP error: {}".format(str(e)))
                 return False, "HTTP error during programmetv-google search"
 
     def search_molotov_google(
@@ -868,7 +874,8 @@ class AgpDownloadThread(Thread):
                 return True, "[SUCCESS {}-google] Found poster for {} => {}".format(
                     platform, self.title_safe, url_poster)
         else:
-            return False, "[SKIP : {}-google] No suitable poster found.".format(platform)
+            return False, "[SKIP : {}-google] No suitable poster found.".format(
+                platform)
 
     def handle_fallback(self, ff, pchannel, title_safe, headers, dwn_poster):
         plst = findall(

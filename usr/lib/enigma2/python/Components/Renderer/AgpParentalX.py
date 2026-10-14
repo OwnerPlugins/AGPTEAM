@@ -201,7 +201,9 @@ class AgpParentalX(Renderer):
                     self.event.getEventName().replace(
                         '\xc2\x86', '').replace(
                         '\xc2\x87', ''))
-                json_file = join(self.storage_path, "{}.json".format(clean_title))
+                json_file = join(
+                    self.storage_path,
+                    "{}.json".format(clean_title))
                 year = self.extract_year(self.event)
 
                 if exists(json_file):
@@ -312,7 +314,8 @@ class AgpParentalX(Renderer):
                 ("&y=" + year if year else "") +
                 "&plot=full"
             )
-            url = "http://www.omdbapi.com/?apikey={}&{}".format(api_key, params)
+            url = "http://www.omdbapi.com/?apikey={}&{}".format(
+                api_key, params)
 
             with urlopen(url) as response:
                 return json_load(response)
@@ -375,5 +378,7 @@ class AgpParentalX(Renderer):
                     return max(valid_years)
             return None
         except Exception as e:
-            logger.debug("AgpParentalX Year extraction failed: {}".format(str(e)))
+            logger.debug(
+                "AgpParentalX Year extraction failed: {}".format(
+                    str(e)))
             return None

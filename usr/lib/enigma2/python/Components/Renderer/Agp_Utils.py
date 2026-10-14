@@ -90,7 +90,8 @@ def verify_backdrop_integrity(self):
     for title, entry in list(self.cache.cache.items()):
         if not exists(entry['path']):
             logger.warning(
-                "verify_backdrop_integrity Missing file: {}".format(entry['path']))
+                "verify_backdrop_integrity Missing file: {}".format(
+                    entry['path']))
             del self.cache.cache[title]
             missing_files += 1
 
@@ -283,7 +284,8 @@ def clean_for_tvdb(title):
         return convtext(title) or ""
     except Exception as e:
         logger.error(
-            "clean_for_tvdb Error cleaning title '{}': {}".format(str(title), str(e)))
+            "clean_for_tvdb Error cleaning title '{}': {}".format(
+                str(title), str(e)))
         return ""
 
 
@@ -303,7 +305,8 @@ def check_disk_space(
             return True
 
         logger.warning(
-            "check_disk_space Low space in {}: {:.1f}MB < {}MB".format(path, free_mb, min_space_mb))
+            "check_disk_space Low space in {}: {:.1f}MB < {}MB".format(
+                path, free_mb, min_space_mb))
 
         if media_type:
             return free_up_space(
@@ -347,14 +350,18 @@ def free_up_space(path, min_space_mb, media_type, strategy="oldest_first"):
                 freed_mb += file_mb
                 logger.info(
                     "free_up_space Purged {}: {} ({:.1f}MB, {})".format(
-                        media_type, basename(file_info['path']), file_mb, ctime(file_info['mtime'])))
+                        media_type, basename(
+                            file_info['path']), file_mb, ctime(
+                            file_info['mtime'])))
             except Exception as e:
                 logger.error(
-                    "free_up_space Purge failed for {}: {}".format(file_info['path'], str(e)))
+                    "free_up_space Purge failed for {}: {}".format(
+                        file_info['path'], str(e)))
 
         success = check_disk_space(path, min_space_mb, media_type=None)
         logger.info(
-            "free_up_space Freed {:.1f}MB for {}. Success: {}".format(freed_mb, media_type, success))
+            "free_up_space Freed {:.1f}MB for {}. Success: {}".format(
+                freed_mb, media_type, success))
         return success
 
     except Exception as e:
@@ -375,12 +382,15 @@ def validate_media_path(path, media_type, min_space_mb=None):
             free_mb = (stat.f_bavail * stat.f_frsize) / (1024 * 1024)
             if free_mb < min_space_mb:
                 raise OSError(
-                    "Insufficient space: {}MB < {}MB".format(free_mb, min_space_mb))
+                    "Insufficient space: {}MB < {}MB".format(
+                        free_mb, min_space_mb))
 
         return path
 
     except Exception as e:
-        logger.error("validate_media_path Validation failed: {}".format(str(e)))
+        logger.error(
+            "validate_media_path Validation failed: {}".format(
+                str(e)))
         fallback = "/tmp/{}".format(media_type)
         makedirs(fallback, exist_ok=True)
         return fallback
@@ -420,11 +430,13 @@ class MediaStorage:
                     try:
                         makedirs(folder, exist_ok=True)
                         self.logger.info(
-                            "MediaStorage Using {} storage: {}".format(media_type, folder))
+                            "MediaStorage Using {} storage: {}".format(
+                                media_type, folder))
                         return folder
                     except OSError as e:
                         self.logger.warning(
-                            "MediaStorage Create folder failed: {}".format(str(e)))
+                            "MediaStorage Create folder failed: {}".format(
+                                str(e)))
 
         fallback = "/tmp/{}".format(media_type)
         try:

@@ -117,7 +117,8 @@ def _load_api_keys():
                 enabled, key_value = plugin_keys.get(key_name, (False, ""))
                 if enabled and key_value.strip():
                     API_KEYS[key_name] = key_value.strip()
-                    print("[API Config] Using plugin key for {}".format(key_name))
+                    print(
+                        "[API Config] Using plugin key for {}".format(key_name))
                     keys_loaded = True
                     continue
                 else:
@@ -131,7 +132,8 @@ def _load_api_keys():
                             key_value = f.read().strip()
                             API_KEYS[key_name] = key_value
                         print(
-                            "[API Config] Loaded {} from {}".format(key_name, file_path))
+                            "[API Config] Loaded {} from {}".format(
+                                key_name, file_path))
                         keys_loaded = True
 
                         if key_name == "tmdb_api":
@@ -146,7 +148,8 @@ def _load_api_keys():
                         plugin_cfg.save()
                     except Exception as e:
                         print(
-                            "[API Config] Error reading {}: {}".format(file_path, str(e)))
+                            "[API Config] Error reading {}: {}".format(
+                                file_path, str(e)))
                 else:
                     print(
                         "[API Config] Using default key for {} (file not found)".format(key_name))
